@@ -1,0 +1,547 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+/* NAVBAR START*/
+.navbar {
+    margin: 0;
+    background-color: white;
+    border-bottom: 2px whitesmoke solid;
+    height: 65px;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    padding: 7px 14px 10px 22px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 8px 0 0 0;
+}
+
+.logo-img {
+    width: 40px;
+}
+
+.logoname {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 38px;
+    color: #1464c1 !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lang_pack {
+    position: absolute;
+    right: 26px;
+    display: inline-block;
+}
+
+.lang_pack li {
+    display: inline-block;
+}
+
+.lang_pack li a {
+    display: block;
+    width: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.lang_img {
+    width: 30px;
+}
+
+.side-nav {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 70px;
+    transition: 0.1s;
+    border-right: 0.5px rgb(243, 242, 242) solid;
+}
+
+.side-nav a {
+    padding: 30px 0 0 15%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #034ea3;
+    display: block;
+    transition: 0.5s;
+}
+
+.side-nav a:first-child {
+    padding-top: 40px;
+}
+
+.side-nav-logo {
+    display: inline-block;
+    width: 30px;
+}
+
+.side-nav-logoname {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.side-nav a:hover {
+    color: rgb(83, 83, 253);
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    color: rgba(19, 19, 187, 0.856);
+    top: 0;
+    right: 22px;
+    margin-left: 50px;
+    font-size: 36px;
+}
+
+.inline-icon {
+    vertical-align: bottom;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* NAVBAR END */
+
+.content {
+    overflow: auto;
+    padding-top: 70px;
+    padding-bottom: 7px;
+}
+
+/* Start section-banner */
+
+.sections {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.banner-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.banner {
+    text-align: center;
+}
+
+.text-block {
+    margin: 5px auto 10px auto;
+    font-size: 24px;
+    color: #1464c1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.banner-container img {
+    height: 225px;
+    object-fit: contain;
+    margin-bottom: 7px;
+    border-radius: 20px;
+    width: 340px;
+}
+
+/* start slideshow */
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+    animation: fade 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* end slideshow */
+/* End section-banner */
+
+/* Start section-cards */
+.cards {
+    text-align: center;
+    width: 360px;
+}
+
+.txt-card {
+    display: none;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    border: 2px solid #1464c1;
+    color: white;
+    background-color: #1464c1;
+    margin: 0 auto;
+    width: 342px;
+    padding: 20px 5px 20px 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+    color: white;
+    background-color: #034591;
+}
+
+.card {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    padding: 20px 4px;
+    width: 165px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.card-left {
+    margin-right: 4px;
+    color: rgb(34, 33, 33);
+    border: 2px rgb(34, 33, 33) solid;
+    transition: 0.3s;
+}
+
+.card-left:hover {
+    background-color: rgb(34, 33, 33);
+    color: white;
+}
+
+.card-right {
+    margin-left: 4px;
+    color: rgb(1, 122, 122);
+    border: 2px rgb(1, 122, 122) solid;
+    transition: 0.3s;
+}
+
+.card-right:hover {
+    background-color: rgb(1, 122, 122);
+    color: white;
+}
+
+.card-left1 {
+    margin-right: 4px;
+    color: rgb(3, 182, 3);
+    border: 2px rgb(3, 182, 3) solid;
+    transition: 0.3s;
+}
+
+.card-left1:hover {
+    background-color: rgb(3, 182, 3);
+    color: white;
+}
+
+.card-right1 {
+    margin-left: 4px;
+    color: red;
+    border: 2px red solid;
+    transition: 0.3s;
+}
+
+.card-right1:hover {
+    background-color: red;
+    color: white;
+}
+
+.employer {
+    margin-top: 10px;
+    color: #1a74db;
+    border: 2px #1a74db solid;
+    background-color: white;
+
+}
+
+.employer:hover {
+    color: white;
+    background-color: #1a74db;
+}
+
+/* End section-cards */
+
+/* Start section info*/
+.info{
+    display:none;
+    text-align:center;
+    margin-top: 40px;
+}
+
+.info-txt{
+    display:inline-block;
+    margin-left:50px; 
+    text-align:left;
+}
+
+.info-txt:first-child{
+    margin-left:0;
+}
+
+@media (max-width:950px){
+    .info-txt{
+        margin-left: 20px;
+    }
+}
+ 
+
+.info-num{
+    display:block;
+    color:white;  
+    font-size: 140%;
+}
+.info-txt span{
+    display:block;
+    color:white;  
+}
+/* end section info*/
+
+
+
+/* Media 750 */
+@media (min-width:750px) {
+    body {
+        background-color: whitesmoke;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 75px;
+        border-bottom: 10px whitesmoke solid;
+    }
+
+
+    .side-nav a:first-child {
+        padding-top: 46px;
+    }
+
+    .side-nav-logo {
+        width: 40px;
+    }
+
+    .side-nav-logoname {
+        font-size: 36px;
+        padding-bottom: 3px;
+    }
+
+    .content {
+        width: 100%;
+        background-image: url('../images/banner9.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        z-index: -10;
+        height: 700px;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .main {
+        background-color: transparent;
+        padding-top: 18px;
+        padding-bottom: 5px;
+        margin: 25px auto 0;
+        border-radius: 15px;
+        vertical-align: center;
+        overflow: hidden;
+    }
+
+    .cards {
+        width: 600px;
+    }
+
+    
+    .txt-card {
+        display: block;
+        color: white;
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .btn {
+        padding: 30px;
+        width: 510px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .card {
+        background-color: white;
+        padding: 30px;
+        width: 250px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .info{
+        display:block;
+    }
+}
+
+/* end media 750 */
+
+/* Start media size 600px and less */
+@media (max-width:600px) {
+    .logo-img {
+        width: 30px;
+        margin-top: 8px;
+    }
+
+    .logoname {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .lang_pack {
+        margin-top: 2px;
+    }
+
+}
+
+/* End media size 600px and less */
+
+/* Start media size 360px and less */
+@media (max-width:360px) {
+    .side-nav a {
+        font-size: 16px;
+    }
+
+    .inline-icon {
+        font-size: 20px !important;
+    }
+
+
+
+    .lang_pack {
+        margin-top: 0px;
+        right: 26px;
+    }
+
+    .lang_pack li a {
+        width: 24px;
+        margin-right: -7px;
+    }
+
+    .lang_img {
+        width: 24px;
+        margin-top: 4px;
+    }
+
+    .text-block {
+        font-size: 20px;
+    }
+
+    .banner-container img {
+        height: 200px;
+        object-fit: contain;
+        margin-bottom: 7px;
+        animation: appear 5s ease;
+        border-radius: 25px;
+        width: 290px;
+    }
+
+    .sp-icon {
+        vertical-align: bottom;
+        font-size: 16px !important;
+        margin-right: 5px;
+    }
+
+    .btn {
+        font-size: 16px;
+        width: 292px;
+    }
+
+    .cards {
+        width: 320px;
+    }
+
+    .card {
+        font-size: 14px;
+        width: 140px;
+    }
+}
+
+/* End media size 360px and less */
+
+/* Start media size 280px and less */
+@media (max-width:280px) {
+    .lang_pack {
+        right: 20px;
+    }
+
+    .text-block {
+        font-size: 18px;
+    }
+
+    .banner-container img {
+        height: 180px;
+        object-fit: contain;
+        margin-bottom: 7px;
+        animation: appear 5s ease;
+        border-radius: 25px;
+        width: 250px;
+    }
+
+    .sp-icon {
+        vertical-align: bottom;
+        font-size: 14px !important;
+        margin-right: 5px;
+    }
+
+    .btn {
+        font-size: 12px;
+        width: 252px;
+    }
+
+    .cards {
+        width: 280px;
+    }
+
+
+    .card {
+        font-size: 12px;
+        width: 120px;
+    }
+}
+
+/* End media size 280px and less */
