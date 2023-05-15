@@ -300,7 +300,7 @@ body {
 .info{
     display:none;
     text-align:center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .info-txt{
@@ -388,6 +388,8 @@ body {
 
     .cards {
         width: 600px;
+        margin-left:30px;
+        margin-top:110px;
     }
 
     
@@ -399,22 +401,23 @@ body {
     }
 
     .btn {
-        padding: 30px;
+        padding: 10px;
         width: 510px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
     }
-
+    
     .card {
         background-color: white;
-        padding: 30px;
+        padding: 10px;
         width: 250px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
     }
 
     .info{
         display:block;
+        margin-top:70px;
     }
 }
 
