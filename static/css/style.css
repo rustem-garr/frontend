@@ -12,7 +12,7 @@ body {
 .navbar {
     margin: 0;
     background-color: white;
-    border-bottom: 2px whitesmoke solid;
+    border-bottom: 5px whitesmoke solid;
     height: 65px;
     overflow: hidden;
     width: 100%;
@@ -339,7 +339,7 @@ body {
     background-color: white;
     text-align: center;
     border-top: 2px whitesmoke solid;
-    border-bottom: 2px whitesmoke solid;
+    border-bottom: 5px whitesmoke solid;
     margin-top: 15px;
     padding-bottom:15px;
 }
@@ -367,8 +367,11 @@ body {
 */
 
 @media (min-width:400px) and (max-width:450px) {
-    .partners-logo img {
-        margin-left:20px;
+    .partners-logo{
+        margin-left:10px;
+    }
+    .partners-logo:first-child{
+        margin-left:0;
     }
 } 
 
