@@ -391,6 +391,10 @@ body {
     font-size: 28px;
 }
 
+.result{
+    display:none;
+}
+
 /* end section applicants */
 
 /* Start section stats */
@@ -572,6 +576,9 @@ body {
     }
 
     .stats {
+        display: block;
+    }
+    .result {
         display: block;
     }
 
