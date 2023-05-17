@@ -227,8 +227,8 @@ body {
     text-decoration: none;
     color: white;
     margin-top: 10px;
-    padding: 20px 3px;
-    width: 166px;
+    padding: 20px 2px;
+    width: 168px;
     border-radius: 10px;
     font-size: 16px;
 }
@@ -286,7 +286,6 @@ body {
     color: #1a74db;
     border: 2px #1a74db solid;
     background-color: white;
-
 }
 
 .employer:hover {
@@ -445,6 +444,50 @@ body {
 
 /* end section stats */
 
+/* Start footer */
+.footer {
+    width: 100%;
+    background-color: #1a2e53;
+    text-align: center;
+    color: white;
+    padding: 30px 10px 10px;
+    font-size: 14px;
+}
+
+.footer_content {
+    display: flex;
+}
+
+.footer-header {
+    font-weight: 700;
+}
+
+.address {
+    width: 30%;
+    margin-left: 8%;
+    text-align: left;
+}
+
+.phones {
+    width: 30%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.working {
+    width: 30%;
+    text-align: left;
+}
+
+.inline-icon-footer {
+    vertical-align: bottom;
+    font-size: 20px !important;
+    margin-right: 5px;
+
+}
+
+/* end footer */
+
 
 /* Media 750 */
 @media (min-width:750px) {
@@ -581,6 +624,29 @@ body {
 
     .result {
         display: block;
+    }
+
+
+    .footer_content {
+        display: block;
+    }
+
+    .address {
+        width: 97%;
+        margin-left: 3%;
+    }
+
+    .phones {
+        width: 97%;
+        margin-left: 3%;
+        margin-top: 30px;
+    }
+
+    .working {
+        width: 97%;
+        margin-left: 3%;
+        margin-top: 30px;
+        margin-bottom:30px;
     }
 
 }
