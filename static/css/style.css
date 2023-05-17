@@ -247,13 +247,13 @@ body {
 
 .card-right {
     margin-left: 4px;
-    color: rgb(1, 122, 122);
-    border: 2px rgb(1, 122, 122) solid;
+    color: #1a74db;
+    border: 2px #1a74db solid;
     transition: 0.3s;
 }
 
 .card-right:hover {
-    background-color: rgb(1, 122, 122);
+    background-color: #1a74db;
     color: white;
 }
 
@@ -283,14 +283,30 @@ body {
 
 .employer {
     margin-top: 10px;
-    color: #1a74db;
-    border: 2px #1a74db solid;
+    margin-bottom: 15px;
+    color: darkcyan;
+    border: 2px darkcyan solid;
     background-color: white;
 }
 
 .employer:hover {
     color: white;
-    background-color: #1a74db;
+    background-color: darkcyan;
+}
+
+.star-training {
+    color: #1464c1;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.star-training:hover {
+    color: blue;
+}
+
+.training-icon {
+    font-size: 20px !important;
+    margin-right: 2px !important;
 }
 
 /* End section-cards */
@@ -451,7 +467,7 @@ body {
     text-align: center;
     color: white;
     padding: 15px 10px 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .footer_content {
@@ -520,7 +536,7 @@ body {
         background-color: white;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 80px;
+        padding-top: 50px;
         z-index: -10;
         height: 700px;
     }
@@ -570,7 +586,7 @@ body {
 
     .info {
         display: block;
-        margin-top: 70px;
+        margin-top: 75px;
     }
 
     .partners {
@@ -593,6 +609,14 @@ body {
 
     .attention {
         font-size: 28px;
+    }
+
+    .star-training {
+        color: white;
+    }
+
+    .star-training:hover {
+        color: rgb(233, 232, 232);
     }
 }
 
