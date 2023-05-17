@@ -44,6 +44,7 @@ body {
     font-size: 38px;
     color: #1464c1 !important;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom:2px;
 }
 
 .lang_pack {
@@ -362,7 +363,7 @@ body {
 .partners-header {
     margin: 15px auto 25px auto;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .partners-logo {
@@ -403,7 +404,8 @@ body {
 }
 
 .attention {
-    font-size: 28px;
+    font-size: 24px;
+    text-decoration: none;
 }
 
 .result {
@@ -510,13 +512,13 @@ body {
 
     .navbar {
         width: 100%;
-        height: 75px;
+        height: 65px;
         border-bottom: 5px whitesmoke solid;
     }
 
 
     .side-nav a:first-child {
-        padding-top: 48px;
+        padding-top: 40px;
     }
 
     .side-nav-logo {
@@ -595,7 +597,7 @@ body {
     }
 
     .partners-header {
-        margin-top: 28px;
+        margin-top: 24px;
     }
 
     .partners-logo {
@@ -608,7 +610,7 @@ body {
     }
 
     .attention {
-        font-size: 28px;
+        text-decoration: none;
     }
 
     .star-training {
@@ -626,17 +628,14 @@ body {
 @media (max-width:600px) {
     .logo-img {
         width: 30px;
-        margin-top: 8px;
+        margin-top: 6px;
     }
 
     .logoname {
         font-size: 24px;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
     }
 
-    .lang_pack {
-        margin-top: 2px;
-    }
 
     .sep-stat {
         border-bottom: 5px solid whitesmoke;
@@ -705,7 +704,7 @@ body {
     }
 
     .text-block {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .banner-container img {
@@ -738,11 +737,7 @@ body {
     }
 
     .partners-header {
-        font-size: 25px;
-    }
-
-    .attention {
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 
@@ -756,6 +751,13 @@ body {
 
     .text-block {
         font-size: 18px;
+    }
+
+    .partners-header{
+        font-size:20px;
+    }
+    .attention{
+        font-size:20px;
     }
 
     .banner-container img {
