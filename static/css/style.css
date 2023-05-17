@@ -287,7 +287,7 @@ body {
 }
 
 .card-right {
-    margin-left: 4px;
+    margin-left: 2px;
     color: #1a74db;
     border: 2px #1a74db solid;
     transition: 0.3s;
@@ -836,6 +836,12 @@ body {
 
     .employer {
         width:350px;
+    }
+
+    .sp-icon{
+        vertical-align: bottom;
+        font-size: 20px !important;
+        margin-right: 4px;
     }
 
 
