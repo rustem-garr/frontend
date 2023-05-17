@@ -209,9 +209,9 @@ body {
     color: white;
     background-color: #1464c1;
     margin: 0 auto;
-    width: 342px;
-    padding: 20px 5px 20px 5px;
-    font-size: 18px;
+    width: 344px;
+    padding: 20px 4px 20px 4px;
+    font-size: 17px;
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -227,10 +227,10 @@ body {
     text-decoration: none;
     color: white;
     margin-top: 10px;
-    padding: 20px 4px;
-    width: 165px;
+    padding: 20px 3px;
+    width: 166px;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .card-left {
@@ -391,8 +391,8 @@ body {
     font-size: 28px;
 }
 
-.result{
-    display:none;
+.result {
+    display: none;
 }
 
 /* end section applicants */
@@ -499,7 +499,7 @@ body {
     .cards {
         width: 600px;
         margin-left: 30px;
-        margin-top: 110px;
+        margin-top: 70px;
     }
 
 
@@ -511,7 +511,7 @@ body {
     }
 
     .btn {
-        padding: 10px;
+        padding: 15px 10px;
         width: 510px;
         font-size: 18px;
         font-weight: 700;
@@ -519,7 +519,7 @@ body {
 
     .card {
         background-color: white;
-        padding: 10px;
+        padding: 15px 10px;
         width: 250px;
         font-size: 18px;
         font-weight: 700;
@@ -578,6 +578,7 @@ body {
     .stats {
         display: block;
     }
+
     .result {
         display: block;
     }
