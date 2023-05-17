@@ -44,42 +44,43 @@ body {
     font-size: 38px;
     color: #1464c1;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-bottom:2px;
+    margin-bottom: 2px;
 }
 
-.logoname:hover{
-    color:rgb(83, 83, 253);
+.logoname:hover {
+    color: rgb(83, 83, 253);
 }
 
-.social{
-    position:absolute;
-    display: none; 
-    right:190px;   
+.social {
+    position: absolute;
+    display: none;
+    right: 190px;
 }
 
 
-.social li{
-    display:inline-block;
+.social li {
+    display: inline-block;
 }
 
-.social li a{
-    width:25px;
-    display:block;
-    margin-right:-5px;
+.social li a {
+    width: 25px;
+    display: block;
+    margin-right: -5px;
     margin-top: 3px
 }
 
 .call_us {
     display: inline-block;
-    width:300px;
+    width: 300px;
 }
 
-.call_us a{
-    display:block;
+.call_us a {
+    display: block;
 }
 
 .social-link {
-    width: 25px;;
+    width: 25px;
+    ;
 }
 
 .lang_pack {
@@ -507,9 +508,9 @@ body {
     font-size: 14px;
 }
 
-.phone-num{
+.phone-num {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .footer_content {
@@ -518,7 +519,7 @@ body {
 
 .footer-header {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size:17px;
+    font-size: 17px;
 }
 
 .address {
@@ -540,19 +541,19 @@ body {
 
 .inline-icon-footer {
     vertical-align: bottom;
-    font-size: 16px !important;
+    font-size: 18px !important;
     margin-right: 5px;
 
 }
 
-.footer-social{
-    display:block;
+.footer-social {
+    display: block;
 }
 
-.social-icons{
-    display:inline-block;
-    width:28px;
-    margin-right:10px;
+.social-icons {
+    display: inline-block;
+    width: 28px;
+    margin-right: 10px;
 }
 
 /* end footer */
@@ -608,14 +609,14 @@ body {
 }
 
 
-.modal-content p{
-    color:white;
-    font-size:14px;
+.modal-content p {
+    color: white;
+    font-size: 14px;
 }
 
-.phone-num-modal{
+.phone-num-modal {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .inline-icon-modal {
@@ -653,8 +654,8 @@ body {
 .close {
     color: white;
     float: right;
-    margin-right:25px;
-    margin-top:10px;
+    margin-right: 25px;
+    margin-top: 10px;
     font-size: 28px;
     font-weight: bold;
 }
@@ -665,6 +666,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
 /* end of Modal window */
 
 
@@ -677,8 +679,8 @@ body {
         border-bottom: 5px whitesmoke solid;
     }
 
-    .social{
-        display:inline-block;
+    .social {
+        display: inline-block;
     }
 
 
@@ -836,8 +838,9 @@ body {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .footer-social-icons:first-child{
-        margin-left:0px;
+
+    .footer-social-icons:first-child {
+        margin-left: 0px;
     }
 
 }
@@ -921,11 +924,12 @@ body {
         font-size: 18px;
     }
 
-    .partners-header{
-        font-size:20px;
+    .partners-header {
+        font-size: 20px;
     }
-    .attention{
-        font-size:20px;
+
+    .attention {
+        font-size: 20px;
     }
 
     .banner-container img {
