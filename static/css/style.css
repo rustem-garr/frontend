@@ -441,7 +441,12 @@ body {
 
 .attention {
     font-size: 24px;
+    
+}
+
+.attenition-link{
     text-decoration: none;
+    color:#1464c1;
 }
 
 .result {
