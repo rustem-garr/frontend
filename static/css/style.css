@@ -476,6 +476,11 @@ body {
     font-size: 14px;
 }
 
+.footer p{
+    text-decoration:none;
+    color:white;
+}
+
 .footer_content {
     display: flex;
 }
