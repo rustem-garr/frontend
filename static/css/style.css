@@ -235,13 +235,13 @@ body {
 
 .card-left {
     margin-right: 4px;
-    color: rgb(34, 33, 33);
-    border: 2px rgb(34, 33, 33) solid;
+    color: rgb(3, 182, 3);
+    border: 2px rgb(3, 182, 3) solid;
     transition: 0.3s;
 }
 
 .card-left:hover {
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(3, 182, 3);
     color: white;
 }
 
@@ -259,13 +259,13 @@ body {
 
 .card-left1 {
     margin-right: 4px;
-    color: rgb(3, 182, 3);
-    border: 2px rgb(3, 182, 3) solid;
+    color: rgb(34, 33, 33);
+    border: 2px rgb(34, 33, 33) solid;
     transition: 0.3s;
 }
 
 .card-left1:hover {
-    background-color: rgb(3, 182, 3);
+    background-color: rgb(34, 33, 33);
     color: white;
 }
 
