@@ -183,6 +183,7 @@ body {
     width: 100%;
     text-align: center;
     position: relative;
+    margin-top: 10px;
 }
 
 .banner {
@@ -200,7 +201,6 @@ body {
 .banner-container img {
     height: 225px;
     object-fit: contain;
-    margin-bottom: 7px;
     border-radius: 20px;
     width: 340px;
 }
@@ -246,7 +246,7 @@ body {
     color: white;
     background-color: #1464c1;
     margin: 0 auto;
-    width: 344px;
+    width: 340px;
     padding: 20px 4px 20px 4px;
     font-size: 17px;
     border-radius: 10px;
@@ -257,6 +257,10 @@ body {
 .btn:hover {
     color: white;
     background-color: #034591;
+}
+
+.bottom-btn {
+    display: none;
 }
 
 .card {
@@ -425,6 +429,10 @@ body {
     .partners-logo img {
         width: 90px;
     }
+
+    .banner {
+        margin-bottom: -10px;
+    }
 }
 
 /* end section partners */
@@ -441,12 +449,12 @@ body {
 
 .attention {
     font-size: 24px;
-    
+
 }
 
-.attenition-link{
+.attenition-link {
     text-decoration: none;
-    color:#1464c1;
+    color: #1464c1;
 }
 
 .result {
@@ -750,6 +758,14 @@ body {
         font-weight: 700;
     }
 
+    .bottom-btn {
+        display: block;
+    }
+
+    .top-btn {
+        display: none;
+    }
+
     .card {
         background-color: white;
         padding: 15px 10px;
@@ -796,6 +812,12 @@ body {
 
 /* end media 750 */
 
+@media (min-width:601px) and (max-width:749px){
+    .employer{
+        width:350px;
+    }
+}
+
 /* Start media size 600px and less */
 @media (max-width:600px) {
     .logo-img {
@@ -806,6 +828,14 @@ body {
     .logoname {
         font-size: 24px;
         margin-bottom: 6px;
+    }
+
+    .banner {
+        margin-bottom: -3px;
+    }
+
+    .employer {
+        width:350px;
     }
 
 
@@ -862,8 +892,6 @@ body {
         font-size: 20px !important;
     }
 
-
-
     .lang_pack {
         margin-top: 0px;
         right: 26px;
@@ -886,7 +914,6 @@ body {
     .banner-container img {
         height: 200px;
         object-fit: contain;
-        margin-bottom: 7px;
         animation: appear 5s ease;
         border-radius: 25px;
         width: 290px;
