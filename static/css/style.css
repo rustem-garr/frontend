@@ -51,9 +51,40 @@ body {
     color:rgb(83, 83, 253);
 }
 
+.social{
+    position:absolute;
+    display: none; 
+    right:190px;   
+}
+
+
+.social li{
+    display:inline-block;
+}
+
+.social li a{
+    width:25px;
+    display:block;
+    margin-right:-5px;
+    margin-top: 3px
+}
+
+.call_us {
+    display: inline-block;
+    width:300px;
+}
+
+.call_us a{
+    display:block;
+}
+
+.social-link {
+    width: 25px;;
+}
+
 .lang_pack {
     position: absolute;
-    right: 26px;
+    right: 30px;
     display: inline-block;
 }
 
@@ -509,12 +540,132 @@ body {
 
 .inline-icon-footer {
     vertical-align: bottom;
-    font-size: 20px !important;
+    font-size: 16px !important;
     margin-right: 5px;
 
 }
 
+.footer-social{
+    display:block;
+}
+
+.social-icons{
+    display:inline-block;
+    width:28px;
+    margin-right:10px;
+}
+
 /* end footer */
+
+/* Modal window */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    font-size: 12px;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #1a2e53;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* .modal-header {
+    padding: 2px 16px;
+    color: #1464c1;
+} */
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+
+.modal-content p{
+    color:white;
+    font-size:14px;
+}
+
+.phone-num-modal{
+    text-decoration: none;
+    color:white;
+}
+
+.inline-icon-modal {
+    vertical-align: bottom;
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    margin-right:25px;
+    margin-top:10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* end of Modal window */
 
 
 /* Media 750 */
@@ -524,6 +675,10 @@ body {
         width: 100%;
         height: 65px;
         border-bottom: 5px whitesmoke solid;
+    }
+
+    .social{
+        display:inline-block;
     }
 
 
@@ -680,6 +835,9 @@ body {
         margin-left: 3%;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .footer-social-icons:first-child{
+        margin-left:0px;
     }
 
 }
