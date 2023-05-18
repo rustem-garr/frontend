@@ -138,6 +138,7 @@ body {
 
 .side-nav-qr{
     width:100px;
+    margin-left:0px;
 }
 
 .side-nav-logoname {
@@ -529,7 +530,7 @@ body {
     background-color: #1a2e53;
     text-align: center;
     color: white;
-    padding: 15px 10px 8px;
+    padding: 25px 10px 8px;
     font-size: 14px;
 }
 
@@ -540,6 +541,7 @@ body {
 
 .footer_content {
     display: flex;
+    padding-bottom:25px;
 }
 
 .footer-header {
@@ -570,6 +572,7 @@ body {
     margin-right: 5px;
 
 }
+
 
 .footer-social {
     display: block;
