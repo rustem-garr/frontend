@@ -898,6 +898,10 @@ body {
         margin-left: 0px;
     }
 
+    .modal-content{
+        width:80%;
+    }
+
 }
 
 /* End media size 600px and less */
