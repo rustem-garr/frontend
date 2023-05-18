@@ -136,6 +136,10 @@ body {
     width: 30px;
 }
 
+.side-nav-qr{
+    width:100px;
+}
+
 .side-nav-logoname {
     display: inline-block;
     vertical-align: bottom;
