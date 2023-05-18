@@ -290,6 +290,8 @@ body {
     margin-left: 2px;
     color: #1a74db;
     border: 2px #1a74db solid;
+    /* color: #648cdd;    
+    border: 2px #648cdd solid; */
     transition: 0.3s;
 }
 
@@ -302,6 +304,8 @@ body {
     margin-right: 4px;
     color: rgb(34, 33, 33);
     border: 2px rgb(34, 33, 33) solid;
+    /* color: #84898c;
+    border: 2px #84898c solid; */
     transition: 0.3s;
 }
 
@@ -314,6 +318,8 @@ body {
     margin-left: 4px;
     color: red;
     border: 2px red solid;
+    /* color: #4e3475;
+    border: 2px #4e3475 solid; */
     transition: 0.3s;
 }
 
@@ -327,6 +333,8 @@ body {
     margin-bottom: 15px;
     color: darkcyan;
     border: 2px darkcyan solid;
+    /* color: #135c81;
+    border: 2px #135c81 solid; */
     background-color: white;
 }
 
