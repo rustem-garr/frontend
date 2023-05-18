@@ -608,7 +608,8 @@ body {
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #1a2e53;
+    /* background-color: #1a2e53; */
+    background-color: #1464c1;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
@@ -632,7 +633,8 @@ body {
 
 .modal-content p {
     color: white;
-    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
 }
 
 .phone-num-modal {
@@ -642,8 +644,8 @@ body {
 
 .inline-icon-modal {
     vertical-align: bottom;
-    font-size: 16px !important;
-    margin-right: 10px;
+    font-size: 22px !important;
+    margin-right: 7px;
 }
 
 /* Add Animation */
