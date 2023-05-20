@@ -756,8 +756,8 @@ body {
 
     .cards {
         width: 600px;
-        margin-left: 30px;
-        margin-top: 70px;
+        margin-left: auto;
+        margin-right:auto;
     }
 
 
@@ -769,7 +769,7 @@ body {
     }
 
     .btn {
-        padding: 15px 10px;
+        padding: 25px 10px;
         width: 510px;
         font-size: 18px;
         font-weight: 700;
@@ -785,7 +785,7 @@ body {
 
     .card {
         background-color: white;
-        padding: 15px 10px;
+        padding: 25px 10px;
         width: 250px;
         font-size: 18px;
         font-weight: 700;
