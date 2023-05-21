@@ -57,7 +57,12 @@
         <div class="main">
             <section class="sections banner">
                 <p class="text-block" onload="showSlides()">Работа найдётся для каждого</p> 
-                <a href="#" class="btn top-btn"><i class="material-icons inline-icon sp-icon">person_search</i>Открытые вакансии</a>
+                <a href="#" class="btn top-btn">
+                    <div class="card-inner">
+                        <div class="card-txt-top">ОТКРЫТЫЕ ВАКАНСИИ</div>
+                        <div class="card-icon-wide"><i class="material-icons card-inline-icon1">person_search</i></div>
+                    </div>
+                </a>
                 <div class="banner-container mySlides fade">        
                     <img id="banner-img" src="static/images/banner1.jpg" alt="img">        
                 </div>
@@ -73,12 +78,49 @@
             </section>
             <section class="sections cards">
                 <p class="text-block txt-card">Работа найдётся для каждого</p> 
-                <a href="#" class="btn bottom-btn"><i class="material-icons inline-icon sp-icon">person_search</i>Открытые вакансии</a>
-                <a href="#" class="card card-left"><i class="material-icons inline-icon sp-icon">search</i>Ищу работу</a>
-                <a href="#" class="card card-right"><i class="material-icons inline-icon sp-icon">person_search</i>Ищу сотрудника</a>
-                <a href="#" class="card card-left1"><i class="material-icons inline-icon sp-icon">headset_mic</i>Консалтинг</a>
-                <a href="#" class="card card-right1"><i class="material-icons inline-icon sp-icon">school</i>Тренинг центр</a>
-                <a href="#" class="btn employer"><i class="material-icons inline-icon sp-icon">group</i>Аутсорсинг & Аутстаффинг</a>
+                
+                <a href="#" class="btn bottom-btn">
+                    <div class="card-inner">
+                        <div class="card-txt-top">ОТКРЫТЫЕ ВАКАНСИИ</div>
+                        <div class="card-icon-wide"><i class="material-icons card-inline-icon1">person_search</i></div>
+                    </div>
+                </a>
+
+                <a href="#" class="card card-left">
+                    <div class="card-inner">
+                        <div class="card-icon icon-lft"><i class="material-icons card-inline-icon">search</i></div>
+                        <div class="card-txt-left">Ищу работу</div> 
+                    </div>                    
+                </a>
+
+                <a href="#" class="card card-right">
+                    <div class="card-inner">                        
+                        <div class="card-txt-right">Ищу сотрудника</div> 
+                        <div class="card-icon icon-rgt"><i class="material-icons card-inline-icon">person_search</i></div>                       
+                    </div>                                        
+                </a>
+
+                <a href="#" class="card card-left1">
+                    <div class="card-inner">
+                        <div class="card-icon icon-lft1"><i class="material-icons card-inline-icon">headset_mic</i></div>
+                        <div class="card-txt-left1">Консалтинг</div>                        
+                    </div>                    
+                </a>
+
+                <a href="#" class="card card-right1">
+                    <div class="card-inner">
+                        <div class="card-txt-right1">Тренинг центр</div>
+                        <div class="card-icon icon-rgt1"><i class="material-icons card-inline-icon">school</i></div>
+                    </div>                    
+                </a>
+
+                <a href="#" class="btn employer">                    
+                     <div class="card-inner">
+                        <div class="card-txt-bottom">Аутсорсинг & Аутстаффинг</div>
+                        <div class="card-icon-wide icon-btm"><i class="material-icons card-inline-icon">group</i></div>
+                    </div>
+                </a>
+
                 <a href="#" class="star-training"><i class="material-icons inline-icon training-icon">bolt</i>Тренинг: Основы международных грузоперевозок</a>
             </section>
             <section class="info">                             
@@ -134,7 +176,7 @@
 
     <div class="applicants">
       <a href="#" class="attenition-link">
-      <p class="text-block attention">Трудоустройство</p>
+      <p class="text-block attention">ТРУДОУСТРОЙСТВО</p>
       <p>
         Компания «ORLAN» не берет 
         деньги за свои услуги заранее. Вы оплачиваете услуги «ORLAN» только
@@ -144,7 +186,7 @@
     </div>
     <div class="applicants">
       <a href="#" class="attenition-link">
-      <p class="text-block attention">Тренинг центр</p>
+      <p class="text-block attention">ТРЕНИНГ ЦЕНТР</p>
       <p>
         Улучшайте свои знания. Расширяйте свои горизонты, чтобы достичь больших результатов в работе, в бизнесе, в жизни.
       </p>
@@ -152,7 +194,7 @@
     </div>
     <div class="applicants">
       <a href="#" class="attenition-link">
-      <p class="text-block attention">Консалтинг</p>
+      <p class="text-block attention">КОНСАЛТИНГ</p>
       <p>
         Хотите открыть свой новый бизнес, но не знаете как? Или желаете оптимизировать и масштабировать
         свой бизнес? Мы вам поможем.
@@ -161,7 +203,7 @@
     </div>
     <div class="applicants">
       <a href="#" class="attenition-link">
-      <p class="text-block attention">Аутстаффинг & Аутсорсинг</p>
+      <p class="text-block attention">АУТСТАФФИНГ & АУТСОРСИНГ</p>
       <p>
         Вам нужен достойный сотрудник, представитель, работник, помощник?
         Но не хотите заниматься бюрократией? Мы возьмём это на себя.
@@ -268,7 +310,7 @@
     <div class="footer">      
       <div class="footer_content">        
         <div class="address">
-          <p class="footer-header">Консалтинг, Центр развития:</p>
+          <p class="footer-header">Консалтинг и Центр развития:</p>
           <p>
             <i class="material-icons inline-icon-footer">call</i>
             Тел: <a class="phone-num" href="tel:+993 12 96-49-86">+993 12 96-49-86</a>
@@ -349,7 +391,7 @@
           <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel: +993 12 94-26-34"> +993 12 94-26-34</a></p>
           <p><i class="material-icons inline-icon-modal">email</i>operator@orlan.org</p>        
           <br>
-          <p class="modal-service-name">Консалтинг, Центр развития:</p>
+          <p class="modal-service-name">Консалтинг и Центр развития:</p>
           <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel:+993 12 96-49-86">+993 12 96-49-86</a></p>
           <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel:+993 12 96-49-87">+993 12 96-49-87</a></p>
           <p><i class="material-icons inline-icon-modal">email</i>info@orlan.org</p>
