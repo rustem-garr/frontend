@@ -163,11 +163,11 @@ body {
     font-size: 36px;
 }
 
-/* .inline-icon {
+.inline-icon {
     vertical-align: bottom;
     font-size: 24px;
     margin-right: 10px;
-} */
+}
 
 /* NAVBAR END */
 
@@ -868,7 +868,7 @@ body {
     }
 
     .card-txt-top {
-        height: 73px;
+        height: 74px;
         font-size:22px;
     }
 
