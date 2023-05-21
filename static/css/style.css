@@ -252,8 +252,8 @@ body {
     color: #1464c1;
     margin: 0 auto;
     width: 340px;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     vertical-align: middle;
     font-size: 17px;
     border-radius: 10px;
@@ -272,7 +272,7 @@ body {
     background-color: #1464c1;
     color: white;
     width: 90.5%;
-    height: 48px;
+    height: 58px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
 }
@@ -287,15 +287,14 @@ body {
     color: white;
     margin-top: 10px;
     width: 164px;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     font-size: 16px;
     border-radius: 10px;
     vertical-align: middle;
 }
 
 .card-left {
-    height: 50px;
     margin-right: 4px;
     color: rgb(13, 187, 13);
     border: 1px rgb(13, 187, 13) solid;
@@ -310,7 +309,7 @@ body {
 .card-txt-left {
     /* background-color: rgb(13, 187, 13); */
     width: 80%;
-    height: 48px;
+    height: 58px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     transition: 0.3s;
@@ -330,7 +329,6 @@ body {
 }
 
 .card-right {
-    height: 50px;
     margin-left: 4px;
     color: #2a89f5;
     border: 1px #2a89f5 solid;
@@ -339,7 +337,7 @@ body {
 
 .card-txt-right {
     width: 80%;
-    height: 48px;
+    height: 58px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     transition: 0.3s;
@@ -366,7 +364,7 @@ body {
 
 .card-txt-left1 {
     width: 80%;
-    height: 48px;
+    height: 58px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     transition: 0.3s;
@@ -394,7 +392,7 @@ body {
 
 .card-txt-right1 {
     width: 80%;
-    height: 48px;
+    height: 58px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     transition: 0.3s;
@@ -423,7 +421,7 @@ body {
 
 .card-txt-bottom {
     width: 91%;
-    height: 48px;
+    height: 58px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
 }
@@ -443,12 +441,12 @@ body {
 
 .card-icon {
     width: 20%;
-    height: 48px;
+    height: 58px;
 }
 
 .card-icon-wide {
     width: 9.5%;
-    height: 48px;
+    height: 58px;
 }
 
 .card-inline-icon {
@@ -869,7 +867,7 @@ body {
     }
 
     .card-txt-top {
-        height: 74px;
+        height: 73px;
         font-size:22px;
     }
 
