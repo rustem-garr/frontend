@@ -424,6 +424,7 @@ body {
     height: 58px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
+    transition: 0.3s;
 }
 
 .card-txt-bottom:hover {
