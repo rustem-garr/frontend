@@ -748,7 +748,8 @@ body {
 .modal-content p {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .phone-num-modal {
