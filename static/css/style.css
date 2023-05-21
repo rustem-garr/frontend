@@ -855,7 +855,7 @@ body {
         background-color: transparent;
         padding-top: 18px;
         padding-bottom: 5px;
-        margin: 25px auto 0;
+        margin: 50px auto 0;
         border-radius: 15px;
         vertical-align: center;
         overflow: hidden;
@@ -956,7 +956,7 @@ body {
 
     .info {
         display: block;
-        margin-top: 75px;
+        margin-top: 55px;
     }
 
     .partners {
