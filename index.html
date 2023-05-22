@@ -49,7 +49,8 @@
       <a href="#"><i class="material-icons inline-icon">manage_accounts</i>Личный кабинет</a>
       <a href="#"><i class="material-icons inline-icon">credit_card</i>Платежные карты</a>
       <a href="#" id="btnContact1"><i class="material-icons inline-icon">contact_mail</i>Связаться с нами</a>
-      <a href="login.html"><i class="material-icons inline-icon">logout</i>Выйти</a>
+      <a href="#"><i class="material-icons inline-icon">logout</i>Выйти</a>
+      <a id="btn-login-modal"><i class="material-icons inline-icon">login</i>Войти</a>
       <a href="#"><img class="side-nav-qr" src="static/images/orlan_qr.png" alt="QR"/></a>
     </div>
 
@@ -322,14 +323,8 @@
           <p>
             <i class="material-icons inline-icon-footer">email</i>E-mail: info@orlan.org
           </p>
-          <p>
-            <i class="material-icons inline-icon-footer">pin_drop</i>ул. 1946 (Анкара) 23 БЦ «Рысгал»
-          </p>
-          <p>
-            <i class="material-icons inline-icon-footer">pin_drop</i>Офис 810 
-          </p>
-          <p>
-            <i class="material-icons inline-icon-footer">pin_drop</i>Ашхабад, Туркменистан.
+          <p style="letter-spacing:0.5px;">
+            <i class="material-icons inline-icon-footer">pin_drop</i>ул. 1946 (Анкара) 23 <br>БЦ «Рысгал» офис 810 <br>Ашхабад, Туркменистан. 
           </p>
         </div>
         <div class="phones">
@@ -345,14 +340,10 @@
           <p>
             <i class="material-icons inline-icon-footer">email</i>E-mail: operator@orlan.org
           </p>
-          <p>
-            <i class="material-icons inline-icon-footer">pin_drop</i>пр. Махтумкули 73 ТЦ «Туркменистан»
-          </p>
-          <p>
-            <i class="material-icons inline-icon-footer">pin_drop</i>Офис 61 
-          </p>
-          <p>
-            <i class="material-icons inline-icon-footer">pin_drop</i>Ашхабад, Туркменистан.
+          <p style="letter-spacing:0.5px;">
+            <i class="material-icons inline-icon-footer">pin_drop</i>пр. Махтумкули 73 <br> 
+              ТЦ «Туркменистан» офис 61 <br>
+              Ашхабад, Туркменистан.
           </p>
         </div>
         <div class="working">
@@ -365,11 +356,11 @@
             выходной
           </p>
           <div class="footer-social">            
-          <p>Подпишитесь и будьте в курсе <br> интересных событий</p>
-            <div class="footer-social-icons">
-              <a href="https://www.linkedin.com/company/orlantm/?viewAsMember=true" target="_blank"><img class="social-icons" src="static/images/social-icons/linkedin.png" alt="icon"></a>
-              <a href="https://www.instagram.com/orlantm"  target="_blank"><img class="social-icons" src="static/images/social-icons/instagram-footer.png" alt="icon"></a>              
-              <a href="https://www.facebook.com/orlantm/"  target="_blank"><img class="social-icons" src="static/images/social-icons/facebook.png" alt="icon"></a>
+          <p style="padding-top:17px; margin-bottom:5px;">Подпишитесь и будьте в курсе <br> интересных событий</p>
+            <div class="footer-social-icons">  
+              <a href="https://www.linkedin.com/company/orlantm/?viewAsMember=true" target="_blank"><img class="social-icons" style="margin-right:4px;" src="static/images/social-icons/linkedin.png" alt="icon"></a>
+              <a href="https://www.instagram.com/orlantm"  target="_blank"><img class="social-icons" src="static/images/social-icons/instagram-footer.png" alt="icon"></a>       
+              <a href="https://www.facebook.com/orlantm/"  target="_blank"><img class="social-icons" src="static/images/social-icons/facebook.png" alt="icon"></a>              
             </div>
           </div>         
         </div>        
@@ -400,9 +391,55 @@
     </div>
 
     <!-- End of the Modal window -->
+
+    <!-- Login Modal window -->
+    <div id="id01" class="modal1">        
+      <form class="modal-content1 animate" action="" method="post">
+          <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close1" title="Close Modal">&times;</span>
+              
+              <img src="static/images/logo1.png" alt="Logo" class="avatar">
+          </div>
+
+          <div class="container">
+              <input type="text" placeholder="Номер телефона" name="uname" required>
+
+              <input type="password" placeholder="Пароль" name="psw" required>
+              <span class="psw"><a href="#">Забыли пароль?</a></span>   
+              <button type="submit">Войти</button>
+              <button type="button" onclick="document.getElementById('id01').style.display='none';document.getElementById('id02').style.display='block'" class="registerbtn">Регистрация</button>
+              
+          </div>                
+      </form>
+    </div>  
+    <!-- End of the Login Modal window -->
+
+    <!-- Signup Modal -->
+    <div id="id02" class="modal2">
+      <!-- <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span> -->
+      <form class="modal-content2 animate" action="">
+        <div class="container2">
+          <h1>Регистрация</h1>
+          <input type="text" placeholder="Ваш номер" name="email" required>
+
+          <input type="password" placeholder="Введите пароль" name="psw" required>
+
+          <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+          
+          <p>Создавая учетную запись, вы соглашаетесь с<br><a href="#" style="color:dodgerblue">условиями и политикой конфиденциальности</a>.</p>
+
+          <div class="clearfix">
+            <button type="submit" class="signupbtn">Регистрация</button>
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Отмена</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- End Signup Modal -->
     
 </body>
 <script src="static/js/menu.js"></script>
 <script src="static/js/banner-slide.js"></script>
 <script src="static/js/modal-window.js"></script>
+<script src="static/js/show-login-modal.js"></script>
 </html>
