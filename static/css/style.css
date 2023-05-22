@@ -272,7 +272,7 @@ body {
     background-color: #1464c1;
     color: white;
     width: 90.5%;
-    height: 58px;
+    height: 56px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     transition: 0.3s;
@@ -310,7 +310,7 @@ body {
 .card-txt-left {
     /* background-color: rgb(13, 187, 13); */
     width: 80%;
-    height: 58px;
+    height: 56px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     transition: 0.3s;
@@ -338,7 +338,7 @@ body {
 
 .card-txt-right {
     width: 80%;
-    height: 58px;
+    height: 56px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     transition: 0.3s;
@@ -365,7 +365,7 @@ body {
 
 .card-txt-left1 {
     width: 80%;
-    height: 58px;
+    height: 56px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     transition: 0.3s;
@@ -393,7 +393,7 @@ body {
 
 .card-txt-right1 {
     width: 80%;
-    height: 58px;
+    height: 56px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     transition: 0.3s;
@@ -422,7 +422,7 @@ body {
 
 .card-txt-bottom {
     width: 91%;
-    height: 58px;
+    height: 56px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     transition: 0.3s;
@@ -443,12 +443,12 @@ body {
 
 .card-icon {
     width: 20%;
-    height: 58px;
+    height: 56px;
 }
 
 .card-icon-wide {
     width: 9.5%;
-    height: 58px;
+    height: 56px;
 }
 
 .card-inline-icon {
@@ -869,12 +869,12 @@ body {
     }
 
     .card-txt-top {
-        height: 73px;
-        font-size:22px;
+        height: 71px;
+        font-size: 22px;
     }
 
     .card-txt-bottom {
-        height: 73px;
+        height: 71px;
     }
 
     .card {
@@ -884,39 +884,39 @@ body {
     }
 
     .card-txt-left {
-        height: 73px;
+        height: 71px;
     }
 
     .icon-lft {
-        height: 74px;
+        height: 71px;
     }
 
     .card-txt-right {
-        height: 73px;
+        height: 71px;
     }
 
     .icon-rgt {
-        height: 74px;
+        height: 71px;
     }
 
     .card-txt-left1 {
-        height: 73px;
+        height: 71px;
     }
 
     .icon-lft1 {
-        height: 74px;
+        height: 71px;
     }
 
     .card-txt-right1 {
-        height: 73px;
+        height: 71px;
     }
 
     .icon-rgt1 {
-        height: 74px;
+        height: 71px;
     }
 
     .icon-btm {
-        height: 74px;
+        height: 71px;
     }
 
 
