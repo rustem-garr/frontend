@@ -247,7 +247,7 @@ body {
 .btn {
     display: block;
     text-decoration: none;
-    border: 1px solid #1464c1;
+    border: 2px solid #1464c1;
     background-color: white;
     color: #1464c1;
     margin: 0 auto;
@@ -298,7 +298,7 @@ body {
 .card-left {
     margin-right: 4px;
     color: rgb(13, 187, 13);
-    border: 1px rgb(13, 187, 13) solid;
+    border: 2px rgb(13, 187, 13) solid;
     transition: 0.3s;
 }
 
@@ -332,7 +332,7 @@ body {
 .card-right {
     margin-left: 4px;
     color: #2a89f5;
-    border: 1px #2a89f5 solid;
+    border: 2px #2a89f5 solid;
     transition: 0.3s;
 }
 
@@ -359,7 +359,7 @@ body {
 .card-left1 {
     margin-right: 4px;
     color: #84898c;
-    border: 1px #84898c solid;
+    border: 2px #84898c solid;
     transition: 0.3s;
 }
 
@@ -386,7 +386,7 @@ body {
 .card-right1 {
     margin-left: 4px;
     color: #4e3475;
-    border: 1px #4e3475 solid;
+    border: 2px #4e3475 solid;
     transition: 0.3s;
 }
 
@@ -415,7 +415,7 @@ body {
     margin-top: 10px;
     margin-bottom: 15px;
     color: #135c81;
-    border: 1px #135c81 solid;
+    border: 2px #135c81 solid;
     background-color: white;
 }
 
