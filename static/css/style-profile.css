@@ -366,7 +366,7 @@ h3 {
 .social-icons {
     display: inline-block;
     width: 28px;
-    margin-right:2px;
+    margin-right:4px;
 }
 
 /* end footer */
@@ -767,6 +767,10 @@ hr {
     .side-nav-logoname {
         font-size: 36px;
         padding-bottom: 3px;
+    }
+
+    .social-icons{
+        margin-right:2px;
     }
 
     .modal-content1 {
