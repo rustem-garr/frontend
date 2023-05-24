@@ -516,6 +516,7 @@ body {
 
 /* end section info*/
 
+
 /* Section partners */
 .partners {
     width: 100%;
@@ -655,7 +656,6 @@ body {
 
 .footer_content {
     display: flex;
-    padding-bottom: 25px;
 }
 
 .footer-header {
@@ -689,6 +689,11 @@ body {
 
 .footer-social {
     display: block;
+    margin: 0 auto;
+}
+
+.footer-social-icons {
+    padding-bottom: 20px;
 }
 
 
@@ -696,7 +701,7 @@ body {
 .social-icons {
     display: inline-block;
     width: 28px;
-    margin-right:3px;
+    margin-right: 3px;
 }
 
 /* end footer */
@@ -924,7 +929,7 @@ span.psw a:hover {
     border: 1px solid #888;
     width: 80%;
     padding: 10px 20px;
-    border-radius:10px;
+    border-radius: 10px;
     /* Could be more or less, depending on screen size */
 }
 
@@ -1276,6 +1281,7 @@ hr {
     .employer {
         width: 340px;
     }
+
     .modal-content1 {
         width: 400px;
     }
