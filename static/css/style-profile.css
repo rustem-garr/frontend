@@ -377,7 +377,7 @@ h3 {
 
 /* end footer */
 
-/* Modal window */
+/* Call Modal window */
 /* The Modal (background) */
 .modal {
     display: none;
@@ -403,7 +403,7 @@ h3 {
     /* Black w/ opacity */
 }
 
-/* Modal Content */
+/* Call Modal Content */
 .modal-content {
     position: relative;
     /* background-color: #1a2e53; */
@@ -484,9 +484,10 @@ h3 {
     cursor: pointer;
 }
 
-/* end of Modal window */
+/* end of Call Modal window */
 
-/* Login Modal */
+/* Start of Login Modal */
+
 /* Full-width input fields */
 input[type=text],
 input[type=password] {
@@ -582,6 +583,7 @@ span.psw a:hover {
     /* Full height */
     overflow: hidden;
     /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
     /* Fallback color */
     background-color: #1464c1;
     /* Black w/ opacity */
@@ -597,7 +599,8 @@ span.psw a:hover {
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%;
-    padding: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
     /* Could be more or less, depending on screen size */
 }
 
@@ -655,7 +658,6 @@ span.psw a:hover {
 }
 
 /* End Login Modal */
-
 
 /* Start Signup Modal */
 
@@ -854,6 +856,7 @@ hr {
     .modal-content2 {
         width: 400px;
     }
+
     .modal-content3 {
         width: 500px;
     }
@@ -861,7 +864,19 @@ hr {
 
 /* end media 750 */
 
-@media (min-width:601px) and (max-width:749px) {}
+@media (min-width:601px) and (max-width:749px) {
+    .modal-content1 {
+        width: 400px;
+    }
+
+    .modal-content2 {
+        width: 400px;
+    }
+
+    .modal-content3 {
+        width: 500px;
+    }
+}
 
 /* Start media size 600px and less */
 @media (max-width:600px) {
@@ -904,9 +919,7 @@ hr {
     .modal-content {
         width: 80%;
     }
-    .modal-content3 {
-        width: 500px;
-    }
+    
 
 }
 
