@@ -327,7 +327,6 @@ h3 {
 
 .footer_content {
     display: flex;
-    padding-bottom: 25px;
 }
 
 .footer-header {
@@ -361,12 +360,19 @@ h3 {
 
 .footer-social {
     display: block;
+    margin: 0 auto;
 }
+
+.footer-social-icons {
+    padding-bottom: 20px;
+}
+
+
 
 .social-icons {
     display: inline-block;
     width: 28px;
-    margin-right:4px;
+    margin-right: 3px;
 }
 
 /* end footer */
