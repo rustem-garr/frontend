@@ -180,11 +180,11 @@ body {
     margin-bottom:-10px;
 }
 
-.container {
+.main-container {
     display: flex;
     flex-direction: row;
     width: 90%;
-    margin: 0 auto;
+    margin: 8px auto 6px;
     color: rgb(83, 82, 82);
     font-weight: 400;
 }
@@ -286,7 +286,7 @@ h3 {
     .main-content{
         padding-top:55px;
     }
-    .container {
+    .main-container {
         flex-direction: column;
     }
 
@@ -848,6 +848,7 @@ hr {
     .social-icons{
         margin-right:2px;
     }
+
 
     .modal-content1 {
         width: 400px;
