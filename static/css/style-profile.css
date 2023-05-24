@@ -184,7 +184,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 90%;
-    margin: 8px auto 6px;
+    margin: 8px auto;
     color: rgb(83, 82, 82);
     font-weight: 400;
 }
