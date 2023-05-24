@@ -854,6 +854,9 @@ hr {
     .modal-content2 {
         width: 400px;
     }
+    .modal-content3 {
+        width: 500px;
+    }
 }
 
 /* end media 750 */
@@ -900,6 +903,9 @@ hr {
 
     .modal-content {
         width: 80%;
+    }
+    .modal-content3 {
+        width: 500px;
     }
 
 }
