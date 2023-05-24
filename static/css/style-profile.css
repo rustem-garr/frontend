@@ -351,6 +351,10 @@ h3 {
     text-align: left;
 }
 
+.p-address {
+    cursor: pointer;
+}
+
 .inline-icon-footer {
     vertical-align: bottom;
     font-size: 18px !important;
