@@ -324,7 +324,7 @@
         <p>
           <i class="material-icons inline-icon-footer">email</i>E-mail: info@orlan.org
         </p>
-        <p>
+        <p id="btn-address1">
           <i class="material-icons inline-icon-footer">pin_drop</i>ул. 1946 (Анкара) 23
           <br><i class="material-icons inline-icon-footer" style="visibility: hidden">pin_drop</i>БЦ «Рысгал» офис 810
           <br><i class="material-icons inline-icon-footer" style="visibility: hidden">pin_drop</i>Ашхабад, Туркменистан. 
@@ -344,7 +344,7 @@
         <p>
           <i class="material-icons inline-icon-footer">email</i>E-mail: operator@orlan.org
         </p>
-        <p>
+        <p id="btn-address2">
           <i class="material-icons inline-icon-footer">pin_drop</i>пр. Махтумкули 73
           <br><i class="material-icons inline-icon-footer" style="visibility: hidden">pin_drop</i>ТЦ «Туркменистан» офис 61
           <br><i class="material-icons inline-icon-footer" style="visibility: hidden">pin_drop</i>Ашхабад, Туркменистан.
@@ -454,10 +454,26 @@
     </form>
   </div>
   <!-- End Signup Modal -->
+
+  <!-- Address Modal -->
+   <div id="id03" class="modal3">        
+    <form class="modal-content3 animate" action="" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id03').style.display='none'" class="close1" title="Close Modal" style="margin:15px;">&times;</span>
+        </div>
+
+        <div class="container3">          
+          <img src="" id="address-id" alt="img"> 
+          <a href="" class="address-link" id="address-btn" target="_blank" >Посмотреть в Google Map</a>           
+        </div>                
+    </form>
+  </div>  
+  <!-- End Address Modal -->
   
 </body>
 <script src="static/js/menu.js"></script>
 <script src="static/js/banner-slide.js"></script>
 <script src="static/js/modal-window.js"></script>
 <script src="static/js/show-login-modal.js"></script>
+<script src="static/js/address-modal.js"></script>
 </html>
