@@ -363,9 +363,8 @@ h3 {
 
 .inline-icon-footer {
     vertical-align: bottom;
-    font-size: 18px !important;
+    font-size: 20px !important;
     margin-right: 5px;
-
 }
 
 .footer-social {
@@ -908,6 +907,8 @@ hr {
     .address {
         width: 97%;
         margin-left: 3%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .phones {
@@ -916,12 +917,12 @@ hr {
         margin-top: 30px;
     }
 
-    .working {
+    /* .working {
         width: 97%;
         margin-left: 3%;
         margin-top: 30px;
         margin-bottom: 30px;
-    }
+    } */
 
     .footer-social-icons:first-child {
         margin-left: 0px;
