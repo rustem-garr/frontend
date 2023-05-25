@@ -693,9 +693,8 @@ body {
 
 .inline-icon-footer {
     vertical-align: bottom;
-    font-size: 22px !important;
+    font-size: 20px !important;
     margin-right: 5px;
-
 }
 
 .footer-social {
@@ -1430,12 +1429,12 @@ hr {
         margin-left: 3%;
     }
 
-    .working {
+    /* .working {
         width: 97%;
         margin-left: 3%;
         margin-top: 30px;
         margin-bottom: 30px;
-    }
+    } */
 
     .footer-social-icons:first-child {
         margin-left: 0px;
