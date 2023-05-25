@@ -646,7 +646,7 @@ body {
     text-align: center;
     color: white;
     padding: 25px 10px 8px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .phone-num {
@@ -660,25 +660,32 @@ body {
 
 .footer-header {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 15px;
-}
-
-.address {
-    width: 30%;
-    margin-left: 7%;
-    text-align: left;
+    font-size: 18px;
 }
 
 .phones {
-    width: 30%;
+    width: 35%;
+    margin-right: 15%;
+    margin-left: 10%;
     text-align: left;
-    margin-left: 5%;
 }
 
-.working {
-    width: 30%;
+.address {
+    width: 40%;
     text-align: left;
 }
+
+@media (min-width:940px){
+    .phones{
+        margin-left:20%;
+        margin-right:5%;
+    }
+}
+
+/* .working {
+    width: 30%;
+    text-align: left;
+} */
 
 .p-address{
     cursor: pointer;
@@ -686,7 +693,7 @@ body {
 
 .inline-icon-footer {
     vertical-align: bottom;
-    font-size: 18px !important;
+    font-size: 22px !important;
     margin-right: 5px;
 
 }
@@ -699,7 +706,6 @@ body {
 .footer-social-icons {
     padding-bottom: 20px;
 }
-
 
 
 .social-icons {
@@ -1415,12 +1421,12 @@ hr {
     .address {
         width: 97%;
         margin-left: 3%;
+        margin-top:40px;
     }
 
     .phones {
         width: 97%;
         margin-left: 3%;
-        margin-top: 30px;
     }
 
     .working {
