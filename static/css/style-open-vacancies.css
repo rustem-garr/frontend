@@ -249,6 +249,10 @@ body {
     letter-spacing: 1px;
     color: #1464c1;
 }
+.job-header-link{
+    text-decoration: none;
+    color:inherit;
+}
 
 .job-city{
     color: rgb(66, 65, 65);
