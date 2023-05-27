@@ -238,9 +238,10 @@ body {
 
 .job-card {
     margin: 10px auto;
-    padding: 20px;
+    padding: 25px;
     box-shadow: 0 2px 12px #edeff0;
     border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 .job-header {
@@ -248,6 +249,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     color: #1464c1;
+    margin-top:0px;
 }
 .job-header-link{
     text-decoration: none;
