@@ -226,6 +226,7 @@ h3 {
   display: inline-block;
   width: 56px;
   height: 28px;
+  margin-bottom:10px;
 }
 
 .switch input { 
