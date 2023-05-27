@@ -241,7 +241,9 @@ body {
     padding: 20px;
     box-shadow: 0 2px 12px #edeff0;
     border: 1px solid transparent;
+    border-radius:5px;
 }
+
 
 .job-header {
     font-size: 20px;
@@ -250,10 +252,6 @@ body {
     color: #1464c1;
 }
 
-.job-header-link {
-    text-decoration: none;
-    color: inherit;
-}
 
 .job-city {
     color: rgb(66, 65, 65);
@@ -912,7 +910,6 @@ hr {
     .search-btn {
         width: 74.5% !important;
     }
-
 
 
     .footer_content {
