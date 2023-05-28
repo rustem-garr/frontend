@@ -980,16 +980,17 @@ hr {
     }
 }
 
-/* end media 750 */
+/* end min media 750 */
 
 /* Max Width 750px */
 @media (max-width:750px) {
     .sticky-link {
-        font-size: 10px;
+        font-size: 16px;
+        padding: 5px;
     }
 
     .sticky-line-height {
-        line-height: 20px !important;
+        line-height: 25px !important;
         vertical-align: middle !important;
     }
 
@@ -999,7 +1000,7 @@ hr {
 
     .sticky-inline-icon {
         vertical-align: middle !important;
-        font-size: 12px !important;
+        font-size: 18px !important;
         margin-right: 1px !important;
         margin-bottom: 2px !important;
     }
