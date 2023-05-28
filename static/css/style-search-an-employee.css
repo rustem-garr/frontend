@@ -984,7 +984,15 @@ hr {
 
 /* Max Width 750px */
 @media (max-width:750px) {
-    .sticky-link {
+
+    .bottomMenu {
+        display: none;
+    }
+
+    .main-content {
+        margin-top: 0 !important;
+    }
+    /* .sticky-link {
         font-size: 16px;
         padding: 5px;
     }
@@ -1003,7 +1011,7 @@ hr {
         font-size: 18px !important;
         margin-right: 1px !important;
         margin-bottom: 2px !important;
-    }
+    } */
 }
 
 /* End Max Width 750px */
