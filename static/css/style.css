@@ -9,19 +9,19 @@ body {
 }
 
 /* Sticky Menu */
-.sticky-link{
-    font-family:'Roboto Condensed',sans-serif;
+.sticky-link {
+    font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
-    text-decoration:none;
-    color:#1464c1;
+    text-decoration: none;
+    color: #1464c1;
 }
 
-.sticky-inline-icon{
+.sticky-inline-icon {
     vertical-align: middle !important;
     font-size: 20px !important;
     margin-right: 2px !important;
-    margin-bottom:3px !important;
+    margin-bottom: 3px !important;
 }
 
 .bottomMenu {
@@ -43,6 +43,7 @@ body {
     opacity: 1;
     left: 0;
 }
+
 /* End Sticky Menu */
 
 /* NAVBAR START*/
@@ -64,7 +65,7 @@ body {
     font-size: 17px;
     text-align: center;
     text-decoration: none;
-    z-index:3;
+    z-index: 3;
 }
 
 .navbar ul {
@@ -949,7 +950,7 @@ span.psw a:hover {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 5;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -971,7 +972,7 @@ span.psw a:hover {
 /* Modal Content/Box */
 .modal-content1 {
     background-color: #fefefe;
-    margin: 5% auto 15% auto;
+    margin: 3% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%;
@@ -1061,7 +1062,7 @@ span.psw a:hover {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 5;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -1069,7 +1070,7 @@ span.psw a:hover {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: hidden;
+    overflow: auto;
     /* Enable scroll if needed */
     background-color: #1464c1;
     padding-top: 50px;
@@ -1397,18 +1398,18 @@ hr {
 /* end media 750 */
 
 /* Max Width 750px */
-@media (max-width:750px){
+@media (max-width:750px) {
     .sticky-link {
         font-size: 16px;
-        padding:5px;
+        padding: 5px;
     }
 
-    .sticky-line-height{
+    .sticky-line-height {
         line-height: 25px !important;
         vertical-align: middle !important;
     }
 
-    .sticky-outstaff-link{
+    .sticky-outstaff-link {
         display: block;
     }
 
@@ -1419,6 +1420,7 @@ hr {
         margin-bottom: 2px !important;
     }
 }
+
 /* End Max Width 750px */
 
 @media (min-width:601px) and (max-width:749px) {
