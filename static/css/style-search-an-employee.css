@@ -171,6 +171,24 @@ body {
 
 /* NAVBAR END */
 
+/* Sticky Menu */
+.sticky-link {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1464c1;
+}
+
+.sticky-inline-icon {
+    vertical-align: middle !important;
+    font-size: 20px !important;
+    margin-right: 2px !important;
+    margin-bottom: 3px !important;
+}
+
+/* End Sticky Menu */
+
 /* Start Main content */
 .main-content {
     overflow: auto;
@@ -193,7 +211,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
-    color: #1464c1;
+    color: #333;
 }
 
 .search-btn-block {
@@ -963,6 +981,31 @@ hr {
 }
 
 /* end media 750 */
+
+/* Max Width 750px */
+@media (max-width:750px) {
+    .sticky-link {
+        font-size: 10px;
+    }
+
+    .sticky-line-height {
+        line-height: 20px !important;
+        vertical-align: middle !important;
+    }
+
+    .sticky-outstaff-link {
+        display: block;
+    }
+
+    .sticky-inline-icon {
+        vertical-align: middle !important;
+        font-size: 12px !important;
+        margin-right: 1px !important;
+        margin-bottom: 2px !important;
+    }
+}
+
+/* End Max Width 750px */
 
 @media (min-width:601px) and (max-width:749px) {
     .modal-content1 {
