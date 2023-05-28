@@ -688,7 +688,7 @@ span.psw a:hover {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 5;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -710,7 +710,7 @@ span.psw a:hover {
 /* Modal Content/Box */
 .modal-content1 {
     background-color: #fefefe;
-    margin: 5% auto 15% auto;
+    margin: 3% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%;
@@ -800,7 +800,7 @@ span.psw a:hover {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 5;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -808,7 +808,7 @@ span.psw a:hover {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: hidden;
+    overflow: auto;
     /* Enable scroll if needed */
     background-color: #1464c1;
     padding-top: 50px;
