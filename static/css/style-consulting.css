@@ -238,7 +238,7 @@ body {
 
 .job-card {
     margin: 10px auto;
-    padding: 20px;
+    padding: 20px 40px;
     box-shadow: 0 2px 12px #edeff0;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -872,9 +872,6 @@ hr {
         margin: 10px auto;
     }
 
-    .job-card {
-        padding-left: 60px;
-    }
 
     .modal-content1 {
         width: 400px;
@@ -903,7 +900,7 @@ hr {
         margin-top:10px;
     }
     .consulting-image img {
-        width: 85%;
+        width: 90%;
         display:block;
         margin:10px auto 0;
     }
@@ -941,6 +938,10 @@ hr {
     .logoname {
         font-size: 24px;
         margin-bottom: 6px;
+    }
+
+    .job-card {
+        padding: 10px;
     }
 
     .search-container {
