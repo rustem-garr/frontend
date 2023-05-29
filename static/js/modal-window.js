@@ -4,6 +4,7 @@
     // Get the button that opens the modal
     var btn = document.getElementById("btnContact");
     var btn1 = document.getElementById("btnContact1");
+    var btn_consult = document.getElementById("consult-us");
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -15,6 +16,10 @@
 
     btn1.onclick = function () {
       document.getElementById("side-menu").style.width = "0";
+      modal3.style.display = "block";
+    };
+    
+    btn_consult.onclick = function () {
       modal3.style.display = "block";
     };
 
