@@ -5,7 +5,6 @@
     var btn = document.getElementById("btnContact");
     var btn1 = document.getElementById("btnContact1");
     var btn_consult = document.getElementById("consult-us");
-    var btn_consult1 = document.getElementById("consult-us1");
 
     // Get the <span> element that closes the modal
     var span = document.getElementById("close_btn")
@@ -22,11 +21,8 @@
     
     btn_consult.onclick = function () {
       modal3.style.display = "block";
-};
-    
-    btn_consult1.onclick = function () {
-      modal3.style.display = "block";
     };
+        
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
