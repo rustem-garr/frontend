@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-profile.css?v=19">   
+    <link rel="stylesheet" href="static/css/style-profile.css?v=20">   
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -48,6 +48,7 @@
       <a href="#" class="btn-close" onclick="closeSideMenu()" >&#8592;</a>
       <a href="index.html"><img class="side-nav-logo" src="static/images/logo1.png" alt="Logo"/><span class="side-nav-logoname">ORLAN</span></a>
       <a href="#">Рустам Каррыев<span style="display:block;color:rgb(128, 126, 126); font-size:14px">+993 67101525</span></a>
+      <a href="index.html"><i class="material-icons inline-icon">home</i>На главную</a>
       <a href="#"><i class="material-icons inline-icon">manage_accounts</i>Личный кабинет</a>
       <a href="#"><i class="material-icons inline-icon">credit_card</i>Платежные карты</a>
       <a href="#" id="btnContact1"><i class="material-icons inline-icon">contact_mail</i>Связаться с нами</a>
@@ -98,14 +99,14 @@
                     <div class="avatar">
                         <img src="static/images/user-default.png" alt="user-img">
                     </div>
-                    <h3 class="user_name">РУСТАМ КАРРЫЕВ</h3>
-                    <h3 class="user_speciality">ПРОГРАММИСТ</h3>
+                    <h3 class="user_name">Рустам Каррыев</h3>
+                    <h3 class="user_speciality">Программист</h3>
                     <div class="user-exp-loc-sal-div">
-                      <p class="user_experience">Опыт:<strong> 7 лет</strong></p>                      
-                      <p class="user_phone">Телефон: +99367101525</p>
-                      <p class="user_location">Адрес: Мары, Туркменистан</p>
-                      <p class="user_location">Релокацию: Рассматриваю</p>
-                      <p class="user_salary">Зарплатные ожидания от: <strong>5 000 TMT</strong></p>
+                      <p class="user_experience"><i class="material-icons job-icon">work_history</i>Опыт: 7 лет</p>                      
+                      <p class="user_phone"><i class="material-icons job-icon">call</i>Телефон: +99367101525</p>
+                      <p class="user_location"><i class="material-icons job-icon">home</i>Адрес: Мары, Туркменистан</p>
+                      <p class="user_location"><i class="material-icons job-icon">near_me</i>Релокацию: Рассматриваю</p>
+                      <p class="user_salary"><i class="material-icons job-icon">payments</i>Ожидания по з/п: от 5 000 TMT</p>
                     </div>                    
                     <a href="#" class="btn_user_data">Редактировать</a>
                 </div>
@@ -125,7 +126,7 @@
                     <p>Пригласили на интервью</p>
                     <p style="color:#3688e6; margin-top:-10px;"><i class="material-icons inline-stat-icon">stars</i> 3</p>
                     <p>Подтвержденные навыки</p>
-                    <p style="color:#3688e6; margin-top:-10px;"><i class="material-icons inline-stat-icon">check_circle</i> 7</p>
+                    <p style="color:#3688e6; margin-top:-10px;"><i class="material-icons inline-stat-icon">verified</i> 7</p>
                 </div>
                 <div class="user-card">                    
                     <h3 style="margin-top:5px">ПОДТВЕРДИТЬ НАВЫК</h3>
@@ -302,7 +303,7 @@
     <!-- Modal content -->
     <div class="modal-content">
       <div class="modal-header">
-        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+        <span id="close_btn" class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
       </div>
       <div class="modal-body">
         <p class="modal-service-name">ЦЕНТР РАЗВИТИЯ И КОНСАЛТИНГ:</p>
