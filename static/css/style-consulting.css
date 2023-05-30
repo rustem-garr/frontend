@@ -256,12 +256,14 @@ body {
 
 
 .consulting-details {
+    font-size:16px;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     display:block;
     width:80%;
     margin: 0 auto; 
     padding:0 10px;
+    font-weight: 400;
 }
 
 .consulting-image{
@@ -276,6 +278,7 @@ body {
 }
 
 .consulting-image p{
+    font-size:16px;
     padding:20px;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
@@ -286,13 +289,6 @@ body {
     display: block;
 }
 
-.job-city {
-    color: rgb(66, 65, 65);
-}
-
-.job-experience {
-    color: rgb(66, 65, 65);
-}
 
 .job-apply {
     width: 200px !important;
