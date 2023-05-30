@@ -313,7 +313,7 @@ input:checked+.slider:before {
     display: block;
     width: 150px;
     object-fit: contain;
-    margin: 0 auto;
+    margin: -10px auto -5px;
 }
 
 .user_name {
@@ -324,6 +324,17 @@ input:checked+.slider:before {
 .user-exp-loc-sal-div {
     text-align: left;
     margin-left: 5px;
+    font-family:'Roboto Condensed',sans-serif;
+    letter-spacing: 1px;
+    font-size:16px;
+}
+
+.job-icon{
+    vertical-align: bottom;
+    font-size: 18px !important;
+    margin-right: 5px;
+    color: rgb(96, 96, 96) !important;
+    margin-bottom:1px;
 }
 
 .user_speciality {
