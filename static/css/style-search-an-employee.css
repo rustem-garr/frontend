@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar a {
@@ -119,7 +119,7 @@ body {
 }
 
 .side-nav a {
-    padding: 30px 0 0 15%;
+    padding: 20px 0 0 10%;
     text-decoration: none;
     font-size: 20px;
     color: #034ea3;
@@ -172,6 +172,9 @@ body {
 /* NAVBAR END */
 
 /* Sticky Menu */
+.top-sticky-menu{
+    z-index:1;
+}
 .sticky-link {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
@@ -585,7 +588,7 @@ span.psw a:hover {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 5;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -695,7 +698,7 @@ span.psw a:hover {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 5;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -703,7 +706,7 @@ span.psw a:hover {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: hidden;
+    overflow: auto;
     /* Enable scroll if needed */
     background-color: #1464c1;
     padding-top: 50px;
@@ -769,7 +772,7 @@ hr {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 30px;
+    padding-top: 70px;
     /* Location of the box */
     left: 0;
     top: 0;
