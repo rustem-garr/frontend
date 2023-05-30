@@ -247,7 +247,9 @@ body {
 .job-detailed-description{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
-    color: rgb(66, 65, 65);
+    color: black;
+    font-weight: 400;
+    font-size:18px;
 }
 
 
@@ -258,14 +260,6 @@ body {
     color: #1464c1;
 }
 
-
-.job-city {
-    color: rgb(66, 65, 65);
-}
-
-.job-experience {
-    color: rgb(66, 65, 65);
-}
 
 .job-apply {
     width: 200px !important;
@@ -280,9 +274,9 @@ body {
 
 .job-icon {
     vertical-align: bottom;
-    font-size: 18px !important;
+    font-size: 20px !important;
     margin-right: 5px;
-    color: rgb(96, 96, 96) !important;
+    color: #267de0 !important;
     margin-bottom:2px;
 }
 
