@@ -1,7 +1,7 @@
 function openSideMenu() {
   var w = window.innerWidth;
   if (w > 500) {
-    document.getElementById("side-menu").style.width = "400px";
+    document.getElementById("side-menu").style.width = "330px";
   }
   else {
     document.getElementById("side-menu").style.width = "80%";
