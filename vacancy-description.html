@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-vacancy-description.css?v=2">
+    <link rel="stylesheet" href="static/css/style-vacancy-description.css?v=3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,6 +46,7 @@
     <a href="#" class="btn-close" onclick="closeSideMenu()" >&#8592;</a>
     <a href="index.html"><img class="side-nav-logo" src="static/images/logo1.png" alt="Logo"/><span class="side-nav-logoname">ORLAN</span></a>
     <a href="#">Рустам Каррыев<span style="display:block;color:rgb(128, 126, 126); font-size:14px">+993 67101525</span></a>
+    <a href="index.html"><i class="material-icons inline-icon">home</i>На главную</a>
     <a href="profile.html"><i class="material-icons inline-icon">manage_accounts</i>Личный кабинет</a>
     <a href="#"><i class="material-icons inline-icon">credit_card</i>Платежные карты</a>
     <a href="#" id="btnContact1"><i class="material-icons inline-icon">contact_mail</i>Связаться с нами</a>
@@ -57,29 +58,33 @@
   <div class="main-content">
     <div class="job-container">
       <div class="job-card">
-        <p style="margin-top:0px;"><a style="text-decoration:none; font-size:36px; color:#1464c1;" href="open-vacancies.html">&larr;</a></p>        
+        <p style="margin-top:-3px;"><a style="text-decoration:none; font-size:36px; color:#1464c1;" href="open-vacancies.html">&larr;</a></p>        
         <p class="job-header">МЕНЕДЖЕР ПО ПРОДАЖАМ</p>
-        <p class="job-description"><strong>4 000 - 5 000 TMT</strong></p>
-        <h5 class="job-city">Ашхабад</h5>
-        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
-        <p class="job-testing-period">Испытательный срок: 30 дней</p>
-        <p class="job-work-hour">График работы: с 09:00 до 18:00</p>
-        <p class="job-weekend">Выходные дни: Вс</p>
-        <p class="job-gender">Пол: не имеет значение</p>
-        <p class="job-age">Возраст: от 18 до 45</p>
-        <p class="job-education">Образование: специальное</p>
-        <p class="job-detail-header"><strong>Требования</strong></p>
-        <p class="job-detail">
-            Обработка входящих заявок (клиент выбирает товар на сайте и оставляет заявку
-            на его покупку, после чего автоматическая система передаёт звонок на оператора,
-            исходящих звонков делать не придётся);
-            Консультация клиента по выбранному товару, информирование о проведении акций 
-            и скидок, заполнение данных для доставки.
-            Возможность работать не менее 40 часов в неделю;
-            Грамотная речь и отличные навыки общения с людьми;
-            Наличие ПК, интернет соединение, гарнитура с микрофоном;
-            Тихое место, для комфортной работы из дома.
-        </p>
+        <div class="job-detailed-description">
+          <p class="job-salary"><i class="material-icons job-icon">payments</i>4 000 - 5 000 TMT</p>
+          <p class="job-city"><i class="material-icons job-icon">pin_drop</i>Место работы: Ашхабад</p>
+          <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
+          <p class="job-testing-period"><i class="material-icons job-icon">pending_actions</i>Испытательный срок: 30 дней</p>
+          <p class="job-work-hour"><i class="material-icons job-icon">alarm</i>График работы: с 09:00 до 18:00</p>
+          <p class="job-weekend"><i class="material-icons job-icon">chair</i>Выходные дни: Вс</p>
+          <p class="job-gender"><i class="material-icons job-icon">wc</i>Пол: не имеет значение</p>
+          <p class="job-age"><i class="material-icons job-icon">assignment_ind</i>Возраст: от 18 до 45</p>
+          <p class="job-education"><i class="material-icons job-icon">school</i>Образование: среднее специальное</p>
+          <p class="job-education"><i class="material-icons job-icon">language</i>Знание языков: Русский, Туркменский, Английский</p>
+          <p class="job-education"><i class="material-icons job-icon">note_alt</i>Соц.льготы: Проживание</p>
+          <p class="job-detail-header"><i class="material-icons job-icon">task</i>ОБЯЗАННОСТИ:</p>
+          <p class="job-detail">
+              Обработка входящих заявок (клиент выбирает товар на сайте и оставляет заявку
+              на его покупку, после чего автоматическая система передаёт звонок на оператора,
+              исходящих звонков делать не придётся);
+              Консультация клиента по выбранному товару, информирование о проведении акций 
+              и скидок, заполнение данных для доставки.
+              Возможность работать не менее 40 часов в неделю;
+              Грамотная речь и отличные навыки общения с людьми;
+              Наличие ПК, интернет соединение, гарнитура с микрофоном;
+              Тихое место, для комфортной работы из дома.
+          </p>
+        </div>        
         <button class="job-apply">Откликнуться</button>
         <button class="job-show-contact">Показать контакты</button>
       </div>
@@ -185,7 +190,7 @@
     <!-- Modal content -->
     <div class="modal-content">
       <div class="modal-header">
-        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+        <span id="close_btn" class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
       </div>
       <div class="modal-body">
         <p class="modal-service-name">ЦЕНТР РАЗВИТИЯ И КОНСАЛТИНГ:</p>
