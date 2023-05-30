@@ -256,11 +256,12 @@ body {
 
 
 .consulting-details {
-    text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 0;
+    display:block;
+    width:80%;
+    margin: 0 auto; 
+    padding:0 10px;
 }
 
 .consulting-image{
@@ -269,7 +270,7 @@ body {
 }
 
 .consulting-image img{
-    width:46%;
+    width:48%;
     height:auto;
     object-fit: contain;
 }
@@ -889,6 +890,12 @@ hr {
 /* end media min 750 */
 
 @media (max-width:1180px){
+
+    .consulting-details{
+        width:85%;
+        text-align:left;
+        margin:0 auto;
+    }
     .consulting-image {
         flex-direction: column;
         padding: 10px;
