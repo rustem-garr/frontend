@@ -268,7 +268,7 @@ body {
 
 
 .job-header {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 400;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -283,7 +283,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     display: block;
-    width: 90%;
+    width: 89%;
     padding: 0 10px 10px;
     margin: 0 auto;
 }
@@ -291,6 +291,8 @@ body {
 .consulting-image {
     display: flex;
     flex-direction: row;
+    width:90%;
+    margin:0 auto;
 }
 
 .consulting-image img {
@@ -301,16 +303,16 @@ body {
 
 .consulting-image p {
     font-size: 14px;
-    padding: 20px;
+    padding:10px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
 }
 
 .contact-us-consulting {
-    width: 200px;
-    padding: 10px;
+    width: 220px;
+    padding: 14px;
     display: block;
-    margin: -15px auto 15px;
+    margin: 10px auto 20px;
 }
 
 
@@ -940,6 +942,10 @@ hr {
     .consulting-image img {
         display: block;
         margin: 0 auto;
+    }
+
+    #consult-img1{
+        margin-top:-5px;
     }
 
     .consulting-image p {
