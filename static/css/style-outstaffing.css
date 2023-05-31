@@ -925,6 +925,7 @@ hr {
     .consulting-details {
         text-align: left;
         margin: 0 auto;
+        font-size:16px;
     }
 
     .consulting-image {
@@ -950,6 +951,7 @@ hr {
 
     .consulting-image p {
         margin-top: 0px;
+        font-size:16px;
     }
     
 }
