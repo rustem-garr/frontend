@@ -715,29 +715,34 @@ body {
 }
 
 
-.award-mobile{
+.award-mobile {
     display: none;
     color: #1464c1;
 }
 
-.mb-award-icon{
-    text-align:center;
-    padding:10px;
+.mb-award-icon {
+    text-align: center;
+    padding: 10px;
 }
 
-.mb-award-icon img{
-    margin-bottom:-10px;
+.mb-award-icon img {
+    margin-bottom: -10px;
 }
 
-.btn-award{
-    display:block; 
-    margin:0 auto 10px; 
-    text-decoration:none; 
+.btn-award {
+    display: block;
+    margin: 0 auto 10px;
+    text-decoration: none;
     border-bottom: 1px solid #1464c1;
-    width:200px;
+    width: 200px;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
-    color:#1464c1;
+    color: #1464c1;
+}
+
+.btn-award:hover {
+    color: #0e72e6;
+    border-bottom: 1px solid #0e72e6;
 }
 
 
@@ -1484,7 +1489,7 @@ hr {
         margin-right: 1px !important;
         margin-bottom: 2px !important;
     }
-    
+
 }
 
 /* End Max Width 750px */
