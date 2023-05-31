@@ -9,10 +9,23 @@ body {
 }
 
 /* Sticky Menu */
+.sticky-line-height{
+    height:auto;
+    line-height: 40px; 
+    padding-top:5px;
+    width:100%; 
+    background-color:#1464c1; 
+    vertical-align:middle;
+}
+
 .sticky-link {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #1464c1;
+    color: white;
+}
+
+.sticky-link:hover {
+    color: rgb(233, 233, 233);
 }
 
 .sticky-inline-icon {
