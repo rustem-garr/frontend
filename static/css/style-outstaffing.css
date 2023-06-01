@@ -292,13 +292,13 @@ body {
 
 
 .consulting-details {
-    font-size: 14px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     display: block;
-    width: 89%;
-    padding: 0 10px 10px;
+    width: 90%;
     margin: 0 auto;
+    text-indent: 20px;
 }
 
 .consulting-image {
@@ -315,7 +315,7 @@ body {
 }
 
 .consulting-image p {
-    font-size: 14px;
+    font-size: 16px;
     padding:10px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
@@ -325,7 +325,7 @@ body {
     width: 220px;
     padding: 14px;
     display: block;
-    margin: 10px auto 20px;
+    margin: 0 auto 10px;
 }
 
 
@@ -350,6 +350,20 @@ body {
 @media (max-width:750px) {
     .main-content {
         padding-top: 65px;
+    }
+
+    .consulting-details{
+        padding:0 10px;
+    }
+
+    .consulting-image img{
+        width:100%;
+        display:block;
+        margin:0 auto;
+    }
+
+    .contact-us-consulting{
+        margin: -15px auto 15px;
     }
 
     .bottomMenu {
@@ -943,7 +957,7 @@ hr {
 
     .consulting-image {
         flex-direction: column;
-        padding: 10px;
+        padding: 10px 0;
         margin-bottom: 0;
         padding-bottom: 0;
     }
