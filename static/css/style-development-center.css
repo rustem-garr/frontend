@@ -54,7 +54,7 @@ body {
 .social {
     position: absolute;
     display: none;
-    right: 190px;
+    right: 220px;
 }
 
 
@@ -1127,6 +1127,10 @@ hr {
 @media (max-width:280px) {
     .lang_pack {
         right: 20px;
+    }
+
+    .logoname {
+        display: none;
     }
 
 }
