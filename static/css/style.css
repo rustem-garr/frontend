@@ -113,7 +113,7 @@ body {
 .social {
     position: absolute;
     display: none;
-    right: 190px;
+    right: 220px;
 }
 
 
@@ -1691,6 +1691,11 @@ hr {
 
 /* Start media size 280px and less */
 @media (max-width:280px) {
+
+    .logoname{
+        display:none;
+    }
+    
     .lang_pack {
         right: 20px;
     }
