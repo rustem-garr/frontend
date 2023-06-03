@@ -96,7 +96,7 @@ body {
 .navbar {
     margin: 0;
     background-color: white;
-    border-bottom: 10px white solid;
+    /* border-bottom: 5px white solid; */
     height: 65px;
     overflow: hidden;
     width: 100%;
@@ -1482,10 +1482,10 @@ hr {
         margin-top: 55px;
     }
 
-    .partners {
+    /* .partners {
         border: none;
         border-bottom: 5px whitesmoke solid;
-    }
+    } */
 
     .partners-header {
         margin-top: 24px;
