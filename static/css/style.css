@@ -96,7 +96,7 @@ body {
 .navbar {
     margin: 0;
     background-color: white;
-    border-bottom: 5px whitesmoke solid;
+    border-bottom: 10px white solid;
     height: 65px;
     overflow: hidden;
     width: 100%;
@@ -604,13 +604,15 @@ body {
 
 /* Section partners */
 .partners {
-    width: 100%;
+    width: 98%;
     background-color: white;
     text-align: center;
-    border-top: 5px whitesmoke solid;
-    border-bottom: 5px whitesmoke solid;
-    margin-top: 15px;
-    padding-bottom: 15px;
+    /* border-top: 5px whitesmoke solid;
+    border-bottom: 5px whitesmoke solid; */
+    box-shadow: 0 2px 12px #edeff0;
+    margin:15px auto 0px;
+    padding:10px 0 15px;
+    border-radius:10px;
 }
 
 .partners-header {
@@ -653,26 +655,36 @@ body {
 /* Section applicants */
 .applicants {
     text-align: center;
-    margin: 0 auto;
-    padding: 20px;
+    width:98%;
+    margin: 15px auto;
+    padding: 15px 0;
     font-size: 17px;
+    letter-spacing: 0.5px;
     color: #1464c1;
-    border-bottom: 5px solid whitesmoke;
+    /* border-bottom: 5px solid whitesmoke; */
+    box-shadow: 0 2px 12px #edeff0;
+    border-radius:10px;
 }
 
 .applicants p {
     width: 90%;
     margin-left: 5%;
+    color:black;
 }
 
 .attention {
     font-size: 24px;
+    color:#1464c1 !important;
 
 }
 
 .attenition-link {
     text-decoration: none;
     color: #1464c1;
+}
+
+.attention:hover{
+    color:#2d85e9 !important;
 }
 
 .result {
@@ -689,18 +701,18 @@ body {
 .stats-info {
     margin: 10px auto;
     width: 250px;
-    height: 100px;
-    color: #1464c1;
+    height: 90px;
     display: flex;
     padding-top: 14px;
 }
 
 .stats-icon {
     width: 100px;
-    height: 100px;
+    height: 90px;
     text-align: center;
     flex: 40%;
     margin-left: 10px;
+    color: #1464c1;
 }
 
 .stats-num-txt {
@@ -713,12 +725,13 @@ body {
     height: 35px;
     text-align: left;
     font-size: 22px;
+    font-weight:600;
     padding-top: 10px;
 }
 
 .stats-txt {
     width: 150px;
-    height: 65px;
+    height: 55px;
     text-align: left;
 }
 
@@ -1320,7 +1333,7 @@ hr {
     .navbar {
         width: 100%;
         height: 65px;
-        border-bottom: 5px whitesmoke solid;
+        /* border-bottom: 5px white solid; */
     }
 
     .social {
@@ -1342,16 +1355,19 @@ hr {
     }
 
     .content {
-        width: 100%;
+        width: 98%;
+        margin: 0 auto;
+        box-shadow: 0 2px 12px #edeff0;
         background-image: url('../images/banner9.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 50px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        padding-top: 65px;
         z-index: -10;
         height: 700px;
+        border-radius:10px;
     }
 
     .banner {
@@ -1517,6 +1533,32 @@ hr {
 
 /* Max Width 750px */
 @media (max-width:750px) {
+    .navbar{
+        border-bottom:2px solid #edeff0;
+    }
+    .content{
+        width:96%;
+        margin:0 auto;
+        box-shadow:0 2px 12px #edeff0;
+        border-radius:10px;
+        padding-top:70px;
+    }
+
+    .partners{
+        width:96%;
+    }
+
+    .applicants{
+        width:96%;
+    }
+
+    .sep-stat{
+        width:96%;
+        margin:15px auto;
+        box-shadow:0 2px 12px #edeff0;
+        border-radius:10px;
+    }
+    
     .sticky-link {
         font-size: 16px;
         padding: 5px;
@@ -1595,9 +1637,9 @@ hr {
     }
 
 
-    .sep-stat {
+    /* .sep-stat {
         border-bottom: 5px solid whitesmoke;
-    }
+    } */
 
     .stats {
         display: block;
