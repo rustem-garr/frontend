@@ -1535,7 +1535,7 @@ hr {
 /* Max Width 750px */
 @media (max-width:750px) {
     .navbar{
-        border-bottom:2px solid #edeff0;
+        border-bottom:5px solid whitesmoke;
     }
     .content{
         width:96%;
