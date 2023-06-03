@@ -1553,6 +1553,7 @@ hr {
 
     .applicants {
         width: 96%;
+        margin-top:0;
     }
 
     .sep-stat {
