@@ -591,7 +591,8 @@ body {
 .info-num {
     display: block;
     color: white;
-    font-size: 140%;
+    font-size: 150%;
+    font-weight:600;
 }
 
 .info-txt span {
@@ -611,12 +612,12 @@ body {
     border-bottom: 5px whitesmoke solid; */
     box-shadow: 0 2px 12px #edeff0;
     margin:15px auto 0px;
-    padding:10px 0 15px;
+    padding:5px 0 20px;
     border-radius:10px;
 }
 
 .partners-header {
-    margin: 15px auto 25px auto;
+    margin: 10px auto 15px auto;
     text-align: center;
     font-size: 24px;
 }
@@ -1376,7 +1377,7 @@ hr {
 
     .main {
         background-color: transparent;
-        padding-top: 18px;
+        padding-top: 8px;
         padding-bottom: 5px;
         margin: 50px auto 0;
         border-radius: 15px;
@@ -1479,7 +1480,7 @@ hr {
 
     .info {
         display: block;
-        margin-top: 55px;
+        margin-top: 45px;
     }
 
     /* .partners {
