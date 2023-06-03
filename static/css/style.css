@@ -612,7 +612,7 @@ body {
     /* border-top: 5px whitesmoke solid;
     border-bottom: 5px whitesmoke solid; */
     box-shadow: 0 2px 6px #edeff0;
-    margin: 10px auto 0px;
+    margin: 5px auto 0px;
     padding: 5px 0 20px;
     border-radius: 10px;
 }
@@ -658,7 +658,7 @@ body {
 .applicants {
     text-align: center;
     width: 98%;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 15px 0;
     font-size: 17px;
     letter-spacing: 0.5px;
@@ -1359,7 +1359,7 @@ hr {
     .content {
         width: 98%;
         margin: 0 auto;
-        box-shadow: 0 2px 6px #edeff0;
+        box-shadow: 0 2px 8px #edeff0;
         background-image: url('../images/banner9.jpg');
         background-repeat: no-repeat;
         background-size: cover;
