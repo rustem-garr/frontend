@@ -444,6 +444,10 @@ body {
         width: 100%;
     }
 
+    .contact-us-consulting{
+        width: 80% !important;
+    }
+
     .custom-select {
         width: 100%;
     }
