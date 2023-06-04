@@ -1357,7 +1357,7 @@ hr {
     }
 
     .content {
-        width: 98%;
+        width: 100%;
         margin: 0 auto;
         box-shadow: 0 2px 12px #edeff0;
         background-image: url('../images/banner9.jpg');
@@ -1369,7 +1369,6 @@ hr {
         padding-top: 65px;
         z-index: -10;
         height: 700px;
-        border-radius: 10px;
     }
 
     .banner {
