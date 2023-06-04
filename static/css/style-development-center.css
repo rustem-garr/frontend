@@ -271,15 +271,6 @@ body {
     margin-left: 5%;
 }
 
-.job-card {
-    margin: 10px auto;
-    padding: 20px 40px;
-    box-shadow: 0 2px 12px #edeff0;
-    border: 1px solid transparent;
-    border-radius: 5px;
-}
-
-
 .job-header {
     font-size: 26px;
     font-weight: 400;
@@ -956,6 +947,13 @@ hr {
         margin: 10px auto;
     }
 
+    .job-card {
+        margin: 10px auto;
+        padding: 20px 40px;
+        box-shadow: 0 2px 12px #edeff0;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
 
     .modal-content1 {
         width: 400px;
