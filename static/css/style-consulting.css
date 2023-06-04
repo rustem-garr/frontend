@@ -306,15 +306,15 @@ body {
     display: block;
     width: 100%;
     object-fit: contain;
-    margin:15px auto 0;
+    margin: 15px auto 0;
     border-radius: 10px;
 }
 
 
 .contact-us-consulting {
-    width: 80%;
+    width: 400px;
     display: block;
-    margin:20px auto 0;
+    margin: 20px auto 0;
 }
 
 
@@ -336,6 +336,97 @@ body {
     color: rgb(96, 96, 96) !important;
 }
 
+/* Start dropdown list */
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-user-phone {
+    width: 400px !important;
+    display: block !important;
+    margin: 10px auto !important;
+    border-bottom: 1px solid rgb(218, 216, 216) !important;
+}
+
+.form-btn {
+    background-color: #1464c1;
+    color: white;
+    width: 400px !important;
+    border: none !important;
+    display: block !important;
+    margin: 25px auto !important;
+    border-radius: 10px;
+    padding:12px 20px;
+}
+
+.form-btn:hover {
+    opacity: 0.9;
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: white;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: black transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent black transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+    color: black;
+    background-color: white;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: whitesmoke;
+}
+
+/* End dropdown list */
+
 @media (max-width:750px) {
     .main-content {
         padding-top: 65px;
@@ -349,8 +440,20 @@ body {
         margin-top: 0 !important;
     }
 
-    .consulting-details img{
-        width:100%;
+    .consulting-details img {
+        width: 100%;
+    }
+
+    .custom-select {
+        width: 100%;
+    }
+
+    .form-user-phone {
+        width: 100% !important;
+    }
+
+    .form-btn {
+        width: 80% !important;
     }
 }
 
@@ -545,7 +648,10 @@ body {
 
 /* Full-width input fields */
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=number],
+input[type=tel],
+input[type=submit] {
     width: 100%;
     font-size: 16px;
     padding: 12px 20px;
@@ -557,7 +663,10 @@ input[type=password] {
 }
 
 input[type=text]:hover,
-input[type=password]:hover {
+input[type=password]:hover,
+input[type=number]:hover,
+input[type=tel]:hover,
+input[type=submit]:hover {
     border-bottom: 1px solid #1a2e53;
 }
 
@@ -928,7 +1037,7 @@ hr {
 
 @media (max-width:1180px) {
 
-    
+
     .job-header {
         margin-bottom: 10px;
         margin-top: 10px;
@@ -1061,8 +1170,9 @@ hr {
 /* Start media size 280px and less */
 @media (max-width:280px) {
     .logoname {
-            display: none;
+        display: none;
     }
+
     .lang_pack {
         right: 20px;
     }
