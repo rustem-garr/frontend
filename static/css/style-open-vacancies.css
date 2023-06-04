@@ -279,12 +279,43 @@ body {
     border-radius: 5px;
 }
 
+.job-card p {
+    letter-spacing: 0.5px;
+}
+
 .job-header {
-    font-size: 20px;
+    display:inline-block;
+    width:92%;
+    text-align:left;
+    font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     color: #1464c1;
     margin-top: 0px;
+    margin-bottom: 0;
+    text-decoration:none;
+}
+
+.job-header-icon{
+    display:inline-block;
+    width:6%;
+    text-align:right;
+}
+
+.favorite{
+    width:30px;
+    vertical-align: bottom;
+}
+
+.favorite:hover{
+    fill:red;
+}
+
+
+.job-salary {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .job-header-link {
@@ -294,32 +325,74 @@ body {
 
 .job-city {
     color: rgb(66, 65, 65);
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .job-experience {
     color: rgb(66, 65, 65);
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.gender {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.published-date {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    color: rgb(66, 65, 65);
 }
 
 .job-detailed-link {
-    text-decoration: none;
     color: #1464c1;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:400;
+}
+
+.job-detailed-link a{
+    text-decoration:none;
+    color:#1464c1;
+    border-bottom: 1px solid #1464c1;
 }
 
 .job-apply {
-    width: 200px !important;
+    width: 200px;
+    background-color: #1464c1;
+    text-decoration:none;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.job-apply:hover {
+    opacity: 0.9;
 }
 
 .job-show-contact {
     background-color: #f44336 !important;
     color: white !important;
+    padding:10px !important;
     width: 200px;
 }
 
 
 .job-icon {
     vertical-align: bottom;
-    font-size: 20px !important;
+    font-size: 14px !important;
     margin-right: 5px;
+    margin-bottom: 2px;
     color: rgb(96, 96, 96) !important;
 }
 
@@ -519,7 +592,7 @@ body {
 
 /* Full-width input fields */
 input[type=text],
-input[type=password], 
+input[type=password],
 input[type=number] {
     width: 100%;
     font-size: 16px;
@@ -1003,13 +1076,22 @@ hr {
 /* Max Width 750px */
 @media (max-width:750px) {
 
-    .bottomMenu{
-        display:none;
+    .bottomMenu {
+        display: none;
     }
 
-    .main-content{
-        margin-top:0 !important;
+    .main-content {
+        margin-top: 0 !important;
     }
+
+    .job-apply{
+        margin-top:10px;
+    }
+
+    .favorite{
+        width:22px;
+    }
+
     /* .sticky-link {
         font-size: 16px;
         padding: 5px;
