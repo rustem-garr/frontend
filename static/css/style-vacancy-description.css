@@ -237,19 +237,47 @@ body {
 }
 
 .job-card {
-    margin: 10px auto;
+    margin: 10px auto 20px;
     padding: 20px;
-    box-shadow: 0 2px 12px #edeff0;
-    border: 1px solid transparent;
-    border-radius:5px;
 }
 
-.job-detailed-description{
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 36px;
+    color: #1464c1;
+    width: 93%;
+}
+
+.back-btn a{
+    cursor: pointer;
+}
+
+.back-btn a:hover {
+    opacity: 0.9;
+}
+
+.job-header-icon {
+    display: inline-block;
+    width: 5%;
+    text-align: right;
+}
+
+.favorite {
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.favorite:hover {
+    fill: red;
+}
+
+.job-detailed-description {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     color: black;
     font-weight: 400;
-    font-size:16px;
+    font-size: 16px;
 }
 
 
@@ -258,6 +286,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     color: #1464c1;
+    margin-bottom: 25px;
 }
 
 
@@ -277,12 +306,19 @@ body {
     font-size: 18px !important;
     margin-right: 5px;
     color: #267de0 !important;
-    margin-bottom:2px;
+    margin-bottom: 2px;
 }
 
 @media (max-width:750px) {
     .main-content {
         padding-top: 65px;
+    }
+
+    .heart-with-btn {
+        margin:-20px 0 20px;
+    }
+    .job-header{
+        margin-bottom: 0;
     }
 }
 
@@ -843,7 +879,14 @@ hr {
 
     .job-card {
         padding-left: 60px;
-        padding-right:60px;
+        padding-right: 60px;
+        box-shadow: 0 2px 12px #edeff0;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+
+    .job-card p:first-child {
+        margin-top: -10px;
     }
 
 
