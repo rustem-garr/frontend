@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-open-vacancies.css?v=14">
+    <link rel="stylesheet" href="static/css/style-open-vacancies.css?v=15">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -90,55 +90,105 @@
     <div class="search-container">
           <span class="search-header">ОТКРЫТЫЕ ВАКАНСИИ</span>                    
           <div class="search-btn-block">
-            <input type="text" class="search-input" placeholder="Профессия или компания">  
+            <input type="text" class="search-input" placeholder="Профессия или должность">  
             <a href="#" id="filter-icon"><i class="material-icons main-filter-icon">tune</i></a>        
             <button class="search-btn">Найти</button>
           </div>        
     </div>
     <div class="job-container">
-      <div class="job-card">        
-        <p class="job-header"><a href="vacancy-description.html" class="job-header-link">МЕНЕДЖЕР ПО ПРОДАЖАМ</a></p>
-        <p class="job-description"><strong>4 000 - 5 000 TMT</strong></p>
-        <h5 class="job-city">Ашхабад</h5>
+      <div class="job-card">
+        <div class="main-header">
+          <a href="vacancy-description.html" class="job-header">МЕНЕДЖЕР ПО ПРОДАЖАМ</a>
+          <a href="#" class="job-header-icon">
+            <svg class="favorite" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff1a1a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Heart_02"> <path id="Vector" d="M19.2373 6.23731C20.7839 7.78395 20.8432 10.2727 19.3718 11.8911L11.9995 20.0001L4.62812 11.8911C3.15679 10.2727 3.21605 7.7839 4.76269 6.23726C6.48961 4.51034 9.33372 4.66814 10.8594 6.5752L12 8.00045L13.1396 6.57504C14.6653 4.66798 17.5104 4.51039 19.2373 6.23731Z" stroke="#fd1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          </a>
+        </div>      
+        
+        <p class="job-salary"><strong>4 000 - 5 000 TMT</strong></p>
+        <p class="gender"><i class="material-icons job-icon">wc</i>Мужчина / Женщина</p>
+        <p class="job-city"><i class="material-icons job-icon">pin_drop</i>Ашхабад</p>
         <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
-        <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p>
-        <button class="job-apply">Откликнуться</button>
+        
+        <!-- <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p> -->
+        <p class="published-date"><i class="material-icons job-icon" style="margin-bottom:1px">today</i>Опубликовано 2 июня</p>
+         <p class="job-detailed-link"><a href="vacancy-description.html">подробнее...</a></p>
+        <a class="job-apply" href="#">Откликнуться</a>
         <button class="job-show-contact">Показать контакты</button>
       </div>
       <div class="job-card">
-        <p class="job-header"><a href="vacancy-description.html" class="job-header-link">ПРОДАВЕЦ</a></p>
-        <p class="job-description"><strong>2 000 - 3 000 TMT</strong></p>
-        <h5 class="job-city">Дашогуз</h5>
-        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Без опыта</p>
-        <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p>
-        <button class="job-apply">Откликнуться</button>
+        <div class="main-header">
+          <a href="vacancy-description.html" class="job-header">МЕНЕДЖЕР ПО ПРОДАЖАМ</a>
+          <a href="#" class="job-header-icon">
+            <svg class="favorite" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff1a1a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Heart_02"> <path id="Vector" d="M19.2373 6.23731C20.7839 7.78395 20.8432 10.2727 19.3718 11.8911L11.9995 20.0001L4.62812 11.8911C3.15679 10.2727 3.21605 7.7839 4.76269 6.23726C6.48961 4.51034 9.33372 4.66814 10.8594 6.5752L12 8.00045L13.1396 6.57504C14.6653 4.66798 17.5104 4.51039 19.2373 6.23731Z" stroke="#fd1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          </a>
+        </div>      
+        
+        <p class="job-salary"><strong>4 000 - 5 000 TMT</strong></p>
+        <p class="gender"><i class="material-icons job-icon">wc</i>Мужчина / Женщина</p>
+        <p class="job-city"><i class="material-icons job-icon">pin_drop</i>Ашхабад</p>
+        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
+        
+        <!-- <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p> -->
+        <p class="published-date"><i class="material-icons job-icon" style="margin-bottom:1px">today</i>Опубликовано 2 июня</p>
+         <p class="job-detailed-link"><a href="vacancy-description.html">подробнее...</a></p>
+        <a class="job-apply" href="#">Откликнуться</a>
         <button class="job-show-contact">Показать контакты</button>
       </div>
       <div class="job-card">
-        <p class="job-header"><a href="vacancy-description.html" class="job-header-link">ЛОГИСТ</a></p>
-        <p class="job-description"><strong>3 000 - 4 000 TMT</strong></p>
-        <h5 class="job-city">Мары</h5>
-        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 2 лет</p>
-        <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p>
-        <button class="job-apply">Откликнуться</button>
+        <div class="main-header">
+          <a href="vacancy-description.html" class="job-header">МЕНЕДЖЕР ПО ПРОДАЖАМ</a>
+          <a href="#" class="job-header-icon">
+            <svg class="favorite" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff1a1a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Heart_02"> <path id="Vector" d="M19.2373 6.23731C20.7839 7.78395 20.8432 10.2727 19.3718 11.8911L11.9995 20.0001L4.62812 11.8911C3.15679 10.2727 3.21605 7.7839 4.76269 6.23726C6.48961 4.51034 9.33372 4.66814 10.8594 6.5752L12 8.00045L13.1396 6.57504C14.6653 4.66798 17.5104 4.51039 19.2373 6.23731Z" stroke="#fd1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          </a>
+        </div>      
+        
+        <p class="job-salary"><strong>4 000 - 5 000 TMT</strong></p>
+        <p class="gender"><i class="material-icons job-icon">wc</i>Мужчина / Женщина</p>
+        <p class="job-city"><i class="material-icons job-icon">pin_drop</i>Ашхабад</p>
+        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
+        
+        <!-- <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p> -->
+        <p class="published-date"><i class="material-icons job-icon" style="margin-bottom:1px">today</i>Опубликовано 2 июня</p>
+         <p class="job-detailed-link"><a href="vacancy-description.html">подробнее...</a></p>
+        <a class="job-apply" href="#">Откликнуться</a>
         <button class="job-show-contact">Показать контакты</button>
       </div>
       <div class="job-card">
-        <p class="job-header"><a href="vacancy-description.html" class="job-header-link">КАССИР</a></p>
-        <p class="job-description"><strong>2 000 - 3 000 TMT</strong></p>
-        <h5 class="job-city">Небитдаг</h5>
-        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Без опыта</p>
-        <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p>
-        <button class="job-apply">Откликнуться</button>
+        <div class="main-header">
+          <a href="vacancy-description.html" class="job-header">МЕНЕДЖЕР ПО ПРОДАЖАМ</a>
+          <a href="#" class="job-header-icon">
+            <svg class="favorite" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff1a1a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Heart_02"> <path id="Vector" d="M19.2373 6.23731C20.7839 7.78395 20.8432 10.2727 19.3718 11.8911L11.9995 20.0001L4.62812 11.8911C3.15679 10.2727 3.21605 7.7839 4.76269 6.23726C6.48961 4.51034 9.33372 4.66814 10.8594 6.5752L12 8.00045L13.1396 6.57504C14.6653 4.66798 17.5104 4.51039 19.2373 6.23731Z" stroke="#fd1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          </a>
+        </div>      
+        
+        <p class="job-salary"><strong>4 000 - 5 000 TMT</strong></p>
+        <p class="gender"><i class="material-icons job-icon">wc</i>Мужчина / Женщина</p>
+        <p class="job-city"><i class="material-icons job-icon">pin_drop</i>Ашхабад</p>
+        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
+        
+        <!-- <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p> -->
+        <p class="published-date"><i class="material-icons job-icon" style="margin-bottom:1px">today</i>Опубликовано 2 июня</p>
+         <p class="job-detailed-link"><a href="vacancy-description.html">подробнее...</a></p>
+        <a class="job-apply" href="#">Откликнуться</a>
         <button class="job-show-contact">Показать контакты</button>
       </div>
       <div class="job-card">
-        <p class="job-header"><a href="vacancy-description.html" class="job-header-link">ОФИЦИАНТ</a></p>
-        <p class="job-description"><strong>2 000 - 3 000 TMT</strong></p>
-        <h5 class="job-city">Ашхабад</h5>
-        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Без опыта</p>
-        <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p>
-        <button class="job-apply">Откликнуться</button>
+        <div class="main-header">
+          <a href="vacancy-description.html" class="job-header">МЕНЕДЖЕР ПО ПРОДАЖАМ</a>
+          <a href="#" class="job-header-icon">
+            <svg class="favorite" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff1a1a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Heart_02"> <path id="Vector" d="M19.2373 6.23731C20.7839 7.78395 20.8432 10.2727 19.3718 11.8911L11.9995 20.0001L4.62812 11.8911C3.15679 10.2727 3.21605 7.7839 4.76269 6.23726C6.48961 4.51034 9.33372 4.66814 10.8594 6.5752L12 8.00045L13.1396 6.57504C14.6653 4.66798 17.5104 4.51039 19.2373 6.23731Z" stroke="#fd1c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          </a>
+        </div>      
+        
+        <p class="job-salary"><strong>4 000 - 5 000 TMT</strong></p>
+        <p class="gender"><i class="material-icons job-icon">wc</i>Мужчина / Женщина</p>
+        <p class="job-city"><i class="material-icons job-icon">pin_drop</i>Ашхабад</p>
+        <p class="job-experience"><i class="material-icons job-icon">work_history</i>Опыт от 1 до 3 лет</p>
+        
+        <!-- <p><a class="job-detailed-link" href="vacancy-description.html">подробнее...</a></p> -->
+        <p class="published-date"><i class="material-icons job-icon" style="margin-bottom:1px">today</i>Опубликовано 2 июня</p>
+         <p class="job-detailed-link"><a href="vacancy-description.html">подробнее...</a></p>
+        <a class="job-apply" href="#">Откликнуться</a>
         <button class="job-show-contact">Показать контакты</button>
       </div>
     </div>
