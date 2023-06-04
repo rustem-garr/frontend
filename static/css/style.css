@@ -611,8 +611,8 @@ body {
     text-align: center;
     /* border-top: 5px whitesmoke solid;
     border-bottom: 5px whitesmoke solid; */
-    box-shadow: 0 2px 6px #edeff0;
-    margin: 5px auto 0px;
+    box-shadow: 0 2px 12px #edeff0;
+    margin: 10px auto 0px;
     padding: 5px 0 20px;
     border-radius: 10px;
 }
@@ -658,13 +658,13 @@ body {
 .applicants {
     text-align: center;
     width: 98%;
-    margin: 5px auto 0;
+    margin: 10px auto 0;
     padding: 15px 0;
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #1464c1;
     /* border-bottom: 5px solid whitesmoke; */
-    box-shadow: 0 2px 6px #edeff0;
+    box-shadow: 0 2px 12px #edeff0;
     border-radius: 10px;
 }
 
@@ -702,7 +702,7 @@ body {
 
 .stats-info {
     width: 250px;
-    margin:0 auto;
+    margin:10px auto;
     height: 90px;
     display: flex;
     padding-top: 14px;
@@ -1359,7 +1359,7 @@ hr {
     .content {
         width: 98%;
         margin: 0 auto;
-        box-shadow: 0 2px 8px #edeff0;
+        box-shadow: 0 2px 12px #edeff0;
         background-image: url('../images/banner9.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -1553,13 +1553,12 @@ hr {
 
     .applicants {
         width: 96%;
-        margin-top:0;
     }
 
     .sep-stat {
         width: 96%;
-        margin: 5px auto;
-        box-shadow: 0 2px 6px #edeff0;
+        margin: 10px auto;
+        box-shadow: 0 2px 12px #edeff0;
         margin: 0 auto;
         border-radius: 10px;
     }
