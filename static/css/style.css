@@ -658,7 +658,7 @@ body {
 .applicants {
     text-align: center;
     width: 98%;
-    margin: 5px auto;
+    margin: 5px auto 0;
     padding: 15px 0;
     font-size: 17px;
     letter-spacing: 0.5px;
@@ -701,8 +701,8 @@ body {
 }
 
 .stats-info {
-    margin: 10px auto;
     width: 250px;
+    margin:0 auto;
     height: 90px;
     display: flex;
     padding-top: 14px;
@@ -1558,8 +1558,9 @@ hr {
 
     .sep-stat {
         width: 96%;
-        margin: 10px auto;
+        margin: 5px auto;
         box-shadow: 0 2px 6px #edeff0;
+        margin: 0 auto;
         border-radius: 10px;
     }
 
