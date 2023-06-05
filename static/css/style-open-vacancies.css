@@ -296,6 +296,7 @@ body {
     text-decoration:none;
 }
 
+
 .job-header-icon{
     display:inline-block;
     width:6%;
@@ -393,7 +394,7 @@ body {
     font-size: 14px !important;
     margin-right: 5px;
     margin-bottom: 2px;
-    color: rgb(96, 96, 96) !important;
+    color: #1464c1 !important;
 }
 
 @media (max-width:750px) {
