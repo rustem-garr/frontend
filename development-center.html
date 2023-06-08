@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-development-center.css">
+    <link rel="stylesheet" href="static/css/style-development-center.css?v=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,125 +89,134 @@
   <div class="main-content" style="margin-top:-70px;">
     <div class="job-container">
       <div class="job-card">
-        <p style="margin:0 15px; "><a style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;" href="index.html">&larr;</a></p>        
-        <p class="job-header">ЦЕНТР РАЗВИТИЯ</p>
-        <p class="consulting-details"> 
-            Ваш успех в деятельности, зависит во многом от вашего профессионализма. <br>
-            Успех любой организации, зависит от профессионализма сотрудников.
-        </p>
-        <p class="consulting-details" style="margin-top:10px; color:#1464c1;">
-            <strong>Центр Развития "ORLAN" - это место, где каждый участник значительно повысит 
-            свой профессионализм и мотивацию к эффективному труду, которая приведет к успеху в профессиональной деятельности.</strong>
-        </p> 
-        <p class="consulting-details" style="margin-top:10px;">
-            В Центре Развития, мы проводим тренинги для разных отраслей деятельности.
-            Наши тренинги проводят зарубежные и местные эксперты, 
-            с большим опытом и знанием в своей сфере. 
-        </p>
-        <p class="consulting-details" style="margin-top:10px; color:#1464c1;">
-            <strong>Знание - сила, и его сила заключается в раскрытии тайн успеха!</strong>
-        </p>
-        <p class="consulting-details" style="margin-top:10px;">
-            Хотите перемен? Успеха в работе и в жизни? Записывайтесь на наши тренинги и обретайте знания у экспертов.
-        </p> 
-
-        <div class="about-us-image">
-            <img src="static/images/business-training.jpg" alt="about-us-img">
+        <p style="margin:0 15px; "><a href="index.html" style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;">&larr;</a></p>        
+        
+        <div class="intro-content">
+          <p class="consulting-details" style="margin-top:10px;">
+            <strong>Центр Развития "ORLAN" - место, где каждый участник повысит 
+            свой профессионализм. </strong><span id="read-btn" onclick="document.getElementById('full-intro').style.display='block'; document.getElementById('read-btn').style.display='none'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">читать далее...</span>
+         </p> 
+         <div id="full-intro" style="display:none;">
+            <p class="consulting-details" style="margin-top:10px;">
+              В Центре Развития, мы проводим тренинги для разных отраслей деятельности.
+              Наши тренинги проводят зарубежные и местные эксперты, 
+              с большим опытом и знанием в своей сфере. 
+            </p>
+            <p class="consulting-details" style="margin-top:10px;">
+                Знание - сила, и его сила заключается в раскрытии тайн успеха!
+            </p>
+            <p class="consulting-details" style="margin-top:10px;">
+                Хотите перемен? Успеха в работе и в жизни? Записывайтесь на наши тренинги и обретайте знания у экспертов.  
+                <span id="close-btn" onclick="document.getElementById('full-intro').style.display='none'; document.getElementById('read-btn').style.display='inline-block'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">свернуть текст</span>
+            </p>
+         </div>
         </div>
 
-        <p class="job-header" style="margin-bottom:20px">БЛИЖАЙШИЕ ТРЕНИНГИ</p> 
+        <p class="job-header" style="margin-top:20px; margin-bottom:20px">БЛИЖАЙШИЕ ТРЕНИНГИ</p> 
         <div class="our-history">            
-            <div class="history-card"> 
-                <a href="training-detail.html" style="text-decoration:none; color:inherit">                
-                    <div class="his-year">
-                        <h3>02.06.2023</h3>
-                    </div>
-                    <div class="his-txt" style="margin-top:-5px;">
-                        <p>
-                            Основы международных грузоперевозок.
-                            Проводит зарубежный эксперт с 10 летним опытом.                        
-                        </p>
-                        <button style="width:80%; padding:10px;margin-top:0; margin-bottom:15px"><a href="training-detail.html" style="text-decoration:none; color:inherit">Подробнее</a></button>
-                    </div> 
-                </a>                 
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>02.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы международных грузоперевозок.
+                        Проводит зарубежный эксперт с 10 летним опытом.                        
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
             </div> 
-            <div class="history-card"> 
-                <a href="training-detail.html" style="text-decoration:none; color:inherit">                
-                    <div class="his-year">
-                        <h3>03.06.2023</h3>
-                    </div>
-                    <div class="his-txt" style="margin-top:-5px;">
-                        <p>
-                            Основы программирования и веб разработки.
-                            Проводит местный эксперт с 10 летним опытом.                       
-                        </p>
-                        <button style="width:80%; padding:10px;margin-top:0; margin-bottom:15px"><a href="training-detail.html" style="text-decoration:none; color:inherit">Подробнее</a></button>
-                        
-                    </div> 
-                </a>                 
-            </div>                     
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>03.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы программирования и веб разработки.
+                        Проводит местный эксперт с 10 летним опытом.                          
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
+            </div>                    
         </div>
 
          <div class="our-history">            
-            <div class="history-card"> 
-                <a href="training-detail.html" style="text-decoration:none; color:inherit">                
-                    <div class="his-year">
-                        <h3>04.06.2023</h3>
-                    </div>
-                    <div class="his-txt" style="margin-top:-5px;">
-                        <p>
-                            Основы международных грузоперевозок.
-                            Проводит зарубежный эксперт с 10 летним опытом.                        
-                        </p>
-                        <button style="width:80%; padding:10px;margin-top:0; margin-bottom:15px"><a href="training-detail.html" style="text-decoration:none; color:inherit">Подробнее</a></button>
-                    </div> 
-                </a>                 
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>04.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы международных грузоперевозок.
+                        Проводит зарубежный эксперт с 10 летним опытом.                        
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
             </div> 
-            <div class="history-card"> 
-                <a href="training-detail.html" style="text-decoration:none; color:inherit">                
-                    <div class="his-year">
-                        <h3>05.06.2023</h3>
-                    </div>
-                    <div class="his-txt" style="margin-top:-5px;">
-                        <p>
-                            Основы программирования и веб разработки.
-                            Проводит местный эксперт с 10 летним опытом.                       
-                        </p>
-                        <button style="width:80%; padding:10px;margin-top:0; margin-bottom:15px"><a href="training-detail.html" style="text-decoration:none; color:inherit">Подробнее</a></button>
-                    </div> 
-                </a>                 
-            </div>                     
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>05.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы программирования и веб разработки.
+                        Проводит местный эксперт с 10 летним опытом.                          
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
+            </div>                    
         </div>
-
-         <div class="our-history">            
-            <div class="history-card"> 
-                <a href="training-detail.html" style="text-decoration:none; color:inherit">                
-                    <div class="his-year">
-                        <h3>06.06.2023</h3>
-                    </div>
-                    <div class="his-txt" style="margin-top:-5px;">
-                        <p>
-                            Основы международных грузоперевозок.
-                            Проводит зарубежный эксперт с 10 летним опытом.                        
-                        </p>
-                        <button style="width:80%; padding:10px;margin-top:0; margin-bottom:15px"><a href="training-detail.html" style="text-decoration:none; color:inherit">Подробнее</a></button>
-                    </div> 
-                </a>                 
+        <div class="our-history">            
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>06.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы международных грузоперевозок.
+                        Проводит зарубежный эксперт с 10 летним опытом.                        
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
             </div> 
-            <div class="history-card"> 
-                <a href="training-detail.html" style="text-decoration:none; color:inherit">                
-                    <div class="his-year">
-                        <h3>07.06.2023</h3>
-                    </div>
-                    <div class="his-txt" style="margin-top:-5px;">
-                        <p>
-                            Основы программирования и веб разработки.
-                            Проводит местный эксперт с 10 летним опытом.                       
-                        </p>
-                        <button style="width:80%; padding:10px;margin-top:0; margin-bottom:15px"><a href="training-detail.html" style="text-decoration:none; color:inherit">Подробнее</a></button>
-                    </div> 
-                </a>                 
-            </div>                     
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>07.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы программирования и веб разработки.
+                        Проводит местный эксперт с 10 летним опытом.                          
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
+            </div>                    
+        </div>
+        <div class="our-history">            
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>08.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы международных грузоперевозок.
+                        Проводит зарубежный эксперт с 10 летним опытом.                        
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
+            </div> 
+            <div class="history-card">               
+                <div class="his-year">
+                    <h3>09.06.2023</h3>
+                </div>
+                <div class="his-txt" style="margin-top:-5px;">
+                    <p>
+                        Основы программирования и веб разработки.
+                        Проводит местный эксперт с 10 летним опытом.                          
+                    </p>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                </div>               
+            </div>                    
         </div>
         <button class="contact-us-consulting" id="consult-us" style="margin-top:17px !important; margin-bottom:10px !important; width:220px; display:block; margin:0 auto;">Связаться с нами</button>
     </div>
@@ -275,23 +284,6 @@
           </span>
         </p>
       </div>
-      <!-- <div class="working">
-        <p class="footer-header">РЕЖИМ РАБОТЫ:</p>
-        <p style="font-weight: 600;">Центр Развития и Консалтинг</p>
-        <p>
-          <i class="material-icons inline-icon-footer">alarm</i>Рабочее время: 09:00-18:00
-        </p>
-         <p>
-          <i class="material-icons inline-icon-footer">alarm</i>Сб/Вс: Выходной
-        </p>
-        <p style="padding-top:5px; font-weight: 600;">Кадровое Агентство</p>
-        <p>
-          <i class="material-icons inline-icon-footer">alarm</i>Рабочее время: 09:00-19:00
-        </p>
-        <p>
-          <i class="material-icons inline-icon-footer">alarm</i>Сб: 09:00-14:00; Вс: Выходной
-        </p>               
-      </div>         -->
     </div>
     <div class="footer-social">            
       <p style="margin-bottom:5px;">Подпишитесь и будьте в курсе интересных событий</p>
@@ -402,4 +394,5 @@
 <script src="static/js/modal-window.js"></script>
 <script src="static/js/show-login-modal.js"></script>
 <script src="static/js/address-modal.js"></script>
+<script src="static/js/go-back.js"></script>
 </html>
