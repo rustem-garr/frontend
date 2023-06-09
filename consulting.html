@@ -92,13 +92,15 @@
         <p style="margin:0 15px; "><a style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;" href="index.html">&larr;</a></p>        
         <p class="job-header">КОНСАЛТИНГ</p>
         <div class="consulting-details">
-          <p>
+          <p style="color:#1464c1;">
+            <strong>
             Хотите открыть свой новый бизнес, но не знаете как? Или желаете оптимизировать и масштабировать
-            свой бизнес? Мы вам поможем. <br>
-            <strong style="color:#1464c1">У нас более 10 лет опыта в консалтинговом рынке и 37 успешных проектов.</strong> 
+            свой бизнес? Мы вам поможем.</strong>
+            <span id="read-btn" onclick="document.getElementById('hidden-intro').style.display='block'; document.getElementById('read-btn').style.display='none'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">подробнее...</span>            
           </p>   
         </div> 
-        <div class="consulting-details">
+        <div class="consulting-details" id="hidden-intro" style="display:none;">
+            
             <img src="static/images/consulting.jpg" alt="image">
             <p>
                 Часто даже небольшой бизнес сталкивается с трудностями в ведении собственного дела,
@@ -108,8 +110,34 @@
                 консалтинговыми услугами. Мы предлагаем помощь как внутренних, 
                 так и приглашенных опытных специалистов из различных сфер деятельности, 
                 готовых проконсультировать вас практически по любым возникающим бизнес-вопросам.
+                <span id="close-btn" onclick="document.getElementById('hidden-intro').style.display='none'; document.getElementById('read-btn').style.display='inline-block'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">свернуть</span>
                 <button class="contact-us-consulting" id="consult-us">Связаться с нами</button>
             </p>
+        </div>
+        <div class="consulting-details">
+          <h3 style="text-align:center">Заполните форму ниже и мы с вами свяжемся</h3>
+          <div class="req-form">
+            <form action="#">
+              <input type="text" id="fname" name="firstname" placeholder="Ваше имя...">
+
+              <select class="business" name="business">
+                <option value="business-type">Какой у вас бизнес?</option>
+                <option value="small-business">Малый бизнес</option>
+                <option value="middle-business">Средний бизнес</option>
+                <option value="startup">Стартап</option>
+                <option value="big-business">Большой бизнес</option>
+              </select>
+
+               <select class="business" name="question">
+                <option value="question-type">Что вы хотите?</option>
+                <option value="expand-business">Расширить бизнес</option>
+                <option value="accountant-servie">Бух.учет</option>
+                <option value="new-business">Новый бизнес открыть</option>
+              </select>
+            
+              <input type="submit" id="send-btn" value="Отправить">
+            </form>
+          </div>
         </div>
       </div>
     </div>
