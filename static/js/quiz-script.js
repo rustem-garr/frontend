@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "What does HTML stands for?",
+        question: "Что означает HTML?",
         a: "Hypertext Markup Language",
         b: 'Cascade stylesheet',
         c: 'Script java',
@@ -8,7 +8,7 @@ const quizData = [
         correct:'a',
     },
     {
-        question: "What does CSS stands for?",
+        question: "Что означает CSS?",
         a: 'Hyperlink',
         b: 'Javascript',
         c: 'Cascade Style Sheet',
@@ -78,8 +78,8 @@ submitBtn.addEventListener('click', () => {
         }
         else {
             quiz.innerHTML = `
-            <h2>You answered ${score}/${quizData.length} correctly</h2>
-            <button onclick='location.reload()'>Reload</button>`
+            <h2>Вы ответили ${score}/${quizData.length} правильно</h2>
+            <button onclick='location.reload()'>Попробовать ещё</button>`
         }
     }
 })
