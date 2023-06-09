@@ -352,8 +352,18 @@ body {
     margin:0 auto;
 }
 
+@keyframes btn-anime{
+    0%{
+        background-image: linear-gradient(#1464c1 0%, #0352ac 100%);
+    }
+    100%{
+        background-image: linear-gradient(#0352ac 0%, #1464c1 100% );
+    }
+}
+
 .pass-test-btn {
     display: block;
+    position: relative;
     width: 90%;
     margin: 0 auto 15px;
     text-decoration: none;
@@ -363,8 +373,11 @@ body {
     padding: 12px;
     cursor: pointer;
     border-radius: 10px;
+    animation-name: btn-anime;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
-
 
 .job-apply {
     width: 200px !important;
