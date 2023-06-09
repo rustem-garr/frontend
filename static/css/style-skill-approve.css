@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Condensed:wght@300;400&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Roboto Condensed', sans-serif; */
+    margin:0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* NAVBAR START*/
@@ -214,21 +215,18 @@ body {
     margin-bottom: -10px;
 }
 
-.search-container {
-    height: 120px;
-    width: 100%;
-    background-color: whitesmoke;
-    padding: 10px;
+.quiz-ul {
+    list-style: none;
+    padding: 0 50px;
 }
 
+.quiz-li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
 
-.search-header {
-    display: block;
-    margin-left: 35%;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 24px;
-    letter-spacing: 1px;
-    color: #1464c1;
+ul li label {
+    cursor: pointer;
 }
 
 .search-btn-block {
@@ -352,6 +350,14 @@ body {
 
     .main-content {
         margin-top: 0 !important;
+    }
+
+    .quiz-ul{
+        padding:0;
+    }
+
+    #submitBtn{
+        width:100%;
     }
 
     .consulting-details img {
@@ -1050,7 +1056,7 @@ hr {
     }
 
     .job-container {
-        width: 70%;
+        width: 60%;
         margin: 10px auto;
     }
 
@@ -1060,6 +1066,11 @@ hr {
         box-shadow: 0 2px 12px #edeff0;
         border: 1px solid transparent;
         border-radius: 5px;
+    }
+
+    #submitBtn {
+        width: 90%;
+        margin-left: 5%;
     }
 
     .modal-content1 {
