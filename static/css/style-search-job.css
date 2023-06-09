@@ -228,7 +228,7 @@ body {
     font-size: 24px;
     letter-spacing: 1px;
     color: #333;
-    margin:0;
+    margin: 0;
 }
 
 .search-btn-block {
@@ -250,33 +250,33 @@ body {
     width: 29.8% !important;
     border: 1px solid #333 !important;
     border-radius: 5px;
-    margin:10px auto 0 !important;
+    margin: 10px auto 0 !important;
 }
 
-#sal-inp1{
-    margin-left:20% !important;
+#sal-inp1 {
+    margin-left: 20% !important;
 }
 
 #region {
     display: block;
-    padding:12px 20px;
-    font-size:18px;
+    padding: 12px 20px;
+    font-size: 18px;
     font-family: inherit;
-    width:60%;
-    margin:10px auto 0;
+    width: 60%;
+    margin: 10px auto 0;
     border-radius: 5px;
 }
 
 
-.experience-chk{
-    display:inline-block;
-    width:29.8%;
-    margin-top:0;
+.experience-chk {
+    display: inline-block;
+    width: 29.8%;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
-.exp-ch1{
-    margin-left:20%;
+.exp-ch1 {
+    margin-left: 20%;
 }
 
 select {
@@ -313,7 +313,7 @@ select {
 .search-btn {
     display: block !important;
     width: 60%;
-    margin:0 auto;
+    margin: 0 auto;
     border-radius: 5px !important;
 }
 
@@ -1025,7 +1025,7 @@ hr {
     left: 0;
     height: 16px;
     width: 16px;
-    background-color: #eee;
+    background-color: #fff;
 }
 
 
@@ -1137,9 +1137,9 @@ hr {
         height: 520px;
     }
 
-    .search-input{
+    .search-input {
         width: 90% !important;
-        margin-left:5% !important;
+        margin-left: 5% !important;
     }
 
     .salary-input {
@@ -1198,15 +1198,15 @@ hr {
         .logoname {
             font-size: 24px;
             margin-bottom: 6px;
-        }        
-        
+        }
+
 
         .search-header {
             margin: 0;
             text-align: center;
         }
 
-        
+
 
         /* .search-btn-block a {
         margin-left: 5%;
@@ -1300,4 +1300,5 @@ hr {
 
     }
 }
-    /* End media size 280px and less */
+
+/* End media size 280px and less */
