@@ -6,7 +6,7 @@
 
 body {
     margin:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NAVBAR START*/
@@ -215,6 +215,10 @@ body {
     margin-bottom: -10px;
 }
 
+.quiz-container{
+    font-family:"Poppins", sans-serif;
+}
+
 .quiz-ul {
     list-style: none;
     padding: 0 50px;
@@ -225,7 +229,7 @@ body {
     margin: 1rem 0;
 }
 
-ul li label {
+.quiz-li label {
     cursor: pointer;
 }
 
