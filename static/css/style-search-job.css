@@ -1133,6 +1133,37 @@ hr {
         margin-top: 0 !important;
     }
 
+    .search-container {
+        height: 520px;
+    }
+
+    .search-input{
+        width: 90% !important;
+        margin-left:5% !important;
+    }
+
+    .salary-input {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+    #sal-inp1 {
+        margin-left: 5% !important;
+    }
+
+    #region {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .experience-chk {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     .job-apply {
         margin-top: 10px;
     }
@@ -1167,33 +1198,7 @@ hr {
         .logoname {
             font-size: 24px;
             margin-bottom: 6px;
-        }
-
-        .search-container {
-            height: 520px;
-        }
-
-        .salary-input {
-            width: 90% !important;
-            margin-left: 5% !important;
-        }
-
-        #sal-inp1{
-            margin-left:5% !important;
-        }
-
-        #region{
-            width:90%;
-            margin-left:5%;
-        }
-
-        .experience-chk{
-            display: block;
-            width:90%;
-            margin-left:5%;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
+        }        
         
 
         .search-header {
@@ -1201,11 +1206,7 @@ hr {
             text-align: center;
         }
 
-        .search-input {
-            width: 90% !important;
-            margin-left: 5% !important;
-            margin-bottom: 0px !important;
-        }
+        
 
         /* .search-btn-block a {
         margin-left: 5%;
