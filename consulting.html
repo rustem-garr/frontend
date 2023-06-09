@@ -118,7 +118,8 @@
           <h3 style="text-align:center">Заполните форму ниже и мы с вами свяжемся</h3>
           <div class="req-form">
             <form action="#">
-              <input type="text" id="fname" name="firstname" placeholder="Ваше имя...">
+              <input type="text" id="fname" name="firstname" placeholder="Ваше имя..." style="margin-bottom:10px;">
+              <input type="number" id="uphone" name="uphone" placeholder="Ваш телефон...">
 
               <select class="business" name="business">
                 <option value="business-type">Какой у вас бизнес?</option>
@@ -129,10 +130,11 @@
               </select>
 
                <select class="business" name="question">
-                <option value="question-type">Что вы хотите?</option>
+                <option value="question-type">Что вы хотите?</option>                
+                <option value="new-business">Новый бизнес открыть</option>
+                <option value="new-business">Стартап проект</option>
                 <option value="expand-business">Расширить бизнес</option>
                 <option value="accountant-servie">Бух.учет</option>
-                <option value="new-business">Новый бизнес открыть</option>
               </select>
             
               <input type="submit" id="send-btn" value="Отправить">
