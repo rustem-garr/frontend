@@ -62,7 +62,30 @@
       <div class="job-card">
         <p style="margin:0 15px; "><a style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;" href="skill-tests.html">&larr;</a></p>        
         <p class="job-header">HTML ТЕСТ</p>
-        
+          <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h3 id="quiz-question" style="text-align:center">Question</h3>
+                <ul class="quiz-ul">
+                    <li class="quiz-li">
+                        <input type="radio" id="a" name="answer" class="answer">
+                        <label for="a" id="a_text">Answer</label>
+                    </li>
+                    <li class="quiz-li">
+                        <input type="radio" id="b" name="answer" class="answer">
+                        <label for="b" id="b_text">Answer</label>
+                    </li>
+                    <li class="quiz-li">
+                        <input type="radio" id="c" name="answer" class="answer">
+                        <label for="c" id="c_text">Answer</label>
+                    </li>
+                    <li class="quiz-li">
+                        <input type="radio" id="d" name="answer" class="answer">
+                        <label for="d" id="d_text">Answer</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submitBtn" style=" margin-bottom:25px;">Submit</button>
+        </div>  
       </div>
     </div>
   </div>
@@ -257,4 +280,5 @@
 <script src="static/js/address-modal.js"></script>
 <script src="static/js/dropdown-list.js"></script>
 <script src="static/js/notify-modal.js"></script>
+<script src="static/js/quiz-script.js"></script>
 </html>
