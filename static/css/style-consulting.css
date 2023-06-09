@@ -294,7 +294,7 @@ body {
 
 .consulting-details img {
     display: block;
-    width: 100%;
+    width: 50%;
     object-fit: contain;
     margin: 15px auto 0;
     border-radius: 10px;
@@ -304,7 +304,56 @@ body {
 .contact-us-consulting {
     width: 400px;
     display: block;
-    margin: 20px auto 0;
+    margin: 20px auto 30px;
+}
+
+#fname,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#send-btn {
+    width: 100%;
+    background-color: #1464c1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    opacity: 0.9;
+}
+
+.req-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.business{
+    display: block;
+    margin:10px auto;
+    padding:0 20px;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8rem 0.5rem;
+    border: 1px solid #333;
+    font-family: inherit;
+    /** for the dropdown indicator */
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
 }
 
 
