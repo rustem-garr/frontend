@@ -207,7 +207,9 @@ body {
 .side-nav a {
     padding: 20px 0 0 10%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing:0.5px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #034ea3;
     display: block;
     transition: 0.5s;
@@ -251,8 +253,22 @@ body {
 
 .inline-icon {
     vertical-align: bottom;
-    font-size: 24px;
+    font-size: 22px;
     margin-right: 10px;
+}
+
+#btnContact1{
+    padding:10px 12px; 
+    width:80%; 
+    text-align:center; 
+    margin:180px auto 0; 
+    color:white; 
+    background-color: #1464c1;
+    border-radius:10px;
+}
+
+#btnContact1:hover{
+    opacity:0.9;
 }
 
 /* NAVBAR END */
@@ -702,7 +718,7 @@ body {
 
 .stats-info {
     width: 250px;
-    margin:10px auto;
+    margin: 10px auto;
     height: 90px;
     display: flex;
     padding-top: 14px;
@@ -1361,6 +1377,7 @@ hr {
         margin: 0 auto;
         box-shadow: 0 2px 12px #edeff0;
         background-image: url('../images/banner9.jpg');
+        /* background-image: linear-gradient(rgb(140, 187, 228) 0%, rgb(95, 159, 212) 100%); */
         background-repeat: no-repeat;
         background-size: cover;
         background-color: white;
@@ -1544,7 +1561,7 @@ hr {
         box-shadow: 0 2px 12px #edeff0;
         border-radius: 15px;
         padding-top: 70px;
-        padding-bottom:20px;
+        padding-bottom: 20px;
     }
 
     .partners {
