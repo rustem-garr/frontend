@@ -251,20 +251,12 @@ body {
 }
 
 .back-btn-close {    
-    width:45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #1464c1;
-    color: white;    
+    width:40px;
+    height: 40px;
+    border-radius: 50%;   
     box-shadow: 0 2px 12px #edeff0;
-    text-align: center;
 }
 
-.back-btn-close span{
-    vertical-align: bottom;
-    margin-bottom:3px;
-    font-size: 32px;
-}
 
 .inline-icon {
     vertical-align: bottom;
