@@ -208,7 +208,7 @@ body {
     padding: 20px 0 0 10%;
     text-decoration: none;
     font-size: 18px;
-    letter-spacing:0.5px;
+    letter-spacing: 0.5px;
     font-family: Arial, Helvetica, sans-serif;
     color: #034ea3;
     display: block;
@@ -248,7 +248,18 @@ body {
     top: 0;
     right: 22px;
     margin-left: 50px;
-    font-size: 36px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.back-btn-close {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #1464c1;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 12px #edeff0;
 }
 
 .inline-icon {
@@ -257,18 +268,18 @@ body {
     margin-right: 10px;
 }
 
-#btnContact1{
-    padding:10px 12px; 
-    width:80%; 
-    text-align:center; 
-    margin:180px auto 0; 
-    color:white; 
+#btnContact1 {
+    padding: 10px 12px;
+    width: 80%;
+    text-align: center;
+    margin: 180px auto 0;
+    color: white;
     background-color: #1464c1;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
-#btnContact1:hover{
-    opacity:0.9;
+#btnContact1:hover {
+    opacity: 0.9;
 }
 
 /* NAVBAR END */
