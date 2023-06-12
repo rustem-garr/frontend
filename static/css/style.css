@@ -248,17 +248,23 @@ body {
     top: 0;
     right: 22px;
     margin-left: 50px;
-    font-size: 34px;
 }
 
 .back-btn-close {
-    width: 45px;
+    font-size: 32px;
+    width:45px;
     height: 45px;
     border-radius: 50%;
     background-color: #1464c1;
     color: white;
     text-align: center;
+    display: flex;
     box-shadow: 0 2px 12px #edeff0;
+}
+
+.back-btn-close span{
+    display: block;
+    margin:1px auto 0;
 }
 
 .inline-icon {
