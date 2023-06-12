@@ -262,6 +262,7 @@ body {
 
 .back-btn-close span{
     vertical-align: bottom;
+    margin-bottom:3px;
     font-size: 32px;
 }
 
