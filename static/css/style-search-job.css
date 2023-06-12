@@ -215,7 +215,7 @@ body {
 }
 
 .search-container {
-    height: 380px;
+    height: 460px;
     width: 100%;
     background-color: whitesmoke;
     padding: 10px;
@@ -267,16 +267,16 @@ body {
     border-radius: 5px;
 }
 
+.all-params{
+    width:60%;
+    margin-left:20%;
+    margin-top:15px;
+}
 
 .experience-chk {
     display: inline-block;
-    width: 29.8%;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.exp-ch1 {
-    margin-left: 20%;
+    width: 49%;
+    margin:10px 0;
 }
 
 select {
@@ -1134,7 +1134,7 @@ hr {
     }
 
     .search-container {
-        height: 520px;
+        height: 675px;
     }
 
     .search-input {
@@ -1160,8 +1160,8 @@ hr {
         display: block;
         width: 90%;
         margin-left: 5%;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 20px;
+        margin-bottom:20px;
     }
 
     .job-apply {
