@@ -143,17 +143,15 @@ body {
     right: 220px;
 }
 
-
 .social li {
     display: inline-block;
+    margin: 0;
 }
 
-.social li a {
-    width: 25px;
-    display: block;
-    margin-right: -5px;
-    margin-top: 3px
+.social a{
+    padding:12px 3px;
 }
+
 
 .call_us {
     display: inline-block;
@@ -166,12 +164,12 @@ body {
 
 .social-link {
     width: 25px;
-    ;
+    margin:0;
 }
 
 .lang_pack {
     position: absolute;
-    right: 30px;
+    right: 15px;
     display: inline-block;
 }
 
@@ -179,11 +177,8 @@ body {
     display: inline-block;
 }
 
-.lang_pack li a {
-    display: block;
-    width: 30px;
-    margin-left: 0;
-    margin-right: 0;
+.lang_pack a{
+    padding: 10px 3px;
 }
 
 .lang_img {
@@ -1738,14 +1733,9 @@ hr {
         right: 26px;
     }
 
-    .lang_pack li a {
-        width: 24px;
-        margin-right: -7px;
-    }
-
+    
     .lang_img {
         width: 24px;
-        margin-top: 4px;
     }
 
     .text-block {
@@ -1792,10 +1782,6 @@ hr {
 
     .logoname {
         display: none;
-    }
-
-    .lang_pack {
-        right: 20px;
     }
 
     .text-block {
