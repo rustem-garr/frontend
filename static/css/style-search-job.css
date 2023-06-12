@@ -215,7 +215,7 @@ body {
 }
 
 .search-container {
-    height: 460px;
+    height: 490px;
     width: 100%;
     background-color: whitesmoke;
     padding: 10px;
@@ -1134,7 +1134,7 @@ hr {
     }
 
     .search-container {
-        height: 675px;
+        height: 720px;
     }
 
     .search-input {
@@ -1158,8 +1158,7 @@ hr {
 
     .experience-chk {
         display: block;
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
         margin-top: 20px;
         margin-bottom:20px;
     }
