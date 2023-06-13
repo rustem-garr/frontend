@@ -52,6 +52,11 @@ body {
     color: rgb(83, 83, 253);
 }
 
+.navbar-nav a {
+    padding: 0;
+    margin-top: 2px;
+}
+
 .social {
     position: absolute;
     display: none;
@@ -64,7 +69,7 @@ body {
 }
 
 .social a {
-    padding: 12px 3px;
+    padding: 10px 3px;
 }
 
 .social-link {
@@ -83,7 +88,7 @@ body {
 }
 
 .lang_pack a {
-    padding: 10px 3px;
+    padding: 5px 3px;
 }
 
 .lang_img {
@@ -116,7 +121,7 @@ body {
 .side-nav a {
     padding: 20px 0 0 10%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #034ea3;
     display: block;
     transition: 0.5s;
@@ -155,13 +160,29 @@ body {
     top: 0;
     right: 22px;
     margin-left: 50px;
-    font-size: 36px;
 }
 
 .inline-icon {
     vertical-align: bottom;
     font-size: 24px;
     margin-right: 10px;
+}
+
+.back-btn-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px #edeff0;
+}
+
+#btnContact1 {
+    padding: 10px 12px;
+    width: 80%;
+    text-align: center;
+    margin: 150px auto 0;
+    color: white;
+    background-color: #1464c1;
+    border-radius: 10px;
 }
 
 /* NAVBAR END */
