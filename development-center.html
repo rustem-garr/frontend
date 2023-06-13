@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-development-center.css?v=3">
+    <link rel="stylesheet" href="static/css/style-development-center.css?v=4">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="128x128" href="static/images/fav-icon.png">
     <title>ORLAN</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
       </a>
     </span>
     <ul class="navbar-nav">  
-      <a href="index.html" style="margin-top:-5px; margin-left:-26px;">
+      <a href="index.html">
         <li style="display:inline-block;"><img class="logo-img" src="static/images/logo1.png" alt="Logo"/></li>
         <li class="logoname">ORLAN</li>
       </a>      
@@ -44,17 +46,17 @@
   </nav>
 
   <div id="side-menu" class="side-nav">    
-    <a href="#" class="btn-close" onclick="closeSideMenu()" >&#8592;</a>
+    <a href="#" class="btn-close" onclick="closeSideMenu()" ><div class="back-btn-close"><img src="static/images/previous.png" alt="back-arrow" style="width:40px;"></div></a>
     <a href="index.html"><img class="side-nav-logo" src="static/images/logo1.png" alt="Logo"/><span class="side-nav-logoname">ORLAN</span></a>
-    <a href="#">Рустам Каррыев<span style="display:block;color:rgb(128, 126, 126); font-size:14px">+993 67101525</span></a>
+    <a href="profile.html">Рустам Каррыев<span style="display:block;color:rgb(128, 126, 126); font-size:14px">+993 67101525</span></a>
     <a href="index.html"><i class="material-icons inline-icon">home</i>На главную</a>
     <a href="profile.html"><i class="material-icons inline-icon">manage_accounts</i>Личный кабинет</a>
     <a href="#"><i class="material-icons inline-icon">credit_card</i>Платежные карты</a>
-    <a href="#" id="btnContact1"><i class="material-icons inline-icon">contact_mail</i>Связаться с нами</a>
-    <a href="about-us.html" id="btnContact1"><i class="material-icons inline-icon">receipt_long</i>О нас</a>    
-    <a href="#"><i class="material-icons inline-icon">logout</i>Выйти</a>
-    <a id="btn-login-modal"><i class="material-icons inline-icon">login</i>Войти</a>
-    <a href="#"><img class="side-nav-qr" src="static/images/orlan_qr.png" alt="QR"/></a>
+    <a href="#"><i class="material-icons inline-icon">favorite</i>Избранное</a>
+    <a href="about-us.html"><i class="material-icons inline-icon">receipt_long</i>О нас</a> 
+    
+    <a href="#" id="btnContact1">Связаться с нами</a>   
+    <a href="#" style="margin-left:6%;"><i class="material-icons inline-icon">logout</i>Выйти из системы</a>
   </div> 
 
   <div class="bottomMenu hide top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
@@ -112,25 +114,34 @@
          </div>
         </div>
 
-        <p class="job-header" style="margin-top:20px; margin-bottom:20px; color:black">БЛИЖАЙШИЕ ТРЕНИНГИ</p> 
+        <div class="search-params">
+          <label for="training-date" class="lbl-date">ПОИСК ПО ДАТЕ</label>
+          <input type="date"  id="training-date" name="training-date">          
+        </div>
+
+        <p class="job-header" style="margin-top:20px; margin-bottom:20px; color:#1464c1;">
+          БЛИЖАЙШИЕ ТРЕНИНГИ
+        </p> 
         <div class="our-history">            
             <div class="history-card">               
-                <div class="his-year">
-                    <h3>02.06.2023</h3>
+                <div class="his-img">
+                    <img src="static/images/map.png" alt="track-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;">
+                <div class="his-txt" style="margin-top:-5px;"> 
+                    <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">02.06.2023</h3>                   
                     <p>
                         Основы международных грузоперевозок.
                         Проводит зарубежный эксперт с 10 летним опытом.                        
-                    </p>
+                    </p>                    
                     <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
                 </div>               
             </div> 
             <div class="history-card">               
-                <div class="his-year">
-                    <h3>03.06.2023</h3>
+                <div class="his-img">
+                    <img src="static/images/programming.png" alt="coding-img">
                 </div>
                 <div class="his-txt" style="margin-top:-5px;">
+                    <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">03.06.2023</h3>
                     <p>
                         Основы программирования и веб разработки.
                         Проводит местный эксперт с 10 летним опытом.                          
@@ -142,10 +153,11 @@
 
          <div class="our-history">            
             <div class="history-card">               
-                <div class="his-year">
-                    <h3>04.06.2023</h3>
+                <div class="his-img">
+                    <img src="static/images/tracking.png" alt="track-img">
                 </div>
                 <div class="his-txt" style="margin-top:-5px;">
+                    <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">04.06.2023</h3>
                     <p>
                         Основы международных грузоперевозок.
                         Проводит зарубежный эксперт с 10 летним опытом.                        
@@ -154,24 +166,26 @@
                 </div>               
             </div> 
             <div class="history-card">               
-                <div class="his-year">
-                    <h3>05.06.2023</h3>
+                <div class="his-img">
+                    <img src="static/images/code.png" alt="coding-img">
                 </div>
                 <div class="his-txt" style="margin-top:-5px;">
+                    <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">05.06.2023</h3>
                     <p>
                         Основы программирования и веб разработки.
                         Проводит местный эксперт с 10 летним опытом.                          
                     </p>
-                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a>
                 </div>               
             </div>                    
         </div>
         <div class="our-history">            
             <div class="history-card">               
-                <div class="his-year">
-                    <h3>06.06.2023</h3>
+                <div class="his-img">
+                    <img src="static/images/route.png" alt="track-img">
                 </div>
                 <div class="his-txt" style="margin-top:-5px;">
+                    <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">06.06.2023</h3>
                     <p>
                         Основы международных грузоперевозок.
                         Проводит зарубежный эксперт с 10 летним опытом.                        
@@ -180,41 +194,16 @@
                 </div>               
             </div> 
             <div class="history-card">               
-                <div class="his-year">
-                    <h3>07.06.2023</h3>
+                <div class="his-img">
+                    <img src="static/images/coding.png" alt="coding-img">
                 </div>
                 <div class="his-txt" style="margin-top:-5px;">
+                    <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">07.06.2023</h3>
                     <p>
                         Основы программирования и веб разработки.
                         Проводит местный эксперт с 10 летним опытом.                          
                     </p>
-                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
-                </div>               
-            </div>                    
-        </div>
-        <div class="our-history">            
-            <div class="history-card">               
-                <div class="his-year">
-                    <h3>08.06.2023</h3>
-                </div>
-                <div class="his-txt" style="margin-top:-5px;">
-                    <p>
-                        Основы международных грузоперевозок.
-                        Проводит зарубежный эксперт с 10 летним опытом.                        
-                    </p>
-                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
-                </div>               
-            </div> 
-            <div class="history-card">               
-                <div class="his-year">
-                    <h3>09.06.2023</h3>
-                </div>
-                <div class="his-txt" style="margin-top:-5px;">
-                    <p>
-                        Основы программирования и веб разработки.
-                        Проводит местный эксперт с 10 летним опытом.                          
-                    </p>
-                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
+                    <a class="pass-test-btn" href="training-detail.html">Подробнее</a>
                 </div>               
             </div>                    
         </div>
