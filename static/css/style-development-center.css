@@ -51,6 +51,11 @@ body {
     color: rgb(83, 83, 253);
 }
 
+.navbar-nav a {
+    padding: 0;
+    margin-top: 2px;
+}
+
 .social {
     position: absolute;
     display: none;
@@ -63,21 +68,12 @@ body {
 }
 
 .social a {
-    padding: 12px 3px;
+    padding: 10px 3px;
 }
 
 .social-link {
     width: 25px;
     margin: 0;
-}
-
-.call_us {
-    display: inline-block;
-    width: 300px;
-}
-
-.call_us a {
-    display: block;
 }
 
 .lang_pack {
@@ -91,11 +87,20 @@ body {
 }
 
 .lang_pack a {
-    padding: 10px 3px;
+    padding: 5px 3px;
 }
 
 .lang_img {
     width: 30px;
+}
+
+.call_us {
+    display: inline-block;
+    width: 300px;
+}
+
+.call_us a {
+    display: block;
 }
 
 .side-nav {
@@ -115,7 +120,7 @@ body {
 .side-nav a {
     padding: 20px 0 0 10%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #034ea3;
     display: block;
     transition: 0.5s;
@@ -161,6 +166,23 @@ body {
     vertical-align: bottom;
     font-size: 24px;
     margin-right: 10px;
+}
+
+.back-btn-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px #edeff0;
+}
+
+#btnContact1 {
+    padding: 10px 12px;
+    width: 80%;
+    text-align: center;
+    margin: 150px auto 0;
+    color: white;
+    background-color: #1464c1;
+    border-radius: 10px;
 }
 
 /* NAVBAR END */
@@ -288,6 +310,34 @@ body {
     margin: 0 auto;
 }
 
+.search-params {
+    width: 88%;
+    margin: 15px auto 10px;
+    background-color: whitesmoke;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.lbl-date {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 5px;
+}
+
+input[type=date] {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
 .about-us-image {
     width: 90%;
     margin: 0 auto 20px;
@@ -335,25 +385,23 @@ body {
     padding: 10px;
 }
 
-.his-year {
-    color: #1464c1;
+.his-img img{
+    width:64px;
+    height:64px;
+    margin-top:12px;
 }
 
 .his-txt {
-    color:black;
-    letter-spacing:0.5px;
-    width:90%;
-    margin:0 auto;
+    color: #333;
+    letter-spacing: 0.5px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-@keyframes btn-anime{
-    0%{
-        background-image: linear-gradient(#1464c1 0%, #0352ac 100%);
-    }
-    100%{
-        background-image: linear-gradient(#0352ac 0%, #1464c1 100% );
-    }
+.his-txt h3{
+    color:rgb(69, 179, 223);
 }
+
 
 .pass-test-btn {
     display: block;
@@ -367,10 +415,10 @@ body {
     padding: 12px;
     cursor: pointer;
     border-radius: 10px;
-    animation-name: btn-anime;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
+}
+
+.pass-test-btn:hover{
+    opacity:0.9;
 }
 
 .job-apply {
@@ -410,6 +458,10 @@ body {
 
     .main-content {
         margin-top: 0 !important;
+    }
+
+    input[type=date]{
+        width:90%;
     }
 }
 
@@ -976,8 +1028,9 @@ hr {
         border: 1px solid transparent;
         border-radius: 5px;
     }
-    .about-us-image img{
-        width:70%;
+
+    .about-us-image img {
+        width: 70%;
     }
 
     .modal-content1 {
@@ -1127,14 +1180,14 @@ hr {
         font-size: 20px !important;
     }
 
-   .lang_pack {
-       margin-top: 0px;
-       right: 26px;
-   }
+    .lang_pack {
+        margin-top: 0px;
+        right: 26px;
+    }
 
-   .lang_img {
-       width: 24px;
-   }
+    .lang_img {
+        width: 24px;
+    }
 
 }
 
