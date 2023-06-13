@@ -328,15 +328,18 @@ body {
     margin: 0 auto 5px;
 }
 
-input[type=date] {
-    display: block;
-    width: 100%;
-    padding: 10px 12px;
-    font-size: 18px;
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 10px;
+#training-date {
+    display: block !important;
+    width: 100% !important;
+    padding: 10px 12px !important;
+    font-size: 18px !important;
+    width: 70% !important;
+    margin: 0 auto !important;
+    border-radius: 10px !important;
+    border:2px solid black;
 }
+
+
 
 .about-us-image {
     width: 90%;
@@ -460,8 +463,8 @@ input[type=date] {
         margin-top: 0 !important;
     }
 
-    input[type=date]{
-        width:90%;
+    #training-date{
+        width:90% !important;
     }
 }
 
