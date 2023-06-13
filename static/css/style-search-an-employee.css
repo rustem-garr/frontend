@@ -51,6 +51,11 @@ body {
     color: rgb(83, 83, 253);
 }
 
+.navbar-nav a {
+    padding: 0;
+    margin-top: 2px;
+}
+
 .social {
     position: absolute;
     display: none;
@@ -63,7 +68,7 @@ body {
 }
 
 .social a {
-    padding: 12px 3px;
+    padding: 10px 3px;
 }
 
 .social-link {
@@ -82,7 +87,7 @@ body {
 }
 
 .lang_pack a {
-    padding: 10px 3px;
+    padding: 5px 3px;
 }
 
 .lang_img {
@@ -115,7 +120,7 @@ body {
 .side-nav a {
     padding: 20px 0 0 10%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #034ea3;
     display: block;
     transition: 0.5s;
@@ -154,7 +159,6 @@ body {
     top: 0;
     right: 22px;
     margin-left: 50px;
-    font-size: 36px;
 }
 
 .inline-icon {
@@ -163,11 +167,28 @@ body {
     margin-right: 10px;
 }
 
+.back-btn-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px #edeff0;
+}
+
+#btnContact1 {
+    padding: 10px 12px;
+    width: 80%;
+    text-align: center;
+    margin: 150px auto 0;
+    color: white;
+    background-color: #1464c1;
+    border-radius: 10px;
+}
+
 /* NAVBAR END */
 
 /* Sticky Menu */
-.top-sticky-menu{
-    z-index:1;
+.top-sticky-menu {
+    z-index: 1;
 }
 
 .sticky-line-height {
@@ -209,7 +230,7 @@ body {
 }
 
 .search-container {
-    height: 120px;
+    height: 490px;
     width: 100%;
     background-color: whitesmoke;
     padding: 10px;
@@ -217,12 +238,12 @@ body {
 
 
 .search-header {
-    display: block;
-    margin-left: 38%;
+    text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
     color: #333;
+    margin: 0;
 }
 
 .search-btn-block {
@@ -232,12 +253,62 @@ body {
 }
 
 .search-input {
-    display: inline-block !important;
+    display: block !important;
     border: 1px solid #333 !important;
-    width: 40% !important;
-    margin-left: 23% !important;
+    width: 60% !important;
+    margin: 10px auto 0 !important;
     border-radius: 5px;
 }
+
+.salary-input {
+    display: inline-block !important;
+    width: 29.8% !important;
+    border: 1px solid #333 !important;
+    border-radius: 5px;
+    margin: 10px auto 0 !important;
+}
+
+#sal-inp1 {
+    margin-left: 20% !important;
+}
+
+#region {
+    display: block;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: inherit;
+    width: 60%;
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
+.all-params {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+.experience-chk {
+    display: inline-block;
+    width: 49%;
+    margin: 10px 0;
+}
+
+select {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8rem 0.5rem;
+    border: 1px solid #333;
+    font-family: inherit;
+    /** for the dropdown indicator */
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+
 
 .search-btn-block a {
     display: inline-block;
@@ -255,8 +326,9 @@ body {
 }
 
 .search-btn {
-    display: inline-block !important;
-    width: auto;
+    display: block !important;
+    width: 60%;
+    margin: 0 auto;
     border-radius: 5px !important;
 }
 
@@ -273,30 +345,49 @@ body {
     border-radius: 5px;
 }
 
+.job-card p {
+    letter-spacing: 0.5px;
+}
+
 .job-header {
+    display: inline-block;
+    width: 92%;
+    text-align: left;
     font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     color: #1464c1;
     margin-top: 0px;
     margin-bottom: 0;
-}
-
-.job-header-link {
     text-decoration: none;
-    color: inherit;
 }
 
-.job-salary{
+
+.job-header-icon {
+    display: inline-block;
+    width: 6%;
+    text-align: right;
+}
+
+.favorite {
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.favorite:hover {
+    fill: red;
+}
+
+
+.job-salary {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
-.gender {
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-top: 8px;
+.job-header-link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .job-city {
@@ -311,6 +402,19 @@ body {
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 8px;
+}
+
+.gender {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.published-date {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    color: rgb(66, 65, 65);
 }
 
 .job-detailed-link {
@@ -337,6 +441,10 @@ body {
     border-radius: 10px;
     cursor: pointer;
     text-align: center;
+}
+
+.job-apply:hover {
+    opacity: 0.9;
 }
 
 .job-show-contact {
@@ -901,10 +1009,7 @@ hr {
     font-size: 16px;
 }
 
-.salary-input {
-    border: 1px solid #333 !important;
-    border-radius: 5px;
-}
+
 
 .region-container {
     display: block;
@@ -935,7 +1040,7 @@ hr {
     left: 0;
     height: 16px;
     width: 16px;
-    background-color: #eee;
+    background-color: #fff;
 }
 
 
@@ -976,7 +1081,7 @@ hr {
 
 /* End Filter Modal */
 
-/* Media 750 */
+/* Media min 750 */
 @media (min-width:750px) {
 
     .navbar {
@@ -1030,7 +1135,7 @@ hr {
     }
 }
 
-/* end min media 750 */
+/* end media min 750 */
 
 /* Max Width 750px */
 @media (max-width:750px) {
@@ -1042,153 +1147,170 @@ hr {
     .main-content {
         margin-top: 0 !important;
     }
-    /* .sticky-link {
-        font-size: 16px;
-        padding: 5px;
-    }
-
-    .sticky-line-height {
-        line-height: 30px !important;
-        vertical-align: middle !important;
-    }
-
-    .sticky-outstaff-link {
-        display: block;
-    }
-
-    .sticky-inline-icon {
-        vertical-align: middle !important;
-        font-size: 18px !important;
-        margin-right: 1px !important;
-        margin-bottom: 2px !important;
-    } */
-}
-
-/* End Max Width 750px */
-
-@media (min-width:601px) and (max-width:749px) {
-    .modal-content1 {
-        width: 400px;
-    }
-
-    .modal-content2 {
-        width: 400px;
-    }
-
-    .modal-content3 {
-        width: 500px;
-    }
-}
-
-/* Start media size 600px and less */
-@media (max-width:600px) {
-    .logo-img {
-        width: 30px;
-        margin-top: 6px;
-    }
-
-    .logoname {
-        font-size: 24px;
-        margin-bottom: 6px;
-    }
 
     .search-container {
-        height: 175px;
+        height: 720px;
     }
 
-    .search-header {
-        margin: 0;
-        text-align: center;
+    .all-params{
+        width:90%;
+        margin-left:5%;
     }
 
     .search-input {
         width: 90% !important;
         margin-left: 5% !important;
-        margin-bottom: 1px !important;
     }
 
-    .search-btn-block a {
+    .salary-input {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+    #sal-inp1 {
+        margin-left: 5% !important;
+    }
+
+    #region {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .experience-chk {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .job-apply {
+        margin-top: 10px;
+    }
+
+    .favorite {
+        width: 22px;
+    }
+
+    /* End Max Width 750px */
+
+    @media (min-width:601px) and (max-width:749px) {
+        .modal-content1 {
+            width: 400px;
+        }
+
+        .modal-content2 {
+            width: 400px;
+        }
+
+        .modal-content3 {
+            width: 500px;
+        }
+    }
+
+    /* Start media size 600px and less */
+    @media (max-width:600px) {
+        .logo-img {
+            width: 30px;
+            margin-top: 6px;
+        }
+
+        .logoname {
+            font-size: 24px;
+            margin-bottom: 6px;
+        }
+
+
+        .search-header {
+            margin: 0;
+            text-align: center;
+        }
+
+
+
+        /* .search-btn-block a {
         margin-left: 5%;
         width: 5%;
         margin-right: 30px;
-    }
+    } */
 
-    .search-btn {
-        width: 74.5% !important;
-    }
+        .search-btn {
+            width: 90% !important;
+            margin-left: 5% !important;
+        }
 
 
 
-    .footer_content {
-        display: block;
-    }
+        .footer_content {
+            display: block;
+        }
 
-    .address {
-        width: 97%;
-        margin-left: 3%;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+        .address {
+            width: 97%;
+            margin-left: 3%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
 
-    .phones {
-        width: 97%;
-        margin-left: 3%;
-        margin-top: 30px;
-    }
+        .phones {
+            width: 97%;
+            margin-left: 3%;
+            margin-top: 30px;
+        }
 
-    /* .working {
+        /* .working {
         width: 97%;
         margin-left: 3%;
         margin-top: 30px;
         margin-bottom: 30px;
     } */
 
-    .footer-social-icons:first-child {
-        margin-left: 0px;
+        .footer-social-icons:first-child {
+            margin-left: 0px;
+        }
+
+        .modal-content {
+            width: 80%;
+        }
+
+
     }
 
-    .modal-content {
-        width: 80%;
+    /* End media size 600px and less */
+
+    /* Start media size 360px and less */
+    @media (max-width:360px) {
+        .side-nav a {
+            font-size: 16px;
+        }
+
+        .inline-icon {
+            font-size: 20px !important;
+        }
+
+        .lang_pack {
+            margin-top: 0px;
+            right: 26px;
+        }
+
+        .lang_img {
+            width: 24px;
+        }
+
     }
 
+    /* End media size 360px and less */
 
-}
+    /* Start media size 280px and less */
+    @media (max-width:280px) {
+        .lang_pack {
+            right: 20px;
+        }
 
-/* End media size 600px and less */
+        .logoname {
+            display: none;
+        }
 
-/* Start media size 360px and less */
-@media (max-width:360px) {
-    .side-nav a {
-        font-size: 16px;
     }
-
-    .inline-icon {
-        font-size: 20px !important;
-    }
-
-    .lang_pack {
-        margin-top: 0px;
-        right: 26px;
-    }
-
-    .lang_img {
-        width: 24px;
-    }
-
-}
-
-/* End media size 360px and less */
-
-/* Start media size 280px and less */
-@media (max-width:280px) {
-    .lang_pack {
-        right: 20px;
-    }
-
-    .logoname {
-        display: none;
-    }
-
 }
 
 /* End media size 280px and less */
