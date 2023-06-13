@@ -137,6 +137,11 @@ body {
     color: rgb(83, 83, 253);
 }
 
+.navbar-nav a{
+    padding:0;
+    margin-top:2px;
+}
+
 .social {
     position: absolute;
     display: none;
@@ -149,22 +154,12 @@ body {
 }
 
 .social a{
-    padding:12px 3px;
-}
-
-
-.call_us {
-    display: inline-block;
-    width: 300px;
-}
-
-.call_us a {
-    display: block;
+    padding:10px 3px;
 }
 
 .social-link {
     width: 25px;
-    margin:0;
+    margin: 0;
 }
 
 .lang_pack {
@@ -178,11 +173,20 @@ body {
 }
 
 .lang_pack a{
-    padding: 10px 3px;
+    padding: 5px 3px;
 }
 
 .lang_img {
     width: 30px;
+}
+
+.call_us {
+    display: inline-block;
+    width: 300px;
+}
+
+.call_us a {
+    display: block;
 }
 
 .side-nav {
@@ -245,18 +249,18 @@ body {
     margin-left: 50px;
 }
 
-.back-btn-close {    
-    width:40px;
-    height: 40px;
-    border-radius: 50%;   
-    box-shadow: 0 2px 12px #edeff0;
-}
-
 
 .inline-icon {
     vertical-align: bottom;
     font-size: 22px;
     margin-right: 10px;
+}
+
+.back-btn-close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px #edeff0;
 }
 
 #btnContact1 {
@@ -1732,7 +1736,6 @@ hr {
         margin-top: 0px;
         right: 26px;
     }
-
     
     .lang_img {
         width: 24px;
