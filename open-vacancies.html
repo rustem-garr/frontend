@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/style-open-vacancies.css?v=16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="128x128" href="static/images/fav-icon.png">
     <title>ORLAN</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
       </a>
     </span>
     <ul class="navbar-nav">  
-      <a href="index.html" style="margin-top:-5px; margin-left:-26px;">
+      <a href="index.html">
         <li style="display:inline-block;"><img class="logo-img" src="static/images/logo1.png" alt="Logo"/></li>
         <li class="logoname">ORLAN</li>
       </a>      
@@ -44,17 +46,17 @@
   </nav>
 
   <div id="side-menu" class="side-nav">    
-    <a href="#" class="btn-close" onclick="closeSideMenu()" >&#8592;</a>
+    <a href="#" class="btn-close" onclick="closeSideMenu()" ><div class="back-btn-close"><img src="static/images/previous.png" alt="back-arrow" style="width:40px;"></div></a>
     <a href="index.html"><img class="side-nav-logo" src="static/images/logo1.png" alt="Logo"/><span class="side-nav-logoname">ORLAN</span></a>
     <a href="#">Рустам Каррыев<span style="display:block;color:rgb(128, 126, 126); font-size:14px">+993 67101525</span></a>
     <a href="index.html"><i class="material-icons inline-icon">home</i>На главную</a>
     <a href="profile.html"><i class="material-icons inline-icon">manage_accounts</i>Личный кабинет</a>
     <a href="#"><i class="material-icons inline-icon">credit_card</i>Платежные карты</a>
-    <a href="#" id="btnContact1"><i class="material-icons inline-icon">contact_mail</i>Связаться с нами</a>
-    <a href="about-us.html" id="btnContact1"><i class="material-icons inline-icon">receipt_long</i>О нас</a>    
-    <a href="#"><i class="material-icons inline-icon">logout</i>Выйти</a>
-    <a id="btn-login-modal"><i class="material-icons inline-icon">login</i>Войти</a>
-    <a href="#"><img class="side-nav-qr" src="static/images/orlan_qr.png" alt="QR"/></a>
+    <a href="#"><i class="material-icons inline-icon">favorite</i>Избранное</a>
+    <a href="about-us.html"><i class="material-icons inline-icon">receipt_long</i>О нас</a> 
+    
+    <a href="#" id="btnContact1">Связаться с нами</a>   
+    <a href="#" style="margin-left:6%;"><i class="material-icons inline-icon">logout</i>Выйти из системы</a>
   </div> 
 
   <div class="bottomMenu hide top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
@@ -290,11 +292,35 @@
               <input class="filter-checkbox" type="checkbox">
               <span class="checkmark"></span>
             </label> 
+            <label class="region-container">Стажер
+              <input class="filter-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="region-container" style="margin-top:20px;">Полная занятость
+              <input class="filter-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="region-container">Частичная занятость
+              <input class="filter-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
             <label class="region-container">Удаленная работа
               <input class="filter-checkbox" type="checkbox">
               <span class="checkmark"></span>
             </label>
-             <label class="region-container" style="margin-top:20px;">Гос.организации
+            <label class="region-container" style="margin-top:20px;">Проектная работа
+              <input class="filter-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="region-container">Одноразовая работа
+              <input class="filter-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="region-container">Вахтовая работа
+              <input class="filter-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label class="region-container" style="margin-top:20px;">Гос.организации
               <input class="filter-checkbox" type="checkbox">
               <span class="checkmark"></span>
             </label>   
@@ -362,12 +388,6 @@
         <span  id="close_btn" class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
       </div>
       <div class="modal-body">
-        <p class="modal-service-name">ЦЕНТР РАЗВИТИЯ И КОНСАЛТИНГ:</p>
-        <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel:+993 12 96-49-86">+993 12 96-49-86</a></p>
-        <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel:+993 12 96-49-87">+993 12 96-49-87</a></p>
-        <p><i class="material-icons inline-icon-modal">call</i>Моб: <a class="phone-num-modal" href="tel:+993 63 10-59-21">+993 63 10-59-21</a></p>
-        <p><a href="mailto:info@orlan.org" style="text-decoration:none; color:inherit"><i class="material-icons inline-icon-modal">email</i>info@orlan.org</a></p>        
-        <br>
         <p class="modal-service-name">КАДРОВОЕ АГЕНСТВО:</p>        
         <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel: +993 12 94-04-37"> +993 12 94-04-37</a></p>
         <p><i class="material-icons inline-icon-modal">call</i>Тел: <a class="phone-num-modal" href="tel: +993 12 94-26-34"> +993 12 94-26-34</a></p>
