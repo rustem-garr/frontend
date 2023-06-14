@@ -260,6 +260,42 @@ body {
     margin-left: 5%;
 }
 
+.job-card {
+    margin: 10px auto 20px;
+    padding: 20px;
+}
+
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 36px;
+    color: #1464c1;
+    width: 93%;
+}
+
+.back-btn a {
+    cursor: pointer;
+}
+
+.back-btn a:hover {
+    opacity: 0.9;
+}
+
+.job-header-icon {
+    display: inline-block;
+    width: 5%;
+    text-align: right;
+}
+
+.favorite {
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.favorite:hover {
+    fill: red;
+}
+
 .job-detailed-description {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
@@ -274,6 +310,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     color: #1464c1;
+    margin-bottom: 25px;
 }
 
 
@@ -301,8 +338,12 @@ body {
         padding-top: 65px;
     }
 
-    .job-apply{
-        margin-bottom:30px;
+    .heart-with-btn {
+        margin: -20px 0 20px;
+    }
+
+    .job-header {
+        margin-bottom: 0;
     }
 }
 
@@ -862,11 +903,15 @@ hr {
     }
 
     .job-card {
-        margin: 10px auto;
-        padding: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
         box-shadow: 0 2px 12px #edeff0;
         border: 1px solid transparent;
         border-radius: 5px;
+    }
+
+    .job-card p:first-child {
+        margin-top: -10px;
     }
 
 
