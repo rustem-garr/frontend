@@ -137,9 +137,9 @@ body {
     color: rgb(83, 83, 253);
 }
 
-.navbar-nav a{
-    padding:0;
-    margin-top:2px;
+.navbar-nav a {
+    padding: 0;
+    margin-top: 2px;
 }
 
 .social {
@@ -153,8 +153,8 @@ body {
     margin: 0;
 }
 
-.social a{
-    padding:10px 3px;
+.social a {
+    padding: 10px 3px;
 }
 
 .social-link {
@@ -172,7 +172,7 @@ body {
     display: inline-block;
 }
 
-.lang_pack a{
+.lang_pack a {
     padding: 5px 3px;
 }
 
@@ -260,7 +260,6 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    box-shadow: 0 2px 12px #edeff0;
 }
 
 #btnContact1 {
@@ -1736,7 +1735,7 @@ hr {
         margin-top: 0px;
         right: 26px;
     }
-    
+
     .lang_img {
         width: 24px;
     }
