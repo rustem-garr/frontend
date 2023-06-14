@@ -396,7 +396,7 @@ select {
 }
 
 .our-history {
-    display: table;
+    display: block;
     width: 90%;
     margin-left: 5%;
     table-layout: fixed;
@@ -405,7 +405,9 @@ select {
 }
 
 .history-card {
-    display: table-cell;
+    display: inline-block;
+    width:47%;
+    margin:5px;
     text-align: center;
     box-shadow: 0 2px 12px #edeff0;
     border-radius: 10px;
@@ -466,6 +468,13 @@ select {
     color: rgb(96, 96, 96) !important;
 }
 
+@media (max-width:820px){
+    .history-card {
+        width: 100%;
+        margin: 10px auto 0;
+    }
+}
+
 @media (max-width:750px) {
     .main-content {
         padding-top: 65px;
@@ -489,7 +498,7 @@ select {
 
     #training-date{
         width:90% !important;
-    }
+    }    
 }
 
 /* end of main content */
@@ -813,6 +822,7 @@ span.psw a:hover {
 }
 
 /* Add Zoom Animation */
+
 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
@@ -828,10 +838,13 @@ span.psw a:hover {
     animation: animatezoom 1s;
 }
 
+
 .history-card:nth-child(2) {
     -webkit-animation: animatezoom 1s;
     animation: animatezoom 1s;
 }
+
+
 
 @-webkit-keyframes animatezoom {
     from {
@@ -1090,16 +1103,6 @@ hr {
 
 /* end media min 750 */
 
-@media (max-width:920px) {
-    .history-card {
-        display: block;
-        padding: 5px 10px;
-    }
-
-    .history-card:not(:first-child) {
-        margin-top: 10px;
-    }
-}
 
 @media (max-width:1180px) {
 
