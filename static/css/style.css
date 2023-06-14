@@ -305,10 +305,10 @@ body {
 .text-block {
     margin: 5px auto 10px auto;
     font-size: 24px;
+    letter-spacing:0.5px;
     color: #1464c1;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 
 .banner-container img {
     height: 225px;
