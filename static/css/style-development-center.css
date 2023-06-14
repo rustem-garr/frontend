@@ -823,7 +823,7 @@ span.psw a:hover {
     animation: animatezoom 1s;
 }
 
-.history-card:nth-child(1){
+/* .history-card:nth-child(1){
     -webkit-animation: animatezoom 1s;
     animation: animatezoom 1s;
 }
@@ -831,7 +831,7 @@ span.psw a:hover {
 .history-card:nth-child(2) {
     -webkit-animation: animatezoom 1s;
     animation: animatezoom 1s;
-}
+} */
 
 @-webkit-keyframes animatezoom {
     from {
