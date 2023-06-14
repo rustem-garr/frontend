@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-outstaffing.css?v=6">
+    <link rel="stylesheet" href="static/css/style-outstaffing.css?v=7">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,17 +92,18 @@
     <div class="job-container">
       <div class="job-card">
         <p style="margin:0 15px; "><a style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;" href="index.html">&larr;</a></p>        
-        <p class="job-header">АУТСТАФФИНГ & АУТСОРСИНГ</p>
-        <p class="consulting-details" style="margin-bottom:20px;"> 
-            Вам нужен достойный сотрудник, представитель, работник, помощник?
+        <p class="job-header animate">АУТСТАФФИНГ & АУТСОРСИНГ</p>
+        <p class="consulting-details intro-header animate1"> 
+            Вам нужен достойный сотрудник, представитель, работник, помощник? <br>
             Но не хотите заниматься бюрократией? Мы возьмём это на себя. <br>
-            <strong style="color:#1464c1">У нас более 10 лет опыта в предоставлениии персонала, ноль штрафов и нарушений в законодательстве,
-            10 000+ заключённых контрактов и 120 сотрудников на аустафинге и аутсоурсинге.
+            <strong style="color:#1464c1">У нас более 10 лет опыта в предоставлениии персонала, <br> ноль штрафов и нарушений в законодательстве, <br>
+            10 000+ заключённых контрактов и <br> 120 сотрудников на аустафинге.
             </strong>
-            <span id="read-btn" onclick="document.getElementById('outstaff-description').style.display='block'; document.getElementById('hidden-div').style.display='none';  document.getElementById('read-btn').style.display='none'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">подробнее...</span>             
+            <br>
+            <span id="read-btn" onclick="document.getElementById('outstaff-description').style.display='block'; document.getElementById('read-btn').style.display='none'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">подробнее...</span>             
         </p> 
         <div id="outstaff-description" style="display: none;">
-          <div class="consulting-image">
+          <div class="consulting-image animate1">
             <img id="consult-img1" src="static/images/outstaffing.png" alt="image">
             <p>
                В данном случае в качестве компании посредника-аутстаффера выступает 
@@ -116,7 +117,7 @@
                и должностным инструкциям.               
             </p>
           </div>
-          <div class="consulting-image">
+          <div class="consulting-image animate1">
               <img src="static/images/outsourcing.png" alt="image">
               <p>
                 В данном случае вы передаете нам на исполнение HR функцию вашей компании. 
@@ -126,12 +127,12 @@
                 KPI(key performance indicator) и компетенций, программу развития и т.д.
                 Это даст вам возможность сфокусироваться на основной деятельности компании 
                 и доверить функции HR профессионалам.
-                <span id="close-btn" onclick="document.getElementById('outstaff-description').style.display='none'; document.getElementById('hidden-div').style.display='block'; document.getElementById('read-btn').style.display='inline-block'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">свернуть</span>               
+                <span id="close-btn" onclick="document.getElementById('outstaff-description').style.display='none'; document.getElementById('read-btn').style.display='inline-block'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">свернуть</span>               
               </p>
           </div>
         </div>                       
-       <button class="contact-us-consulting" style="margin-top:20px" id="consult-us">Связаться с нами</button>        
-      <div id="hidden-div" style="height:170px;"></div> 
+       <button class="contact-us-consulting animate1" id="consult-us">Связаться с нами</button>        
+ 
        
       </div>
     </div>
