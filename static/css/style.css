@@ -1114,7 +1114,6 @@ span.psw a:hover {
     /* Full height */
     overflow: hidden;
     /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
     /* Fallback color */
     background-color: #1464c1;
     /* Black w/ opacity */
@@ -1154,6 +1153,11 @@ span.psw a:hover {
 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
+}
+
+.animate1{
+    -webkit-animation: animatezoom 1s;
+    animation: animatezoom 1s
 }
 
 @-webkit-keyframes animatezoom {
