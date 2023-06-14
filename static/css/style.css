@@ -1586,6 +1586,7 @@ hr {
     .partners {
         width: 90%;
         border-radius: 15px;
+        -webkit-animation: animatezoom 1s;
         animation: animatezoom 1s;
     }
 
