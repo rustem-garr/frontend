@@ -1568,6 +1568,16 @@ hr {
 
 /* end media 750 */
 
+/* Max Height 670px */
+@media (min-height: 670px){
+    .partners{
+        -webkit-animation: animatezoom 1s;
+        animation: animatezoom 1s;
+    }
+}
+/* End Max Height 670px */
+
+
 /* Max Width 750px */
 @media (max-width:750px) {
     .navbar {
@@ -1586,8 +1596,6 @@ hr {
     .partners {
         width: 90%;
         border-radius: 15px;
-        -webkit-animation: animatezoom 1s;
-        animation: animatezoom 1s;
     }
 
     .applicants {
