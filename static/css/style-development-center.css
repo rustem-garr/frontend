@@ -328,22 +328,21 @@ body {
 }
 
 .lbl-date {
-    display: block;
+    display: inline-block;
     font-size: 20px;
     letter-spacing: 0.5px;
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    width: 70%;
+    text-align: right;
+    width: 6%;
     margin: 0 auto 5px;
 }
 
 #training-date {
-    display: block !important;
-    width: 100% !important;
+    display: inline-block !important;
     padding: 10px 12px !important;
     font-size: 18px !important;
-    width: 70% !important;
-    margin: 0 auto !important;
+    width: 90% !important;
+    margin: 0 auto 10px !important;
     border-radius: 10px !important;
     border:2px solid black;
     background-color:white !important;
@@ -496,8 +495,12 @@ select {
         margin-top: 0 !important;
     }
 
+   .lbl-date{
+        width:12%;
+    }
+
     #training-date{
-        width:90% !important;
+        width:84% !important;
     }    
 }
 
