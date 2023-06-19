@@ -13,5 +13,5 @@ btn_1.onclick = function () {
 btn_2.onclick = function () {
     modal4.style.display = "block";    
     address_image.src = "static/images/address-orlan.png"
-    address_link.href="https://www.google.com/maps/place/A-STUDIO/@37.940631,58.390217,18z/data=!4m15!1m8!3m7!1s0x3f6ffde1e7611257:0xa3db939de9439090!2zTWFndHltZ3VseSDFn2HDvW9seSA3MywgQcWfZ2FiYXQgNzQ0MDAw!3b1!8m2!3d37.940631!4d58.390217!16s%2Fg%2F11gw2y4jzt!3m5!1s0x3f6ffe0a01a39e81:0x5a723529a9f2b774!8m2!3d37.9408886!4d58.3888749!16s%2Fg%2F11dxdl0mv5?hl=RU"
+    address_link.href="https://www.google.com/maps/place/%D0%9A%D0%B0%D0%B4%D1%80%D0%BE%D0%B2%D0%BE%D0%B5+%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE+%22%D0%9E%D1%80%D0%BB%D0%B0%D0%BD%22/@37.9409532,58.3877441,19z/data=!4m6!3m5!1s0x3f6fff0a154a0059:0xcd676ded8894e1d2!8m2!3d37.9409531!4d58.3888706!16s%2Fg%2F11lkd00q3g?hl=en&entry=ttu"
 };
