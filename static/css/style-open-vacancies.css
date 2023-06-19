@@ -209,6 +209,11 @@ body {
     vertical-align: middle;
 }
 
+.sticky-inner-div {
+    display: inline-block;
+    margin-right: 15px;
+}
+
 .sticky-link {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
