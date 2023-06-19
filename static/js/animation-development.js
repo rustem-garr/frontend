@@ -8,10 +8,8 @@ const observer = new IntersectionObserver(
     });
 });
 
-const divPartners = document.querySelectorAll('.history-card')
-const footer = document.querySelectorAll('.footer')
+const divPartners = document.querySelectorAll('.development-card')
 const footerSocial = document.querySelectorAll('.footer-social')
 
 divPartners.forEach((el) => observer.observe(el));
-footer.forEach((el3) => observer.observe(el3));
 footerSocial.forEach((el4) => observer.observe(el4));
