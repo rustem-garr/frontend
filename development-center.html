@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-development-center.css?v=9">
+    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,27 +62,27 @@
     </div>   
   </div> 
 
-  <div class="bottomMenu hide top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
+  <div class="bottomMenu top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
     <div class="sticky-line-height">
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="search-job.html" class="sticky-link">
           <i class="material-icons sticky-inline-icon">search</i>
           ИЩУ РАБОТУ
         </a>
       </div>
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="search-an-employee.html" class="sticky-link">
           <i class="material-icons sticky-inline-icon">person_search</i>
           ИЩУ СОТРУДНИКА
         </a>
       </div>
-       <div class="sticky-outstaff-link" style="display:inline-block; margin-right:15px; margin-bottom:0px">
+       <div class="sticky-inner-div">
         <a href="consulting.html" class="sticky-link sticky-school">
           <i class="material-icons sticky-inline-icon">group</i>
           КОНСАЛТИНГ
         </a>
       </div>
-      <div class="sticky-outstaff-link" style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="outstaffing.html" class="sticky-link sticky-school">
           <i class="material-icons sticky-inline-icon">group</i>
           АУТСТАФФИНГ
@@ -93,7 +93,7 @@
 
   <div class="main-content" style="margin-top:-70px;">
     <div class="job-container">
-      <div class="job-card">
+      <div class="job-card1">
         <p style="margin:0 15px; "><a href="index.html" style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;">&larr;</a></p>        
         
         <div class="intro-content">
@@ -125,15 +125,15 @@
           <input type="date"  id="training-date" name="training-date">                   
         </div>
 
-        <p class="job-header animate1" style="margin-top:20px; margin-bottom:20px; color:#1464c1;">
+        <p class="job-header1 animate1" style="margin-top:20px; margin-bottom:20px; color:#1464c1;">
           БЛИЖАЙШИЕ ТРЕНИНГИ
         </p> 
-        <div class="our-history">            
-            <div class="history-card">               
-                <div class="his-img">
+        <div class="our-trainings">            
+            <div class="development-card">               
+                <div class="develop-img">
                     <img src="static/images/map.png" alt="track-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;"> 
+                <div class="develop-txt" style="margin-top:-5px;"> 
                     <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">02.06.2023</h3>                   
                     <p>
                         Основы международных грузоперевозок.
@@ -142,11 +142,11 @@
                     <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
                 </div>               
             </div> 
-            <div class="history-card">               
-                <div class="his-img">
+            <div class="development-card">               
+                <div class="develop-img">
                     <img src="static/images/programming.png" alt="coding-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;">
+                <div class="develop-txt" style="margin-top:-5px;">
                     <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">03.06.2023</h3>
                     <p>
                         Основы программирования и веб разработки.
@@ -155,11 +155,11 @@
                     <a class="pass-test-btn" href="training-detail.html">Подробнее</a>
                 </div>               
             </div> 
-            <div class="history-card">               
-                <div class="his-img">
+            <div class="development-card">               
+                <div class="develop-img">
                     <img src="static/images/tracking.png" alt="track-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;">
+                <div class="develop-txt" style="margin-top:-5px;">
                     <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">04.06.2023</h3>
                     <p>
                         Основы международных грузоперевозок.
@@ -168,11 +168,11 @@
                     <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
                 </div>               
             </div> 
-            <div class="history-card">               
-                <div class="his-img">
+            <div class="development-card">               
+                <div class="develop-img">
                     <img src="static/images/code.png" alt="coding-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;">
+                <div class="develop-txt" style="margin-top:-5px;">
                     <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">05.06.2023</h3>
                     <p>
                         Основы программирования и веб разработки.
@@ -181,11 +181,11 @@
                     <a class="pass-test-btn" href="training-detail.html">Подробнее</a>
                 </div>               
             </div> 
-             <div class="history-card">               
-                <div class="his-img">
+             <div class="development-card">               
+                <div class="develop-img">
                     <img src="static/images/route.png" alt="track-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;">
+                <div class="develop-txt" style="margin-top:-5px;">
                     <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">06.06.2023</h3>
                     <p>
                         Основы международных грузоперевозок.
@@ -194,11 +194,11 @@
                     <a class="pass-test-btn" href="training-detail.html">Подробнее</a></button>
                 </div>               
             </div> 
-            <div class="history-card">               
-                <div class="his-img">
+            <div class="development-card">               
+                <div class="develop-img">
                     <img src="static/images/coding.png" alt="coding-img">
                 </div>
-                <div class="his-txt" style="margin-top:-5px;">
+                <div class="develop-txt" style="margin-top:-5px;">
                     <h3><img src="static/images/calendar.png" alt="calendar-img" style="width:17px; margin-right:5px">07.06.2023</h3>
                     <p>
                         Основы программирования и веб разработки.
