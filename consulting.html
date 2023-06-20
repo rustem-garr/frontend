@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-consulting.css?v=14">
+    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,27 +62,27 @@
     </div>   
   </div>  
 
-  <div class="bottomMenu hide top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
+  <div class="bottomMenu top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
     <div class="sticky-line-height">
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="search-job.html" class="sticky-link">
           <i class="material-icons sticky-inline-icon">search</i>
           ИЩУ РАБОТУ
         </a>
       </div>
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="search-an-employee.html" class="sticky-link">
           <i class="material-icons sticky-inline-icon">person_search</i>
           ИЩУ СОТРУДНИКА
         </a>
       </div>
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px;">
+      <div class="sticky-inner-div">
         <a href="development-center.html" class="sticky-link sticky-school">
           <i class="material-icons sticky-inline-icon">school</i>
           ЦЕНТР РАЗВИТИЯ
         </a>
       </div>
-      <div class="sticky-outstaff-link" style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="outstaffing.html" class="sticky-link sticky-school">
           <i class="material-icons sticky-inline-icon">group</i>
           АУТСТАФФИНГ
@@ -95,8 +95,8 @@
     <div class="job-container">
       <div class="job-card">
         <p style="margin:0 15px; "><a style="text-decoration:none; font-size:36px; color:#1464c1; cursor: pointer;" href="index.html">&larr;</a></p>        
-        <p class="job-header animate">КОНСАЛТИНГ</p>
-        <div class="consulting-details animate">
+        <p class="job-header1 animate">КОНСАЛТИНГ</p>
+        <div class="consulting-details1 animate">
           <p style="color:#1464c1;">
             <strong>
             Хотите открыть свой новый бизнес, но не знаете как? Или желаете оптимизировать и масштабировать
@@ -104,7 +104,7 @@
             <span id="read-btn" onclick="document.getElementById('hidden-intro').style.display='block'; document.getElementById('read-btn').style.display='none'" style="color:grey; border-bottom:1px solid grey; cursor:pointer">подробнее...</span>            
           </p>   
         </div> 
-        <div class="consulting-details animate1" id="hidden-intro" style="display:none;">
+        <div class="consulting-details1 animate1" id="hidden-intro" style="display:none;">
             
             <img src="static/images/consulting.jpg" alt="image">
             <p>
@@ -119,7 +119,7 @@
                 <button class="contact-us-consulting" id="consult-us">Связаться с нами</button>
             </p>
         </div>
-        <div class="consulting-details animate1">
+        <div class="consulting-details1 animate1">
           <h3 style="text-align:center">Заполните форму ниже и мы с вами свяжемся</h3>
           <div class="req-form">
             <form action="#">
