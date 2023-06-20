@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style-search-job.css?v=4">
+    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,28 +62,27 @@
     </div>   
   </div> 
 
-  <div class="bottomMenu hide top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
-    <div class="sticky-line-height">
-      
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+  <div class="bottomMenu top-sticky-menu" id="stickyMenu" style="position:sticky; top:0; padding-top:60px; text-align:center; border-bottom:5px solid white;">
+    <div class="sticky-line-height">      
+      <div class="sticky-inner-div">
         <a href="search-an-employee.html" class="sticky-link">
           <i class="material-icons sticky-inline-icon">person_search</i>
           ИЩУ СОТРУДНИКА
         </a>
       </div>
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="development-center.html" class="sticky-link sticky-school">
           <i class="material-icons sticky-inline-icon">school</i>
           ЦЕНТР РАЗВИТИЯ
         </a>
       </div>
-      <div style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="consulting.html" class="sticky-link">
           <i class="material-icons sticky-inline-icon">headset_mic</i>
           КОНСАЛТИНГ
         </a>
       </div>
-      <div class="sticky-outstaff-link" style="display:inline-block; margin-right:15px; margin-bottom:0px">
+      <div class="sticky-inner-div">
         <a href="outstaffing.html" class="sticky-link sticky-school">
           <i class="material-icons sticky-inline-icon">group</i>
           АУТСТАФФИНГ
@@ -92,12 +91,12 @@
     </div>    
   </div> 
   <div class="main-content"  style="margin-top:-65px">
-    <div class="search-container animate1">
-          <p class="search-header">ПОИСК ВАКАНСИИ</p>                    
-          <div class="search-btn-block">
-            <input type="text" class="search-input" placeholder="Профессия или должность">  
-            <input type="number" min="0" class="salary-input" id="sal-inp1" placeholder="Зарплата TMT от...">
-            <input type="number" min="0" class="salary-input" placeholder="Зарплата TMT до...">
+    <div class="search-container-employee animate1">
+          <p class="search-header-employee">ПОИСК ВАКАНСИИ</p>                    
+          <div class="search-btn-block-employee">
+            <input type="text" class="search-input-employee" placeholder="Профессия или должность">  
+            <input type="number" min="0" class="salary-input-employee" id="sal-inp1" placeholder="Зарплата TMT от...">
+            <input type="number" min="0" class="salary-input-employee" placeholder="Зарплата TMT до...">
             
             <select name="region" id="region">
                 <option value="region">Выберите регион</option>
@@ -114,64 +113,64 @@
             </select>
             <div class="all-params">
               <div class="experience-chk">
-                  <label class="region-container">С опытом
+                  <label class="region-container-employee">С опытом
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>  
-                  <label class="region-container">Без опыта
+                  <label class="region-container-employee">Без опыта
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label> 
-                  <label class="region-container">Стажер
+                  <label class="region-container-employee">Стажер
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
               </div>            
               <div class="experience-chk">
-                  <label class="region-container">Полная занятость
+                  <label class="region-container-employee">Полная занятость
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
-                  <label class="region-container">Частичная занятость
+                  <label class="region-container-employee">Частичная занятость
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
-                  <label class="region-container">Удаленная работа
+                  <label class="region-container-employee">Удаленная работа
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
               </div>
               <div class="experience-chk">     
-                  <label class="region-container">Проектная работа
+                  <label class="region-container-employee">Проектная работа
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
-                  <label class="region-container">Одноразовая работа
+                  <label class="region-container-employee">Одноразовая работа
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
-                  <label class="region-container">Вахтовая работа
+                  <label class="region-container-employee">Вахтовая работа
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>
               </div>
               <div class="experience-chk">
-                  <label class="region-container">Гос.организации
+                  <label class="region-container-employee">Гос.организации
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>   
-                  <label class="region-container">Местные компании
+                  <label class="region-container-employee">Местные компании
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label> 
-                  <label class="region-container">Иностран. компании
+                  <label class="region-container-employee">Иностран. компании
                   <input class="filter-checkbox" type="checkbox">
-                  <span class="checkmark"></span>
+                  <span class="checkmark-employee"></span>
                   </label>     
               </div>
             </div>          
             
-            <button class="search-btn">Найти</button>
+            <button class="search-btn-employee">Найти</button>
           </div>        
     </div>
     <div class="job-container">
@@ -361,70 +360,70 @@
         <div class="container">
             <input class="salary-input" type="number" min="0" placeholder="Зарплата TMT от..." name="salary_from">  
             <input class="salary-input" type="number" min="0" placeholder="Зарплата TMT до..." name="salary_to">  
-            <label class="region-container" style="margin-top:10px;">С опытом
+            <label class="region-container-employee" style="margin-top:10px;">С опытом
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
-            <label class="region-container">Без опыта
+            <label class="region-container-employee">Без опыта
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label> 
-            <label class="region-container">Удаленная работа
+            <label class="region-container-employee">Удаленная работа
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>
-             <label class="region-container" style="margin-top:20px;">Гос.организации
+             <label class="region-container-employee" style="margin-top:20px;">Гос.организации
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>   
-             <label class="region-container">Местные компании
+             <label class="region-container-employee">Местные компании
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label> 
-            <label class="region-container">Иностранные компании
+            <label class="region-container-employee">Иностранные компании
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
             <p style="color:#1464c1">Регион</p>
-            <label class="region-container">Ашхабад
+            <label class="region-container-employee">Ашхабад
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
-            <label class="region-container">Ахалский велаят
+            <label class="region-container-employee">Ахалский велаят
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>            
-            <label class="region-container">Туркменбаши
+            <label class="region-container-employee">Туркменбаши
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>
-            <label class="region-container">Балканский велаят
+            <label class="region-container-employee">Балканский велаят
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
-            <label class="region-container">Мары
+            <label class="region-container-employee">Мары
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>
-            <label class="region-container">Марыйский велаят
+            <label class="region-container-employee">Марыйский велаят
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
-            <label class="region-container">Туркменабад
+            <label class="region-container-employee">Туркменабад
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>
-            <label class="region-container">Лебапский велаят
+            <label class="region-container-employee">Лебапский велаят
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
-            <label class="region-container">Дашогуз
+            <label class="region-container-employee">Дашогуз
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>
-            <label class="region-container">Дашогузский велаят
+            <label class="region-container-employee">Дашогузский велаят
               <input class="filter-checkbox" type="checkbox">
-              <span class="checkmark"></span>
+              <span class="checkmark-employee"></span>
             </label>  
             <button>Применить</button>            
         </div>                
