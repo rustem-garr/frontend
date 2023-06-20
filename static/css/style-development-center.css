@@ -341,7 +341,7 @@ body {
     display: inline-block !important;
     padding: 10px 12px !important;
     font-size: 18px !important;
-    width: 90% !important;
+    width: 88% !important;
     margin: 0 auto 10px !important;
     border-radius: 10px !important;
     border:2px solid black;
@@ -500,7 +500,7 @@ select {
     }
 
     #training-date{
-        width:84% !important;
+        width:82% !important;
     }    
 }
 
