@@ -8,7 +8,7 @@ const observer = new IntersectionObserver(
     });
 });
 
-const divPartners = document.querySelectorAll('.history-card')
+const divPartners = document.querySelectorAll('.development-card')
 const footerSocial = document.querySelectorAll('.footer-social')
 
 divPartners.forEach((el) => observer.observe(el));
