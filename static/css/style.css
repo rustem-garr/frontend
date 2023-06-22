@@ -1079,7 +1079,7 @@ select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #send-btn {
@@ -1091,7 +1091,7 @@ select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #send-btn:hover {
@@ -1172,13 +1172,19 @@ select {
 }
 
 .certificate-img {
-    display: inline-block;
+    display: block;
 }
 
 .certificate-img img {
     width: 180px;
     padding: 5px 10px;
 }
+
+.certificate-img2 img {
+    width: 275px;
+    padding: 5px 7px;
+}
+
 
 .our-history {
     display: table;
@@ -1202,7 +1208,7 @@ select {
 }
 
 .his-year p {
-    color:black;
+    color: black;
     margin: 15px auto 10px;
     font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -1454,7 +1460,7 @@ select {
 
 
 
-@media (min-width:750px){
+@media (min-width:750px) {
     .navbar-skill-approve {
         width: 100%;
         height: 65px;
@@ -1514,6 +1520,14 @@ select {
         width: 100%;
         margin: 10px auto 0;
     }
+
+    .certificate-img img {
+        width: 120px;
+    }
+
+    .certificate-img2 img {
+        width: 180px;
+    }
 }
 
 @media (max-width:750px) {
@@ -1538,7 +1552,9 @@ select {
     }
 
     .certificate-img img {
-        width: 120px;
+        display:block;
+        width: 180px;
+        margin:0 auto;
     }
 
     .consulting-details2 {
@@ -2181,6 +2197,7 @@ select {
     color: #0e72e6;
     border-bottom: 1px solid #0e72e6;
 }
+
 /* End section AWARD */
 /* End Main (index) page style */
 
@@ -2920,13 +2937,13 @@ hr {
 @media (max-width:1180px) {
 
     .job-header-skill-approve {
-            margin-bottom: 10px;
-            margin-top: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .consulting-details2 {
-            text-align: left;
-            font-size: 16px;
+        text-align: left;
+        font-size: 16px;
     }
 
     .consulting-image {
