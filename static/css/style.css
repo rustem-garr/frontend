@@ -392,10 +392,35 @@ body {
 
 
 .search-container-employee {
-    height: 480px;
+    height: 530px;
     width: 100%;
     background-color: whitesmoke;
     padding: 10px;
+}
+
+.tarif-plan {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.tarif-plan p {
+    margin-top: 0;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.5px;
+    background-color: rgb(28, 216, 28);
+    color:white;
+    width:60%;
+    padding:10px;
+    margin:-10px auto 10px;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.tarif-plan a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 
@@ -1559,7 +1584,7 @@ select {
 
     .certificate-img2 img {
         display: block;
-        margin:0 auto;
+        margin: 0 auto;
         width: 260px;
         margin: 0 auto;
     }
@@ -1645,6 +1670,11 @@ select {
 
     .job-header-training-detail {
         margin-bottom: 0;
+    }
+
+    .tarif-plan p{
+        width:90%;
+        margin-top:-10px;
     }
 
     /* .lbl-date {
@@ -3049,7 +3079,7 @@ hr {
     }
 
     .search-container-employee {
-        height: 700px;
+        height: 750px;
     }
 
     .all-params {
@@ -3377,7 +3407,7 @@ hr {
     }
 
     .certificate-img2 img {
-        width:180px;
+        width: 180px;
     }
 }
 
