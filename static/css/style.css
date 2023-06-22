@@ -1552,9 +1552,16 @@ select {
     }
 
     .certificate-img img {
-        display:block;
+        display: block;
         width: 180px;
+        margin: 0 auto;
+    }
+
+    .certificate-img2 img {
+        display: block;
         margin:0 auto;
+        width: 260px;
+        margin: 0 auto;
     }
 
     .consulting-details2 {
@@ -3367,6 +3374,10 @@ hr {
     .card {
         font-size: 12px;
         width: 120px;
+    }
+
+    .certificate-img2 img {
+        width:180px;
     }
 }
 
