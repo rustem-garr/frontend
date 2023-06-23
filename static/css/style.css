@@ -441,6 +441,42 @@ body {
     margin-left:1.5%;
 }
 
+.btn-inner1{
+    display: inline-block;
+    width: 65%;
+    text-align:right;
+}
+
+.btn-inner2{
+    display: inline-block;
+    width: 33%;
+    text-align:left;
+}
+
+.btn-inner2 img{
+    width:36px;
+    vertical-align: bottom;
+}
+
+@media (max-width:1200px){
+    .tarif-inner{
+        width:39%;
+    }
+    .tarif-inner2{
+        width:59%;
+    }
+}
+
+@media (max-width:1050px) {
+    .btn-inner1 {
+        width: 69%;
+    }
+
+    .btn-inner2 {
+        width: 29%;
+    }
+}
+
 .his-txt p {
     margin-top: -10px;
     padding-left: 10px;
@@ -1754,6 +1790,18 @@ select {
     .tarif-plan{
         width:80%;
         font-size:14px;
+    }
+
+    .tarif-inner {
+        width: 29%;
+    }
+
+    .tarif-inner2 {
+        width: 69%;
+    }
+
+    .btn-inner2 img{
+        width:34px;
     }
 
     
@@ -3432,6 +3480,14 @@ hr {
 
     .partners-logo img {
         width: 90px;
+    }
+
+    .tarif-inner {
+        width: 28%;
+    }
+
+    .tarif-inner2 {
+        width: 70%;
     }
 }
 
