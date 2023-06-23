@@ -400,6 +400,7 @@ body {
 
 .tarif-plan {
     background-color: #04d303;
+    display:block;
     width:54%;
     padding-top:5px;
     padding-bottom:5px;
@@ -414,13 +415,15 @@ body {
 
 .tarif-inner{
     display: inline-block;
-    padding:10px 55px;
+    padding:10px 0;
     background-color: #1bb100;
+    width:49%;
 }
 
 .tarif-inner2{
     display:inline-block;
-    padding:5px;
+    width:49%;
+    padding:5px 0;
     background-color: white;
 }
 
@@ -431,8 +434,10 @@ body {
 
 .tarif-gen-btn{
     background-color: #35c759;
-    padding: 5px 35px;
+    padding: 5px 0;
     border-radius:25px;
+    width:97%;
+    margin-left:1.5%;
 }
 
 .his-txt p {
@@ -1750,14 +1755,7 @@ select {
         font-size:14px;
     }
 
-    .tarif-inner{
-        padding:10px;
-    }
-
-    .tarif-gen-btn{
-        padding:5px 15px;
-    }
-
+    
     /* .lbl-date {
         width: 12%;
     }
@@ -3447,6 +3445,16 @@ hr {
 
     .text-block {
         font-size: 18px;
+    }
+
+    .tarif-inner{
+        display:block;
+        width:100%;
+    }
+
+    .tarif-inner2{
+        display:block;
+        width:100%;
     }
 
     .partners-header {
